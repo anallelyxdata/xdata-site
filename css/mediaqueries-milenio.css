@@ -1,0 +1,88 @@
+/* Escritorio medio */
+@media (max-width: 1700px) {
+    #grafica{
+        transform: scale(.62);
+        transform-origin: 10% 0;
+    }
+}
+/* Escritorio medio */
+@media (max-width: 1600px) {
+    #normal{
+        display: none;
+    }
+    #pequeña{
+        display: block;
+    }
+    #grafica, #grafica2{
+        transform: scale(.5);
+        transform-origin: 2% 0%;
+    }
+    map[name="workmap"]{
+        /*transform: scale(.3);*/
+    }
+    #tooltip-1{
+        position: relative;
+    }
+    .deuda-publica{
+        margin-top: 2500px;
+    }
+   
+}
+@media (max-width: 1400px) {
+    #pequeña{
+        transform: scale(.9);
+        transform-origin: 5% 0;
+    }
+    .deuda-publica{
+        margin-top: 2250px;
+    }
+   
+}
+@media (max-width: 1300px) {
+    #pequeña{
+        transform: scale(.8);
+        transform-origin: 3% 0;
+    }
+    .deuda-publica{
+        margin-top: 2000px;
+    }
+}
+@media (max-width: 1200px) {
+    #grafica{
+        transform: scale(.45);
+        transform-origin: 0% 0;
+    }
+    .section-img{
+        position: relative;
+        bottom: 1850px;
+    }
+}
+
+@media (max-width: 992px) { 
+    #pequeña{
+        display: none;
+    }
+    #mini{
+        display: block;
+    }
+}
+
+@media (max-width: 812px) {
+}
+
+@media (max-width: 712px){
+     
+}
+
+@media (max-width: 480px) {
+    /* Selectors and styles affecting screens UP TO 480px (Phone) */
+}
+
+@media screen (max-width: 768px) and (orientation: portrait) {
+    
+}
+
+@media screen and (orientation: portrait) {
+}
+
+

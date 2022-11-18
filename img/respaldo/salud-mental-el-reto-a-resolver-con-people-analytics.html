@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="canonical" href="https://www.x-data.mx/"/>
+	<title>X-DATA | Salud mental: el reto a resolver con people analytics</title>
+
+
+
+	<!-- SEO -->
+
+	<meta name="robots" content="La salud mental de los colaboradores debe ser una de las prioridades de las organizaciones y people analytics es la herramienta que ayudará a tu empresa a enfrentar mejor el reto ">
+
+	<meta name="author" content="X-DATA"><img src="https://tracker.metricool.com/c3po.jpg?hash=c793ed5268b27d984a56705fa4b1b83e"/>
+
+	<meta name="copyright" content="2020">
+
+	<meta name="description" content="La salud mental de los colaboradores debe ser una de las prioridades de las organizaciones y people analytics es la herramienta que ayudará a tu empresa a enfrentar mejor el reto">
+
+	<meta name="keywords" content="salud mental, people analytics, análisis de datos, experiencia, recursos humanos, colaboradores, talento, estrategia, empleados">
+
+	<meta property="og:title" content="Salud mental: el reto a resolver con people analytics"/>
+
+	<meta property="og:site_name" content="X-DATA | Blog"/>
+
+	<meta property="og:description" content="La salud mental de los colaboradores debe ser una de las prioridades de las organizaciones y people analytics es la herramienta que ayudará a tu empresa a enfrentar mejor el reto"/>
+
+	<meta property="og:image" content="img/blog/salud-mental/Salud-Mental_Collage.png">
+
+	<link href="img/RelIcon.svg" rel="icon">
+
+	
+	<!-- CSS -->
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="css/styles.css">
+
+	<link rel="stylesheet" href="css/mediaqueries.css">
+
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+
+
+</head>
+
+<body class="">
+
+	<!--PreLoader style.css-->
+
+	<div class="loader">
+
+		<div class="loader-inner">
+
+			<div class="cssload-loader"></div>
+
+		</div>
+
+	</div>
+
+	<header class="home-header ">
+
+		<!-- Nav desktop -->
+
+		<nav class="navbar navbar-expand-lg fixed-top">
+
+			<div class="container">
+
+				<a class="navbar-brand" href="#">
+
+					<img src="img/Logotipo.svg" alt="logotipo-xdata">
+
+				</a>
+
+				<button class="navbar-toggler" type="button"  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="openNav()">
+
+					<img width="30" src="img/menu-hamburguesa.svg" alt="">
+
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+						<!-- Nosotros -->
+
+						<li class="nav-item">
+
+							<a class="nav-link pagescroll" aria-current="true" href="#nosotros" onclick="">NOSOTROS</a>
+
+						</li>
+
+						<!-- Dropdown Soluciones -->
+
+						<li class="nav-item dropdown">
+
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
+
+								<span>SOLUCIONES</span> <img class="ml-1" src="img/dropdown.svg">
+
+							</a>
+
+							<ul class="dropdown-menu text-center p-0 " aria-labelledby="navbarDropdown">
+
+								<li><a class="dropdown-item" href="soluciones-baiwa.html"  onmouseover="prueba(this)" onmouseout="salir(this)" id="baiwaicon"><span >Baiwa</span><img  src="img/baiwa.png"></a></li>
+
+								<li><a class="dropdown-item" href="soluciones-fleet.html" onmouseover="prueba(this)" onmouseout="salir(this)" id="fleeticon"><span >Fleet</span><img src="img/Fleet.png"></a></li>
+
+								<li><a class="dropdown-item" href="soluciones.html" onmouseover="prueba(this)" onmouseout="salir(this)" id="todasicon"><span >Todas</span><img src="img/Todas.png"></a></li>
+
+							</ul>
+
+						</li>
+
+						<li class="nav-item">
+
+							<a class="nav-link pagescroll" id="exp_allMenu" href="#exito" onclick="" aria-current="true">CASOS DE ÉXITO</a>                     
+
+						</li>
+
+						<li class="nav-item">
+
+							<a class="nav-link" href="partnership.html" onclick="" aria-current="page">COLABORADORES</a>
+
+						</li>
+
+						<li class="nav-item">
+
+							<a class="nav-link" target="_blank" href="https://blog.x-data.mx/">BLOG</a>
+
+						</li>
+
+						<li class="nav-item">
+
+							<a class="nav-link pagescroll" href="#contacto" aria-current="true">CONTACTO</a>
+
+						</li>
+
+
+
+					</ul>
+
+				</div>
+
+			</div>
+
+		</nav>
+
+		<!-- Nav mobile -->
+
+		<div id="mySidebar" class="sidebar">
+
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="color: #FFF">&times;</a>
+
+			<ul class="me-auto mb-2 mb-lg-0 list-unstyled">
+
+				<li class="nav-item">
+
+					<a class="nav-link pagescroll" aria-current="true" href="#nosotros" onclick=""><span>NOSOTROS</span></a>
+
+				</li>
+
+				<li class="nav-item">
+
+					<a class="dropdown-btn nav-link"><span>SOLUCIONES</span>
+
+						<img class="ml-1" src="img/dropdown.svg">
+
+					</a>
+
+					<div class="dropdown-container">
+
+						<a href="soluciones-baiwa.html">Baiwa<img  src="img/baiwa.png"></a>
+
+						<a href="soluciones-fleet.html">Fleet<img src="img/Fleet.png"></a>
+
+						<a href="soluciones.html">Todas<img src="img/Todas.png"></a>
+
+					</div>
+
+				</li>
+
+				<li class="nav-item">
+
+					<a class="nav-link pagescroll" id="exp_allMenu" href="#exito" onclick="" aria-current="true"><span>CASOS DE ÉXITO</span></a>     
+
+				</li>
+
+				<li class="nav-item">
+
+					<a class="nav-link" href="partnership.html" onclick="" aria-current="page"><span>COLABORADORES</span></a>
+
+				</li>
+
+				<li class="nav-item">
+
+					<a class="nav-link" target="_blank" href="https://blog.x-data.mx/"><span>BLOG</span></a>
+
+				</li>
+
+				<li class="nav-item">
+
+					<a class="nav-link pagescroll" href="#contacto" aria-current="true"><span>CONTACTO</span></a>
+
+				</li>
+
+			</ul>
+
+			<div class="mobile-nav_redes">
+
+				<ul class="list-unstyled">
+
+					<li><a href="https://www.linkedin.com/company/x-data/" target="_blank"><img src="img/linkedin-social.svg" alt=""></a></li>
+
+					<li><a href="https://www.instagram.com/xdatamx/" target="_blank"><img src="img/instagram-social.svg" alt=""></a></li>
+
+					<li><a href="https://www.facebook.com/XDATAMX/" target="_blank"><img src="img/facebook-social.svg" alt=""></a></li>
+
+					<li><a href="https://twitter.com/xdatamx" target="_blank"><img src="img/twitter-social.svg" alt=""></a></li>
+
+					<li><a href="https://www.youtube.com/channel/UC_zbhtZEUh9_9utpMWRXU9g" target="_blank"><img src="img/youtube-social.svg" alt=""></a></li>
+
+				</ul>
+
+			</div>
+
+			<p class="copy_nav"><span>&copy; 2021</span> X-DATA </p>
+
+		</div>
+
+	</header>
+
+	<!-- Main -->
+
+	<main class="container main-articulo">
+
+		<section class="articulo">
+			<img class="articulo-entrada-img entrada_img_desk" src="img/blog/salud-mental/Salud-Mental_Collage.png" alt="">
+			<p>La <span>Salud Mental</span> de las personas se ha visto afectada por la crisis mundial causada por la pandemia de <span>COVID-19</span> y es un deber de las <span>empresas</span> identificar <span>cómo se sienten sus colaboradores</span> y tomar acciones para mejorar su <span>experiencia</span> en la organización e impactar en su bienestar. Te contamos cómo el <span>análisis de datos</span> y herramientas como <span>People Analytics</span>, pueden ayudar a tu empresa a enfrentar mejor el reto de la salud mental. </p>
+			<img class="articulo-entrada-img entrada_img_mob" src="img/blog/arte-vender/Collages-Ventas.png" alt="">
+
+			<h1>Salud mental: el reto a resolver con people analytics</h1>
+
+			<p>La pandemia de <span>COVID-19</span> a nivel global ha desencadenado cambios en la forma de trabajar, desarrollarnos con los otros e incluso permeó más allá de la salud física, también lo hizo en la mental. El confinamiento ha provocado que las personas experimenten sentimientos de tristeza y tengan episodios de ansiedad e incluso depresión. </p>
+			<br>
+			<p>La consultora <a href="https://www.mckinsey.com/business-functions/organization/our-insights/how-to-be-great-at-people-analytics">McKinsey</a> detalla el caso de una organización global que se dió a la tarea de crear encuestas semanales para conocer las opiniones y sentimientos de decenas de miles de empleados durante los primeros meses del confinamiento y el trabajo remoto, abril y mayo del 2020.</p>
+
+			<figure>
+				<img target="_blank" src="img/blog/salud-mental/Salud-Mental_Interiores_1.png" alt="">
+				<figcaption>Así evolucionaron los sentimientos del talento entre Abril y Mayo del 2020</figcaption>
+			</figure>
+			<br>
+			<p>Mediante <a href="https://blog.x-data.mx/x-data/people-analytics-para-transformar-tu-organizacion/">People Analytics</a>, descubrió que los colaboradores habían pasado de estar agradecidos y reconfortados por encontrarse en un lugar seguro, ante el peligro de la pandemia, a mostrarse cansado, estresado y rebasado por los pendientes del trabajo, en tan solo algunas semanas. </p>
+			<br>
+			<p>Esta información permitió a la organización comprender mejor a sus <span>colaboradores</span> y dictar una <span>estrategia</span> para atender las necesidades de su capital humano. Estas acciones tienen el poder de impactar en la experiencia del empleado y fortalecer su compromiso. </p>
+			<br>
+			<p>Estos cambios en las opiniones y sentimientos de los colaboradores suceden todo el tiempo, sin embargo, gran parte de las empresas no tienen las herramientas necesarias para detectarlo, no  escuchan a su talento de la manera correcta y esto no permite que puedan resolver los problemas.</p>
+			<p>Esto se agrava cuando el contexto global resulta tan sensible. Es una realidad que la <span>salud mental</span> ha sido fuertemente afectada por la pandemia y sus consecuencias: las muertes de seres queridos, el impacto económico, el confinamiento y la baja interacción que se tiene con el mundo exterior. </p>
+			<p>En México, instituciones como la <a href="https://www.eleconomista.com.mx/politica/La-pandemia-de-Covid-19-tambien-ha-impactado-en-la-salud-mental-de-los-mexicanos-20210214-0004.html">UNAM</a> han brindado servicios psicológicos, como parte de la estrategia nacional para contener la pandemia, y quienes lideran los programas revelan que, para enero de 2021, han atendido a más de 140,000 personas, de las cuales 65% tiene pensamientos negativos asociados a la muerte, 11% reporta tristeza profunda, 8% ansiedad generalizada y 3% estrés agudo. </p>
+			<figure>
+				<img target="_blank"  src="img/blog/salud-mental/Salud-Mental_Interiores_2.png" alt="">
+				<figcaption>La UNAM ha brindado atención psicológica a más de 140 mil personas durante la pandemia</figcaption>
+			</figure>
+			<br>
+			<p>Ante esto, es una responsabilidad del sector empresarial comenzar a tomar conciencia  y acciones para atender un problema de salud generalizado que puede estar afectando a su fuerza laboral y, en consecuencia, a su negocio de manera general, pues la <a href="https://www.who.int/es/news/item/05-10-2020-covid-19-disrupting-mental-health-services-in-most-countries-who-survey">OMS</a> estima que los trastornos por depresión y ansiedad cuestan anualmente a la economía mundial 1 billón de dólares en pérdida de productividad.</p><br>
+			<p>Como lo mostró el caso que expone McKinsey, <span>People Analytics</span> puede ser útil para escuchar y medir al talento de manera continua. Para lograrlo en una organización es necesario sensibilizar a los líderes sobre el tema, implementar herramientas para mantener una escucha activa del talento y también para el registro de los pulsos, opiniones y sentimientos de las personas. Una vez que se cuente con esa información, se analiza y se toman acciones.</p>
+			<figure>
+				<img target="_blank"  src="img/blog/salud-mental/Salud-Mental_Interiores_3.png" alt="">
+				<figcaption>6 pasos para mejorar tu estrategia de recursos humanos</figcaption>
+			</figure>
+			<br>
+			<p>Estos pasos pueden hacer la diferencia en la estrategia de recursos humanos de cualquier organización. Las personas deben convertirse en una prioridad y comprenderlas en una responsabilidad. Implementar <span>People Analytics</span> es el camino más acertado para beneficiar no solo a los colaboradores, sino también a las empresas.</p>
+
+			<h4 class="articulo-creditos">Texto original: Melissa Pérez</h4>
+		</section>
+
+			<!-- Carousel Blog -->
+
+		<section class="blog articulo-carousel">
+
+			<h2 class="container">Artículos recientes</h2>
+
+			<div class="owl-carousel  container owl-carouselBlog">
+
+				<div class="card card-blog">
+
+					<img width="263" data-src="img/blog/machinelearning.png" class="card-img-top owl-lazy" alt="..." >
+
+					<div class="card-body">
+
+						<a href="https://blog.x-data.mx/x-data/machine-learning-la-nueva-era-del-analisis-de-datos/" target="_blank"><h3 class="card-title">Machine Learning: la nueva era del análisis de datos</h3></a>
+
+						<p class="card-text">Mayo 26, 2021 <br>Por: Sandra Alvarado</p> 
+
+					</div>
+
+				</div>
+
+				<div class="card card-blog">
+
+					<img width="263" data-src="img/blog/NotaVentas.png" class="card-img-top owl-lazy" alt="...">
+
+					<div class="card-body">
+
+						<a href="https://blog.x-data.mx/x-data/el-arte-de-vender-mide-y-venceras/" target="_blank"><h3 class="card-title">El arte de vender: mide y vencerás</h3></a>
+
+						<p class="card-text">Mayo 6, 2021 <br>Por: Gerardo Salazar</p> 
+
+					</div>
+
+				</div>
+
+				<div class="card card-blog">
+
+					<img width="263" data-src="img/blog/Salud-Mental.png" class="card-img-top owl-lazy" alt="...">
+
+					<div class="card-body">
+
+						<a href="https://blog.x-data.mx/x-data/salud-mental-el-reto-a-resolver-con-people-analytics/" target="_blank"><h3 class="card-title">Salud mental: el reto a resolver con People Analytics</h3></a>
+
+						<p class="card-text">Abril 07, 2021 <br>Por: Melissa Pérez</p> 
+
+					</div>
+
+				</div>
+
+				<div class="card card-blog">
+
+					<img width="263" data-src="img/blog/notaTesla.png" class="card-img-top owl-lazy" alt="...">
+
+					<div class="card-body">
+
+						<a href="https://blog.x-data.mx/x-data/datos-el-ingrediente-de-tesla-para-vender/" target="_blank"><h3 class="card-title">Datos: el ingrediente de Tesla para vender</h3></a>
+
+						<p class="card-text">Marzo 18, 2021 <br>Por: Gerardo Salazar</p>
+
+					</div>
+
+				</div>
+
+				<div class="card card-blog">
+
+					<img width="263" data-src="img/blog/notaAmazon.png" class="card-img-top owl-lazy" alt="...">
+
+					<div class="card-body">
+
+						<a href="https://blog.x-data.mx/x-data/amazon-apuesta-por-people-analytics-para-crecer/" target="_blank"><h3 class="card-title">Amazon apuesta por People analytics para crecer</h3></a>
+
+						<p class="card-text">Marzo 03 2021 <br>Por: Melissa Pérez</p>
+
+					</div>
+
+				</div>
+
+				<div class="card card-blog">
+
+					<img width="263" data-src="img/blog/notaAnalytics.png" class="card-img-top owl-lazy" alt="...">
+
+					<div class="card-body">
+
+						<a href="https://blog.x-data.mx/x-data/people-analytics-para-transformar-tu-organizacion/" target="_blank"><h3 class="card-title">People analytics para transformar tu organización</h3></a>
+
+						<p class="card-text">Febrero 02, 2021 <br>Por: Melissa Pérez</p>
+
+					</div>
+
+				</div>
+
+				<div class="card card-blog">
+
+					<img width="263" data-src="img/blog/NotaPensiones.png" class="card-img-top owl-lazy" alt="...">
+
+					<div class="card-body">
+
+						<a href="https://blog.x-data.mx/x-data/sistema-de-pensiones-en-mexico-el-reto-en-datos/" target="_blank"><h3 class="card-title">Sistema de pensiones en México, el reto en datos</h3></a>
+
+						<p class="card-text">Enero 13, 2021 <br>Por: Alejandra Cordero</p>
+
+					</div>
+
+				</div>
+
+				<div class="card card-blog">
+
+					<img width="263" data-src="img/blog/NotaCienciaDatos.png" class="card-img-top owl-lazy" alt="...">
+
+					<div class="card-body">
+
+						<a href="https://blog.x-data.mx/x-data/el-poder-de-la-visualizacion-en-la-ciencia-de-datos/" target="_blank"><h3 class="card-title">El poder de la visualización en la ciencia de datos</h3></a>
+
+						<p class="card-text">Noviembre 13, 2020 <br>Por: Melissa Pérez</p>
+
+					</div>
+
+				</div>
+
+				<div class="card card-blog">
+
+					<img width="263" data-src="img/blog/NotaOrganizacionDatos.png" class="card-img-top owl-lazy" alt="...">
+
+					<div class="card-body">
+
+						<a href="https://blog.x-data.mx/x-data/como-se-organizan-los-datos/" target="_blank"><h3 class="card-title">¿Cómo se organizan los datos?</h3></a>
+
+						<p class="card-text">Octubre 12, 2020<br>Por: X-DATA</p>
+
+					</div>
+
+				</div>
+
+				<div class="card card-blog">
+
+					<img width="263" data-src="img/blog/NotaEstrategiaDatos.png" class="card-img-top owl-lazy" alt="...">
+
+					<div class="card-body">
+
+						<a href="https://blog.x-data.mx/x-data/cual-es-tu-estrategia-de-datos/" target="_blank"><h3 class="card-title">¿Cuál es tu estrategia de datos?</h3></a>
+
+						<p class="card-text">Octubre 9, 2020<br>Por: X-DATA</p>
+
+					</div>
+
+				</div>
+
+				<div class="card card-blog">
+
+					<img width="263" data-src="img/blog/NotaMasDatos.png" class="card-img-top owl-lazy" alt="...">
+
+					<div class="card-body">
+
+						<a href="https://blog.x-data.mx/x-data/necesitamos-mas-datos-o-mas-ciencia-en-la-ciencia-de-datos/" target="_blank"><h3 class="card-title">¿Necesitamos más datos o más ciencia en la ciencia de datos?</h3></a>
+
+						<p class="card-text">Septiembre 20, 2020<br>Por: X-DATA</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<button>
+
+				<a href="https://blog.x-data.mx/" target="_blank" class="masArticulos">MÁS ARTÍCULOS</a>
+
+			</button>
+
+		</section>
+
+	</main>
+
+	<!-- Footer -->
+
+	<footer class="footer-blog container" >	
+
+		<div class="row mt-5 mb-4">
+			<div class="col-12 col-md-4">
+				<img class="footer2-logo" src="img/xdatafooter.svg" alt="">
+				<p class="footer2-derechos">DERECHOS RESERVADOS 2021</p>
+			</div>
+			<div class="col-12 col-md-4">
+				<h5 class="footer-blog-h5">DIRECCIÓN</h5>
+				<p>Sófocles 115, Polanco II sección,Miguel Hidalgo, CDMX, C.P. 11530</p>
+			</div>
+			<div class="col-12 col-md-4">
+				<h5 class="footer-blog-h5">SOPORTE</h5>
+				<p>contacto@x-data.mx</p>
+				<ul class="footer2-redes list-unstyled">
+
+					<li><a href="https://www.linkedin.com/company/x-data/" target="_blank"><img class="footer2-redes-img" src="img/linkedin.svg" alt=""></a></li>
+
+					<li><a href="https://www.instagram.com/xdatamx/" target="_blank"><img class="footer2-redes-img" src="img/instagram.svg" alt=""></a></li>
+
+					<li><a href="https://www.facebook.com/XDATAMX/" target="_blank"><img class="footer2-redes-img" src="img/facebook.svg" alt=""></a></li>
+
+					<li><a href="https://twitter.com/xdatamx" target="_blank"><img class="footer2-redes-img" src="img/twittersvg.svg" alt=""></a></li>
+
+					<li><a href="https://www.youtube.com/channel/UC_zbhtZEUh9_9utpMWRXU9g" target="_blank"><img class="footer2-redes-img" src="img/youtubesvg_1.svg" alt=""></a></li>
+
+				</ul>
+			</div>
+		</div>
+
+	</footer>
+
+
+</body>
+
+<script src="js/jquery.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> -->
+
+<script src="js/owl.carousel.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/blog.js"></script>
+
+<script src="lottie.js"></script>
+
+<script src="js/script.js"></script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167828137-1"></script>
+
+<script>
+
+	window.dataLayer = window.dataLayer || [];
+
+	function gtag(){dataLayer.push(arguments);}
+
+	gtag('js', new Date());
+
+
+
+	gtag('config', 'UA-167828137-1');
+
+</script> -->
+
+</html>

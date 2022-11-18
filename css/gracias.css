@@ -1,0 +1,151 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html{
+	background-color: #fff;
+}
+
+ @font-face {
+        font-family: 'circularstdmedium';
+        src: url('../fonts/CircularStd-Medium.ttf') format('truetype');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'circularstdblack';
+        src: url('../fonts/CircularStdBlack.ttf') format('truetype');
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'circularstdbook';
+        src: url('../fonts/CircularStd-Book.ttf') format('opentype');
+        font-display: swap;
+        font-weight: lighter;
+    }
+
+
+.gracias-container{
+	font-family: 'circularblack', sans-serif;
+	border-radius: 3rem;
+	background-color: #fcfcfc;
+	height: calc(100vh - 2rem);
+	margin: 1rem;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0 10%;
+	position: relative;
+	overflow: hidden;
+
+	background: url('../img/puntos.svg'), url('../img/gracias-lineascurvas.svg'), url('../img/gracias-circle.svg');
+	background-size: 150px, 200px, 200px;
+	background-repeat: no-repeat;
+	background-position: 0 0, 98% 0, -100px 115%;
+
+}
+.gracias-logo{
+	width: 80px;
+	margin-bottom: 10%;
+}
+.h2-mob, .h3-mob, .h2-desk{
+	color: #005470;
+}
+.h2-mob{
+	font-size: 1.6rem;
+	margin-bottom: 1rem;
+}
+.h3-mob{
+	font-size: 1.4rem;
+	margin-bottom: 5%;
+}
+.p-mob{
+	color: #00698f;
+	font-family: 'circularstdbook', sans-serif;
+	margin-bottom: 15%;
+}
+.site img{
+	width: 100px;
+}
+.h2-desk{
+	display: none;
+}
+.imggracias{
+	position: absolute;
+}
+.img1{
+	top: 0;
+	left: 0;
+	width: 15%;
+}
+
+@media (min-width: 576px) {
+	
+	.gracias-logo{
+		width: 100px;
+	}
+	.h2-mob{
+		font-size: 2rem;
+	}
+	.h3-mob{
+		font-size: 1.8rem;
+		margin-bottom: 10%;
+	}
+	.p-mob{
+		font-size: 1.4rem;
+	}
+	.site img{
+		width: 100px;
+	}
+}
+
+@media (min-width: 768px) {
+	
+}
+
+@media (min-width: 992px) {
+	.gracias-container{
+		padding: 0 20%;
+		height: calc(100vh - 4rem);
+		margin: 2rem;
+
+		background: url('../img/puntos.svg'), url('../img/gracias-lineascurvas.svg'), url('../img/gracias-circle.svg');
+		background-size: 180px, 400px, 300px;
+		background-repeat: no-repeat;
+		background-position: 0 10%, 98% 0, -150px 120%;
+	}
+	.gracias-logo{
+		width: 120px;
+	}
+	.h2-mob, .h3-mob{
+		display: none;
+	}
+	.h2-desk{
+		display: block;
+		margin-bottom: 5%;
+		font-size: 2rem;
+	}
+	.p-mob{
+		font-size: 1.8rem;
+	}
+	.max{
+		max-width: 800px;
+	}
+	.site img{
+		width: 120px;
+	}
+
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}

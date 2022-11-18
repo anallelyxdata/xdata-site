@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>X-DATA | Transforma tu organización</title>
+	<link rel="icon" href="../img/logos/fav-icon.svg">
+
+	<meta name="robots" content="X-DATA, Transformamos datos en activos. Somos un Estudio de Análisis de Datos global interminable. Entendemos, limpiamos, analizamos y mostramos indicadores de valor para la toma de decisiones en las organizaciones. ">
+
+	<meta name="author" content="X-DATA"><img src="https://tracker.metricool.com/c3po.jpg?hash=c793ed5268b27d984a56705fa4b1b83e"/><img src="https://tracker.metricool.com/c3po.jpg?hash=c793ed5268b27d984a56705fa4b1b83e"/>
+
+	<meta name="copyright" content="2020">
+
+	<meta name="description" content="X-DATA,  Transformamos datos en activos. Somos un Estudio de Análisis de Datos global interminable. Entendemos, limpiamos, analizamos y mostramos indicadores de valor para la toma de decisiones en las organizaciones. ">
+
+	<meta name="keywords" content="X-DATA, Transformamos datos en activos. Somos un Estudio de Análisis de Datos global interminable. Entendemos, limpiamos, analizamos y mostramos indicadores de valor para la toma de decisiones en las organizaciones. ">
+
+	<meta property="og:title" content="X-DATA"/>
+
+	<meta property="og:site_name" content="X-DATA"/>
+
+	<meta property="og:description" content="X-DATA, Transformamos datos en activos. Somos un Estudio de Análisis de Datos global interminable. Entendemos, limpiamos, analizamos y mostramos indicadores de valor para la toma de decisiones en las organizaciones. "/>
+
+	<meta property="og:image" content="img/xdata-redessociales.jpg">
+
+	<link href="img/RelIcon.svg" rel="icon">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <meta name="robots" content="noindex, nofollow">
+
+	<!-- CSS -->
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<style>
+	@font-face {
+		font-family: 'circularstdmedium';
+		src: url('../fonts/circularstd-medium.ttf') format('truetype');
+	}
+	@font-face {
+		font-family: 'circularstdblack';
+		src: url('../fonts/circularstdblack.ttf') format('truetype');
+	}
+
+	@font-face {
+		font-family: 'circularstdbook';
+		src: 
+		url('../fonts/circularstd-book.ttf') format('opentype');
+	}
+	body{
+		background: linear-gradient(0deg, rgba(254,254,254,1) 0%, rgba(208,228,220,1) 35%, rgba(208,228,220,1) 100%);
+
+	}
+	main{
+		background: linear-gradient(0deg, rgba(254,254,254,1) 0%, rgba(208,228,220,1) 35%, rgba(208,228,220,1) 100%);
+		padding: 2rem;
+	}
+	img{
+		width: 20vw;
+		max-width: 80px;
+		margin-bottom: 1rem;
+	}
+	h1,h2{
+		color: #00394d;
+		font-family: 'circularstdblack', sans-serif;
+		text-align: center;
+	}
+	h1{
+		font-size: 1.4rem;
+		line-height: 1.3;
+	}
+	h2{
+		font-size: 1rem;
+		font-family: 'circularstdbook', sans-serif;
+		line-height: 1.3;
+	}
+	p{
+		text-align: center;
+		color: #0075a9;
+		line-height: 1.3;
+	}
+	.form1{
+		max-width: 800px;
+		margin: auto;
+		margin-top: 2%;
+	}
+	.form1 input{
+		border-radius: 2rem;
+		font-size: .9rem;
+		border: none;
+		color: #00394d;
+	}
+	input[type="submit"]{
+		background-color: #a0e8da;	
+		width: 70%;
+		margin:  0 auto;
+		max-width: 300px;
+		border-radius: 2rem;
+		font-family: 'circularstdblack', sans-serif;
+		font-size: 1rem;
+		margin-top: 2rem;
+		transition: all .3s ease;
+	}
+	input[type="submit"]:hover{
+		transform: scale(1.05);
+	}
+	.form1 label{
+		font-size: .9rem;
+		font-family: 'circularstdbook';
+		margin-bottom: 6px;
+		color: #00394d;
+	}
+	.form-blanco{
+		background-color: #fff;
+		border-radius: 16px;
+		padding: 1.5rem;
+		padding-top: .5rem;
+		margin: auto;
+		margin-top: 2rem;
+		max-width: 800px;
+	}
+	.form-blanco h4{
+		font-family: 'circularstdmedium';
+		color: #00394d;
+		font-size: 1rem;
+		margin-top: 2rem;
+		margin-bottom: .8rem;
+	}
+	.form-blanco h4 small{
+		color: #808080;
+		font-size: .8rem;
+		font-style: italic;
+		margin-bottom: .8rem;
+	}
+	.form-blanco label{
+		font-family: 'circularstdbook', sans-serif;
+		color: #00394d;
+		font-size: .9rem;
+		font-weight: lighter;
+	}
+	.form-check-input{
+		border-color: #00394d;
+	}
+	.form-check-input:checked{
+		background-color: #00394d;
+	}
+
+	/*// Small devices (landscape phones, 576px and up)*/
+	@media (min-width: 576px) {
+
+	}
+
+	/*// Medium devices (tablets, 768px and up)*/
+	@media (min-width: 768px) {
+		h1{
+			font-size: 1.6rem;
+			max-width: 600px;
+			margin: auto;
+		}
+		h2{
+			font-size: 1.2rem;
+			max-width: 600px;
+			margin: auto;
+		}
+		.form1{
+			margin-top: 2rem;
+		}
+		.form1 input, .form1 label{
+			display: inline-block;
+			width: 50%;
+			font-size: 1rem;
+		}
+		.form1 input{
+			width: 80%
+		}
+		.form1 label{
+			width: 12%;
+			margin-right: 3%;
+			text-align: right;
+		}
+		.form-blanco{
+			padding: 3% 5% 5%;
+		}
+		.form-blanco h4{
+			font-size: 1.2rem;
+			margin-top: 2rem;
+			margin-bottom: .8rem;
+		}
+		.form-blanco h4 small{
+			font-size: .9rem;
+			margin-bottom: .8rem;
+		}
+		.form-blanco label{
+			font-size: 1rem;
+		}
+		input[type="submit"]{
+			width: 70%;
+			margin:  0 auto;
+			max-width: 300px;
+			font-size: 1.1rem;
+			font-family: 'circularstdbook',sans-serif;
+			margin-top: 2rem;
+		}
+	}
+
+	/*// Large devices (desktops, 992px and up)*/
+	@media (min-width: 992px) {
+
+	}
+
+	/*// X-Large devices (large desktops, 1200px and up)*/
+	@media (min-width: 1200px) {
+
+	}
+
+	/*// XX-Large devices (larger desktops, 1400px and up)*/
+	@media (min-width: 1400px) {
+
+	}
+
+	
+</style>
+
+<body>
+
+	<main class="main-gracias">
+		<div class="texto">
+			<img class="mx-auto d-block" src="img/gracias-logo.svg" alt="">
+			<h1 class="">Estás un paso más cerca de transformar tu organización con los datos.</h1>
+			<h2 class="mt-3">Compártenos tu información y nos pondremos en contacto contigo para convertir a tu empresa en <b>Data Driven.</b></h2>
+		</div>
+		<form method="post" class="myform"  action="" id="contact-form">
+			<div class="row form1">
+				<input type="hidden" name="asunto" value="Llenaron el formulario!">
+				<div class="col-12 my-2">
+					<label for="">Nombre</label>
+					<input required type="text" class=" required form-control" name="name" id="mce-NAME" >
+				</div>
+				<div class="col-12 my-2">
+					<label for="">Puesto</label>
+					<input required type="text" class=" required form-control" name="puesto" id="mce-NAME" >
+				</div>
+				<div class="col-12 my-2">
+					<label for="">Empresa</label>
+					<input required  type="text" class=" required form-control"  name="empresa" id="mce-COMPANIA" >
+				</div>
+				<div class="col-12 my-2">
+					<label for="">Teléfono</label>
+					<input required type="text" class=" required form-control" name="tel" id="mce-PHONE" >
+				</div>
+				<div class="col-12 my-2">
+					<label>E-mail <i><small style="color: #808080;">(institucional)</small></i></label>
+					<input required type="email" class=" required form-control " name="email" id="mce-EMAIL" >
+				</div>
+				<input type="hidden" value="Data driven" name="formulario" class="" id="mce-DEMO">
+				
+			</div>
+
+			<!--  form 2 -->
+
+			<div class="form-blanco shadow-lg">
+				<!-- 1 -->
+					<h4>¿Cuál es tu nivel de conocimiento en analítica de datos?</h4>
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="nivel" id="exampleRadios1" value="Limitado" checked>
+					  <label class="form-check-label" for="exampleRadios1">
+					    Limitado
+					  </label>
+					</div>
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="nivel" id="exampleRadios2" value="Intermedio">
+					  <label class="form-check-label" for="exampleRadios2">
+					    Intermedio
+					  </label>
+					</div>
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="nivel" id="exampleRadios3" value="Avanzado">
+					  <label class="form-check-label" for="exampleRadios3">
+					    Avanzado
+					  </label>
+					</div>
+
+				<!-- 2 -->
+					<h4>¿Cómo podemos ayudarte?</h4>
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="ayuda" id="exampleRadios1" value="Busco información para uso personal" checked>
+					  <label class="form-check-label" for="exampleRadios1">
+					    Busco información para uso personal
+					  </label>
+					</div>
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="ayuda" id="exampleRadios2" value="Quiero saber si puede ser de utilidad en mi empresa">
+					  <label class="form-check-label" for="exampleRadios2">
+					    Quiero saber si puede ser de utilidad en mi empresa
+					  </label>
+					</div>
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="ayuda" id="exampleRadios3" value="Estoy evaluando proveedores">
+					  <label class="form-check-label" for="exampleRadios3">
+					    Estoy evaluando proveedores
+					  </label>
+					</div>
+
+				<!-- 3 -->
+					<h4>¿Dónde almacenas tu data?</h4>
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="donde" id="exampleRadios1" value="Documento de Excel" checked>
+					  <label class="form-check-label" for="exampleRadios1">
+					    Documento de Excel
+					  </label>
+					</div>
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="donde" id="exampleRadios2" value="Sistemas">
+					  <label class="form-check-label" for="exampleRadios2">
+					    Sistemas
+					  </label>
+					</div>
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="donde" id="exampleRadios3" value="No cuento con data">
+					  <label class="form-check-label" for="exampleRadios3">
+					    No cuento con data
+					  </label>
+					</div>
+
+				<!-- 4 -->
+					<h4>¿Cuál es el presupuesto de inversión en tecnología para el 2022 en pesos mexicanos? <br><small>(Selecciona un rango)</small></h4>
+
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="presupuesto" id="exampleRadios1" value="Menos de $350mil" checked>
+					  <label class="form-check-label" for="exampleRadios1">
+					    Menos de $350 mil
+					  </label>
+					</div>
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="presupuesto" id="exampleRadios2" value="Entre $351 mil y 1 millón">
+					  <label class="form-check-label" for="exampleRadios2">
+					    Entre $351 mil y 1 millón
+					  </label>
+					</div>
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="presupuesto" id="exampleRadios3" value="Entre 1 millón y 3 millones">
+					  <label class="form-check-label" for="exampleRadios3">
+					    Entre 1 millón y 3 millones
+					  </label>
+					</div>
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="presupuesto" id="exampleRadios3" value="No cuento con un presupuesto">
+					  <label class="form-check-label" for="exampleRadios3">
+					    No cuento con un presupuesto
+					  </label>
+					</div>
+			</div>
+
+			<div class="col-12 my-2">
+				<input type="submit" class="form-control submit-blog" value="Enviar">
+			</div>
+			<p id="gracias-p" class="output_message"></p>
+		</form>
+	</main>
+
+	<script>
+		$(document).ready(function() {
+			$('.myform').on('submit',function(){
+
+	           // Add text 'loading...' right after clicking on the submit button. 
+	           $('.output_message').text('Enviando...'); 
+
+	           var form = $(this);
+	           $.ajax({
+	                // if it can't find email.php just chahge the url path to the full path, including your domain and all folders.
+	                url: "https://x-data.mx/form-gracias4.php",
+	                method: form.attr('method'),
+	                data: form.serialize(),
+	                success: function(result){
+
+	            // THIS IS WHAT I HAVE ADDED TO REMOVE EXCESS SPACES
+	            let d = result.split(" ");
+	            let y = d.slice(-1)[0];
+	            // THIS IS WHAT I HAVE ADDED TO REMOVE EXCESS SPACES
+
+	            if (y == 'success'){
+	            	window.location.href = "https://x-data.mx/gracias";
+	            	$('.output_message').text('¡Gracias por tus respuestas! En breve nuestro equipo de ventas te contactará para continuar con tu proceso.');  
+	            } 
+	            else if (y == 'miss'){
+	            	$('.output_message').text('¡Ups! Parece que olvidaste dejar algunos datos');
+	            }
+	            else {
+	            	$('.output_message').text('¡Ups! Hubo un error el enviar el mensaje');
+	            }
+	          }
+	        });
+
+				// Prevents default submission of the form after clicking on the submit button. 
+				return false;   
+			});
+		});
+
+	</script>
+</body>
+<script src="https://x-data.mx/js/jquery.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Start of HubSpot Embed Code -->
+<script defer type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/21424823.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+</html>

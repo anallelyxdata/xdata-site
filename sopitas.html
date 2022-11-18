@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Sopitas | X-DATA</title>
+
+<meta name="robots" content="noindex, nofollow">
+
+	<!-- SEO -->
+
+	<meta name="robots" content="Esta visualización fue realizada por X-DATA con información del reportaje “Países más justos, con mayor educación y menos 
+corruptos tienden a ser más inclusivos con población LGBT+” del periodista Gerardo Sánchez Guadarrama, publicado por Sopitas">
+
+	<meta name="author" content="X-DATA"><img src="https://tracker.metricool.com/c3po.jpg?hash=c793ed5268b27d984a56705fa4b1b83e"/><img src="https://tracker.metricool.com/c3po.jpg?hash=c793ed5268b27d984a56705fa4b1b83e"/>
+
+	<meta name="copyright" content="2020">
+
+	<meta name="description" content="Esta visualización fue realizada por X-DATA con información del reportaje “Países más justos, con mayor educación y menos 
+corruptos tienden a ser más inclusivos con población LGBT+” del periodista Gerardo Sánchez Guadarrama, publicado por Sopitas">
+
+	<meta name="keywords" content="gobierno, gobierno mexicano, contrataciones, 2020, milenio">
+
+	<meta property="og:title" content="X-DATA"/>
+
+	<meta property="og:site_name" content="X-DATA"/>
+
+	<meta property="og:description" content="Esta visualización fue realizada por X-DATA con información del reportaje “Países más justos, con mayor educación y menos 
+corruptos tienden a ser más inclusivos con población LGBT+” del periodista Gerardo Sánchez Guadarrama, publicado por Sopitas"/>
+
+	<meta property="og:image" content="img/xdata-redessociales.jpg">
+
+	<link href="img/RelIcon.svg" rel="icon">
+
+	
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window,document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		 fbq('init', '1855240141352431'); 
+		fbq('track', 'PageView');
+	</script>
+	<noscript>
+		 <img height="1" width="1" 
+		src="https://www.facebook.com/tr?id=1855240141352431&ev=PageView
+		&noscript=1"/>
+	</noscript>
+	<!-- End Facebook Pixel Code -->
+
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/nav-general.css">
+
+
+<style>
+	.container-loop {
+	  display: flex;
+	  justify-content: center;
+	}
+
+	.image {
+	  /*max-width: 300px;
+	  margin: 25px;*/
+	  width: 99vw;
+	}
+
+	.image img {
+	  max-width: 99vw;
+	}
+
+	.loupe {
+	  display: none;
+	  position: absolute;
+	  width: 200px;
+	  height: 200px;
+	  border: 1px solid black;
+	  box-shadow: 5px 5px 12px black;
+	  background: rgba(0, 0, 0, 0.25);
+	  cursor: crosshair;
+	  overflow: hidden;
+	}
+
+	.loupe img {
+	  position: absolute;
+	  right; 0;
+	}
+	#btn-culturac{
+		border-radius: 32px;
+		background-color: #e2e286;
+		width: max-content;
+		border-style: none;
+		padding: .5rem 3rem;
+		display: block;
+		margin: auto;
+		margin-top: .5rem;
+		margin-bottom: 2rem;
+		transition: all 300ms ease;
+	}
+	#btn-culturac:hover{
+		background-color: #efcfdb;
+	}
+	#btn-culturac a{
+		text-decoration: none;
+		color: #3f3d3d;
+		font-family: 'circularstdbook';
+		font-weight: bold;
+		font-size: .9rem;
+
+	}
+@media (min-width: 768px) {
+	/* LGBT */
+		#btn-culturac{
+			padding: .5rem 3.5rem;
+			margin-top: .5rem;
+			margin-bottom: 2rem;
+		}
+		#btn-culturac a{
+			font-size: 1rem;
+		}
+}
+		
+
+</style>
+
+</head>
+
+<body>
+
+		<!--PreLoader style.css-->
+
+		<div class="loader">
+
+		  <div class="loader-inner">
+
+		    <div class="cssload-loader"></div>
+
+		  </div>
+
+		</div>
+
+		<!-- Header -->
+
+		<header>
+			<app-navbar></app-navbar>
+		</header>
+
+<main>
+	<!-- Versión desktop -->
+	<div class="container-loop d-none d-md-block">
+	  <div class="image">
+	    <img src="img/lgbt_sopitas.png">
+	  </div>
+	</div>
+
+	<!-- Versión mobile -->
+	<img style="max-width: 100%" src="img/lgbt_sopitas_mob.png" class="d-md-none" alt="" >
+	<div class="loupe"></div>
+
+	<button id="btn-culturac" class="mt-4"><a target="_blank" href="https://www.sopitas.com/noticias/paises-justos-educacion-corrupcion-justicia-aceptacion-lgbt-visualizacion-datos-periodismo-mundo/">Lee el artículo completo aquí</a></button>
+</main>
+
+<script src="js/jquery.js"></script>
+
+<script>
+	var $loupe = $(".loupe"),
+	    loupeWidth = $loupe.width(),
+	    loupeHeight = $loupe.height();
+
+	$(document).on("mouseenter", ".image", function (e) {
+	    var $currImage = $(this),
+	        $img = $('<img/>')
+	        .attr('src', $('img', this).attr("src"))
+	        .css({ 'width': $currImage.width() * 2, 'height': $currImage.height() * 2 });
+
+	    $loupe.html($img).fadeIn(100);
+	    
+	    $(document).on("mousemove",moveHandler);
+	                   
+	    function moveHandler(e) {
+	        var imageOffset = $currImage.offset(),
+	            fx = imageOffset.left - loupeWidth / 2,
+	            fy = imageOffset.top - loupeHeight / 2,
+	            fh = imageOffset.top + $currImage.height() + loupeHeight / 2,
+	            fw = imageOffset.left + $currImage.width() + loupeWidth / 2;
+	        
+	        $loupe.css({
+	            'left': e.pageX - 75,
+	            'top': e.pageY - 75
+	        });
+
+	        var loupeOffset = $loupe.offset(),
+	            lx = loupeOffset.left,
+	            ly = loupeOffset.top,
+	            lw = lx + loupeWidth,
+	            lh = ly + loupeHeight,
+	            bigy = (ly - loupeHeight / 4 - fy) * 2,
+	            bigx = (lx - loupeWidth / 4 - fx) * 2;
+
+	        $img.css({ 'left': -bigx, 'top': -bigy });
+
+	        if (lx < fx || lh > fh || ly < fy || lw > fw) {
+	            $img.remove();
+	            $(document).off("mousemove",moveHandler);
+	            $loupe.fadeOut(100);
+	        }
+	    }
+	});
+
+</script>
+
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/21424823.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+</body>
+
+
+
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/component.js"></script>
+
+<script src="js/nav-general.js"></script>
+
+
+
+
+
+</html>

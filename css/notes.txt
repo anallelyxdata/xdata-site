@@ -1,0 +1,4 @@
+XS
+
+container: max-width:90%
+padding: 15% 0

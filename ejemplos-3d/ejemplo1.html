@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Empresa de business inteligence | X-DATA</title>
+	<link rel="canonical" href="https://x-data.mx/"/>
+	<link rel = “alternate” href = “https://x-data.mx” hreflang = “es-mx” />
+	<link rel="icon" href="../img/logos/fav-icon.svg">
+	<meta name="theme-color" content="#0075a9">
+	<link rel="apple-touch-icon" href="../img/logos/fav-icon.svg"/>
+	<meta name="robots" content="noindex, nofollow">
+
+	<link media="screen" rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/styles0806.css">
+	<link rel="stylesheet" href="../css/mediaqueries0806.css">
+
+	<script src="https://unpkg.com/d3-3d/build/d3-3d.min.js"></script>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="https://x3dom.org/download/dev/x3dom-full.js"></script>
+	<link rel="stylesheet" href="https://x3dom.org/download/dev/x3dom.css"/>
+	<script src="https://raw.githack.com/jamesleesaunders/d3-x3d/master/dist/d3-x3d.js"></script>
+
+</head>
+<style>
+	body{
+		padding: 3rem 0;
+	}
+	h1{
+		color: var(--navy);
+	}
+	h2, h3{
+		color: var(--indigo);
+	}
+</style>
+<body class="myContainer">
+	<h2>Car Manufacturers Data for the First Six Months in 3D bar graph</h2>
+  <div id="chartholder" width="100%"></div>
+
+  <script> const csvUrl =
+  'https://gist.githubusercontent.com/avinash021997/b68dbb23fb73d2b41a8f406e9ace5d36/raw/b89f3bb4ded65bdbab2d56c7d98a0e963d8f7e50/CarsUpdatedData.csv'
+    
+		const main = async () => {
+    const {
+        csv,
+        select,
+        scaleLinear,
+        extent,
+        axisLeft,
+        axisBottom,
+      } = d3;
+    const parseRow = (d) => {
+      	obj = {key:d.Manufacturer,values: [
+                  { key: "Jan", value: parseInt(d.Jan)},
+                  { key: "Feb", value: parseInt(d.Feb)},
+                  { key: "Mar", value: parseInt(d.Mar)},
+                  { key: "Apr", value: parseInt(d.Apr)},
+                  { key: "May", value: parseInt(d.May)},
+                  { key: "June", value: parseInt(d.Jun)}
+                ]
+              }
+        return obj;
+      };
+    
+    var chartHolder = d3.select("#chartholder");
+    chartHolder.attr("style", "height: 620px").attr("style", "width: 820px");
+
+    // Declare the chart component
+    var myChart = d3.x3d.chart.barChartMultiSeries();;
+
+    // Generate some data
+    var myData = d3.x3d.randomData.dataset2();
+    // Attach chart and data to the chartholder
+  	chartHolder.datum(myData).call(myChart);
+
+    const data = await csv(csvUrl,parseRow);
+  	chartHolder.datum(data).call(myChart);
+    };
+		main();
+    
+        
+    
+  </script>
+
+	<script defer src="../js/jquery.js"></script>
+	<script src="../js/bootstrap.bundle.js" defer></script>
+</body>
+</html>

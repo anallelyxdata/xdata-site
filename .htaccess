@@ -1,0 +1,93 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} x-data\.mx [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://x-data.mx/$1 [R,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html
+
+<IfModule mod_rewrite.c>
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+#RewriteRule ^([a-z]+)/?$ $1.php [NC]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html
+#RewriteRule ^([a-z]+)/?$ $1.html [NC]
+
+
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+Redirect 301 /10-beneficios-de-usar-data-analytics-en-tu-empresa.html https://x-data.mx/blog/10-beneficios-de-usar-data-analytics-en-tu-empresa
+Redirect 301 /amazon-apuesta-por-people-analytics-para-crecer.html https://x-data.mx/blog/amazon-apuesta-por-people-analytics-para-crecer
+Redirect 301 /bussines-intelligence-que-necesito-para-empezar.html https://x-data.mx/blog/business-intelligence-que-necesito-para-empezar
+Redirect 301 /como-entrarle-al-mundo-de-los-datos-sin-morir-en-el-intento.html https://x-data.mx/blog/como-entrarle-al-mundo-de-los-datos-sin-morir-en-el-intento
+Redirect 301 /como-se-organizan-los-datos.html https://x-data.mx/blog/como-se-organizan-los-datos
+Redirect 301 /como-se-transforman-los-datos-en-activos.html https://x-data.mx/blog/como-se-transforman-los-datos-en-activos
+Redirect 301 /cual-es-tu-estrategia-de-datos.html https://x-data.mx/blog/cual-es-tu-estrategia-de-datos
+Redirect 301 /cuanto-vale-una-base-de-datos.html https://x-data.mx/blog/cuanto-vale-una-base-de-datos
+Redirect 301 /data_mining_y_big_data_cuales_son_las_diferencias.html https://x-data.mx/blog/data_mining_y_big_data_cuales_son_las_diferencias
+Redirect 301 /datos-el-ingrediente-de-tesla-para-vender.html https://x-data.mx/blog/datos-el-ingrediente-de-tesla-para-vender
+Redirect 301 /diferencias-entre-big-data-business-analytics-y-business-intelligence.html https://x-data.mx/blog/diferencias-entre-big-data-business-analytics-y-business-intelligence
+Redirect 301 /el-arte-de-vender-mide-y-venceras.html https://x-data.mx/blog/el-arte-de-vender-mide-y-venceras
+Redirect 301 /el-poder-de-la-visualizacion-en-la-ciencia-de-datos.html https://x-data.mx/blog/el-poder-de-la-visualizacion-en-la-ciencia-de-datos
+Redirect 301 /gis-datos-geograficos-para-innovar.html https://x-data.mx/blog/gis-datos-geograficos-para-innovar
+Redirect 301 /home-office-en-Mexico-el-reto-profesional-en-datos.html https://x-data.mx/blog/home-office-en-Mexico-el-reto-profesional-en-datos
+Redirect 301 /hospital-data-driven.html https://x-data.mx/blog/hospital-data-driven
+Redirect 301 /blog.html https://x-data.mx/blog/
+Redirect 301 /machine-learning-la-nueva-era-del-analisis-de-datos.html https://x-data.mx/blog/machine-learning-la-nueva-era-del-analisis-de-datos
+Redirect 301 /necesitamos-mas-datos-o-mas-ciencia-en-la-ciencia-de-datos.html https://x-data.mx/blog/necesitamos-mas-datos-o-mas-ciencia-en-la-ciencia-de-datos
+Redirect 301 /people-analytics-para-transformar-tu-organizacion.html https://x-data.mx/blog/people-analytics-para-transformar-tu-organizacion
+Redirect 301 /people_analytics_para_frenar_la_rotacion.html https://x-data.mx/blog/people_analytics_para_frenar_la_rotacion
+Redirect 301 /salud-mental-el-reto-a-resolver-con-people-analytics.html https://x-data.mx/blog/salud-mental-el-reto-a-resolver-con-people-analytics
+Redirect 301 /sistema-de-pensiones-en-mexico-el-reto-en-datos.html https://x-data.mx/blog/sistema-de-pensiones-en-mexico-el-reto-en-datos
+Redirect 301 /transformacion-digital-5-razones-para-empezar-ahora.html https://x-data.mx/blog/transformacion-digital-5-razones-para-empezar-ahora
+Redirect 301 /blog/bussines-intelligence-que-necesito-para-empezar.html https://x-data.mx/blog/business-intelligence-que-necesito-para-empezar
+Redirect 301 /blog/bussines-intelligence-que-necesito-para-empezar https://x-data.mx/blog/business-intelligence-que-necesito-para-empezar
+Redirect 301 bussines-intelligence-que-necesito-para-empezar https://x-data.mx/blog/business-intelligence-que-necesito-para-empezar
+
+
+Redirect 301 /10-beneficios-de-usar-data-analytics-en-tu-empresa https://x-data.mx/blog/10-beneficios-de-usar-data-analytics-en-tu-empresa
+Redirect 301 /amazon-apuesta-por-people-analytics-para-crecer https://x-data.mx/blog/amazon-apuesta-por-people-analytics-para-crecer
+Redirect 301 /business-intelligence-que-necesito-para-empezar https://x-data.mx/blog/business-intelligence-que-necesito-para-empezar
+Redirect 301 /como-entrarle-al-mundo-de-los-datos-sin-morir-en-el-intento https://x-data.mx/blog/como-entrarle-al-mundo-de-los-datos-sin-morir-en-el-intento
+Redirect 301 /como-se-organizan-los-datos https://x-data.mx/blog/como-se-organizan-los-datos
+Redirect 301 /como-se-transforman-los-datos-en-activos https://x-data.mx/blog/como-se-transforman-los-datos-en-activos
+Redirect 301 /cual-es-tu-estrategia-de-datos https://x-data.mx/blog/cual-es-tu-estrategia-de-datos
+Redirect 301 /cuanto-vale-una-base-de-datos https://x-data.mx/blog/cuanto-vale-una-base-de-datos
+Redirect 301 /data_mining_y_big_data_cuales_son_las_diferencias https://x-data.mx/blog/data_mining_y_big_data_cuales_son_las_diferencias
+Redirect 301 /datos-el-ingrediente-de-tesla-para-vender https://x-data.mx/blog/datos-el-ingrediente-de-tesla-para-vender
+Redirect 301 /diferencias-entre-big-data-business-analytics-y-business-intelligence https://x-data.mx/blog/diferencias-entre-big-data-business-analytics-y-business-intelligence
+Redirect 301 /el-arte-de-vender-mide-y-venceras https://x-data.mx/blog/el-arte-de-vender-mide-y-venceras
+Redirect 301 /el-poder-de-la-visualizacion-en-la-ciencia-de-datos https://x-data.mx/blog/el-poder-de-la-visualizacion-en-la-ciencia-de-datos
+Redirect 301 /gis-datos-geograficos-para-innovar https://x-data.mx/blog/gis-datos-geograficos-para-innovar
+Redirect 301 /home-office-en-Mexico-el-reto-profesional-en-datos https://x-data.mx/blog/home-office-en-Mexico-el-reto-profesional-en-datos
+Redirect 301 /hospital-data-driven https://x-data.mx/blog/hospital-data-driven
+Redirect 301 /machine-learning-la-nueva-era-del-analisis-de-datos https://x-data.mx/blog/machine-learning-la-nueva-era-del-analisis-de-datos
+Redirect 301 /necesitamos-mas-datos-o-mas-ciencia-en-la-ciencia-de-datos https://x-data.mx/blog/necesitamos-mas-datos-o-mas-ciencia-en-la-ciencia-de-datos
+Redirect 301 /people-analytics-para-transformar-tu-organizacion https://x-data.mx/blog/people-analytics-para-transformar-tu-organizacion
+Redirect 301 /people_analytics_para_frenar_la_rotacion https://x-data.mx/blog/people_analytics_para_frenar_la_rotacion
+Redirect 301 /salud-mental-el-reto-a-resolver-con-people-analytics https://x-data.mx/blog/salud-mental-el-reto-a-resolver-con-people-analytics
+Redirect 301 /sistema-de-pensiones-en-mexico-el-reto-en-datos https://x-data.mx/blog/sistema-de-pensiones-en-mexico-el-reto-en-datos
+Redirect 301 /transformacion-digital-5-razones-para-empezar-ahora https://x-data.mx/blog/transformacion-digital-5-razones-para-empezar-ahora
+
+Redirect 301 /blog/data_mining_y_big_data_cuales_son_las_diferencias https://x-data.mx/blog/data-mining-y-big-data-cuales-son-las-diferencias
+Redirect 301 /blog/people_analytics_para_frenar_la_rotacion https://x-data.mx/blog/people-analytics-para-frenar-la-rotacion
+
+Redirect 301 /LGBT https://x-data.mx/lgbt
+Redirect 301 /Sopitas https://x-data.mx/sopitas
+Redirect 301 /NFT/Emociones https://x-data.mx/nft/emociones
+
+Redirect 301 /sopitas https://x-data.mx/sopitas.html
+
+</IfModule>
+

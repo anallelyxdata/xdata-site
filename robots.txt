@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /cgi-bin/
+Disallow: /static/
+Disallow: .pdf$
+Disallow: */page/
+Disallow: /author/
+Disallow: /tag/
+Disallow: /category/
+Disallow: /blog-ajax/
+Disallow: /send-mail.php
+Disallow: /amp
+Disallow: /feed/
+sitemap: https://x-data.mx/sitemap.xml

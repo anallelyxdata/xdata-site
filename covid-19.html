@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>NFT Covid-19 | X-DATA</title>
+	
+	<meta name="robots" content="noindex, nofollow">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/nav-general.css">
+
+
+	<!-- SEO -->
+
+		<meta name="robots" content="Presentamos el primer NFT de nuestra colección con el tema de COVID-19 en CDMX.">
+
+		<meta name="author" content="X-DATA"><img src="https://tracker.metricool.com/c3po.jpg?hash=c793ed5268b27d984a56705fa4b1b83e"/><img src="https://tracker.metricool.com/c3po.jpg?hash=c793ed5268b27d984a56705fa4b1b83e"/>
+
+		<meta name="copyright" content="2020">
+
+		<meta name="description" content="Presentamos el primer NFT de nuestra colección con el tema de COVID-19 en CDMX.">
+
+		<meta name="keywords" content="Covid-19, nft, visualización de datos, covid en cdmx, cdmx">
+
+		<meta property="og:title" content="NFT Covid-19 | X-DATA"/>
+
+		<meta property="og:site_name" content="X-DATA"/>
+
+		<meta property="og:description" content="Presentamos el primer NFT de nuestra colección con el tema de COVID-19 en CDMX."/>
+
+		<meta property="og:image" content="img/xdata-redessociales.jpg">
+
+		<link href="img/RelIcon.svg" rel="icon">
+
+
+<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window,document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		 fbq('init', '1855240141352431'); 
+		fbq('track', 'PageView');
+	</script>
+	<noscript>
+		 <img height="1" width="1" 
+		src="https://www.facebook.com/tr?id=1855240141352431&ev=PageView
+		&noscript=1"/>
+	</noscript>
+	<!-- End Facebook Pixel Code -->
+
+	<!-- CSS -->
+	
+
+
+<style>
+	.container-loop {
+	  display: flex;
+	  justify-content: center;
+	}
+
+/*	.image {
+	  width: 99vw;
+	}
+
+	.image img {
+	  max-width: 99vw;
+	}*/
+
+	.loupe {
+	  display: none;
+	  position: absolute;
+	  width: 200px;
+	  height: 200px;
+	  border: 1px solid black;
+	  box-shadow: 5px 5px 12px black;
+	  background: rgba(0, 0, 0, 0.25);
+	  cursor: crosshair;
+	  overflow: hidden;
+	}
+
+	.loupe img {
+	  position: absolute;
+	  right; 0;
+	}
+
+</style>
+
+</head>
+
+<body>
+
+		<!--PreLoader style.css-->
+
+		<div class="loader">
+
+		  <div class="loader-inner">
+
+		    <div class="cssload-loader"></div>
+
+		  </div>
+
+		</div>
+
+		<!-- Header -->
+
+		<header>
+			<app-navbar></app-navbar>
+		</header>
+
+<!-- Versión desktop -->
+<main>
+	<div class="container-loop d-none d-md-block mx-auto" style=" width: 100vw; min-width: 100%;" >
+	  <div class="image">
+	    <img class="img-fluid" src="img/covid2019.png" style="min-width: 100vw;">
+	  </div>
+	</div>
+
+	<!-- Versión mobile -->
+	<img style="max-width: 100%" src="img/covid2019.png" class="d-md-none img-fluid" alt="" >
+	<div class="loupe"></div>
+</main>
+
+<script src="js/jquery.js"></script>
+
+<script>
+	var $loupe = $(".loupe"),
+	    loupeWidth = $loupe.width(),
+	    loupeHeight = $loupe.height();
+
+	$(document).on("mouseenter", ".image", function (e) {
+	    var $currImage = $(this),
+	        $img = $('<img/>')
+	        .attr('src', $('img', this).attr("src"))
+	        .css({ 'width': $currImage.width() * 2, 'height': $currImage.height() * 2 });
+
+	    $loupe.html($img).fadeIn(100);
+	    
+	    $(document).on("mousemove",moveHandler);
+	                   
+	    function moveHandler(e) {
+	        var imageOffset = $currImage.offset(),
+	            fx = imageOffset.left - loupeWidth / 2,
+	            fy = imageOffset.top - loupeHeight / 2,
+	            fh = imageOffset.top + $currImage.height() + loupeHeight / 2,
+	            fw = imageOffset.left + $currImage.width() + loupeWidth / 2;
+	        
+	        $loupe.css({
+	            'left': e.pageX - 75,
+	            'top': e.pageY - 75
+	        });
+
+	        var loupeOffset = $loupe.offset(),
+	            lx = loupeOffset.left,
+	            ly = loupeOffset.top,
+	            lw = lx + loupeWidth,
+	            lh = ly + loupeHeight,
+	            bigy = (ly - loupeHeight / 4 - fy) * 2,
+	            bigx = (lx - loupeWidth / 4 - fx) * 2;
+
+	        $img.css({ 'left': -bigx, 'top': -bigy });
+
+	        if (lx < fx || lh > fh || ly < fy || lw > fw) {
+	            $img.remove();
+	            $(document).off("mousemove",moveHandler);
+	            $loupe.fadeOut(100);
+	        }
+	    }
+	});
+
+</script>
+<app-footer></app-footer>
+<!-- Facebook Pixel Code -->
+<script nonce="4329103261">
+	setTimeout(function(){
+	   !function(f,b,e,v,n,t,s)
+	   {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	   n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	   if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	   n.queue=[];t=b.createElement(e);t.async=!0;
+	   t.src=v;s=b.getElementsByTagName(e)[0];
+	   s.parentNode.insertBefore(t,s)}(window,document,'script',
+	   'https://connect.facebook.net/en_US/fbevents.js');
+	    fbq('init', '1855240141352431'); 
+	   fbq('track', 'PageView');
+	  }, 3000);
+	
+</script>
+<noscript>
+	 <img class="pixel" height="1" width="1" 
+	src="https://www.facebook.com/tr?id=1855240141352431&ev=PageView
+	&noscript=1"/>
+</noscript>
+<style nonce="4yZwhMbBbX">.pixel{display:none}</style>
+<!-- End Facebook Pixel Code -->
+
+</body>
+
+
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/component.js"></script>
+<script src="js/nav-general.js"></script>
+
+
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/21424823.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+
+</html>

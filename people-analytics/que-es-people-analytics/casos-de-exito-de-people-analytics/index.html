@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Casos de éxito de People Analytics | X-DATA</title>
+	<link rel="canonical" href="https://x-data.mx/"/>
+	<link media="screen" rel="stylesheet" href="/css/bootstrap.min.css">
+	<link media="screen" rel="stylesheet" href="/css/maestras.css">
+	<link media="screen and (min-width:576px)" rel="stylesheet" href="/css/mq-maestras.css">
+
+	<link rel="icon" href="/img/logos/fav-icon.svg">
+
+	<meta name="theme-color" content="#0075a9">
+	<link rel="apple-touch-icon" href="/img/logos/fav-icon.svg"/>
+
+	<!-- SEO -->
+	<!-- <meta name="robots" content="Este estudio de caso muestra cómo incluso las organizaciones con alta madurez analítica aún pueden mejorar sus procesos y beneficiarse de las ciencias sociales. "> -->
+
+	<meta name="author" content="X-DATA"><img src="https://tracker.metricool.com/c3po.jpg?hash=c793ed5268b27d984a56705fa4b1b83e"/>
+
+	<meta name="copyright" content="2022">
+
+	<meta name="description" content="Este estudio de caso muestra cómo incluso las organizaciones con alta madurez analítica aún pueden mejorar sus procesos y beneficiarse de las ciencias sociales.">
+
+	<meta name="keywords" content="Este estudio de caso muestra cómo incluso las organizaciones con alta madurez analítica aún pueden mejorar sus procesos y beneficiarse de las ciencias sociales.">
+
+	<meta property="og:title" content="X-DATA"/>
+
+
+	<meta property="og:site_name" content="Casos de éxito de People Analytics | X-DATA"/>
+
+	<meta property="og:description" content="Este estudio de caso muestra cómo incluso las organizaciones con alta madurez analítica aún pueden mejorar sus procesos y beneficiarse de las ciencias sociales."/>
+
+	<meta property="og:image" content="/img/X-DATA.jpg">
+
+
+</head>
+<body >
+	<header>
+		<!--PreLoader style.css-->
+		<div class="loader">
+			<div class="loader-inner">
+				<div class="cssload-loader"></div>
+			</div>
+		</div>
+		<!--  navbar -->
+		<nav class="navDesktop d-none d-xl-flex navbar" id="navbar">
+			<div class="container">
+				<a class="navbar-brand" href="https://x-data.mx/">
+					<img loading="lazy"  src="https://x-data.mx/img/logos/x-data.svg" alt="logotipo-xdata">
+				</a>
+				<ul class="navDesktop-ul">
+					<li class="nav-item">
+						<a class="nav-link pagescroll" aria-current="true" href="https://x-data.mx/#nosotros" onclick="">Nosotros</a>
+					</li>
+					<li class="nav-item nav-item-soluciones" onclick="navlinksoluciones()">
+						<a class="nav-link pagescroll" aria-current="true" onclick="">Soluciones <img loading="lazy"  id="dropdown-soluciones_img" src="https://x-data.mx/img/icons/dropdown-soluciones.svg" alt=""></a>
+					</li>
+					<div id="menuSoluciones" class="navlinksoluciones">
+						<div class="grid-soluciones">
+							<div class="nav navlinksoluciones-buttons" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+								<button class="nav-link active" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Productos</button>
+								<button class="nav-link " id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Servicios</button>
+								<button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Industrias</button>
+							</div>
+							<div class="tab-content" id="v-pills-tabContent">
+								<div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+									<div class="soluciones-tab">
+										<a href="https://x-data.mx/baiwa">
+											<div class="soluciones-tab-ind">
+												<img loading="lazy"  id="soluciones-baiwa-icon" src="https://x-data.mx/img/icons/baiwa-icon.png" alt="">
+												<div>
+													<p class="tab-ind-titulo">Baiwa</p>
+													<p class="tab-ind-p">Transforma tu área de Recursos Humanos en data driven. Diseña tu estrategia utilizando recursos tecnológicos donde contemples las necesidades de tu empresa y tus colaboradores. Reduce la rotación, contrata de manera inteligente y promueve activos valiosos dentro de tu organización.</p>
+												</div>
+											</div>
+										</a>
+										<div class="soluciones-tab-ind">
+											<img loading="lazy"  src="https://x-data.mx/img/energy-map.png" alt="">
+											<div>
+												<p class="tab-ind-titulo">Energy Map</p>
+												<p class="tab-ind-p">A través de un tablero ejecutivo, monitorea en tiempo real el precio de la energía eléctrica, gas natural y otros factores que puedan alterar estos indicadores, como el tipo de cambio, INPC, etc.</p>
+											</div>
+										</div>
+										<div class="soluciones-tab-ind">
+											<img loading="lazy"  src="https://x-data.mx/img/data-lake.png" alt="">
+											<div>
+												<p class="tab-ind-titulo">Data Lake</p>
+												<p class="tab-ind-p">Todos tus datos en un mismo lugar. Crea un repositorio para almacenar, gestionar, indexar y disponer de todos los datos estructurados o no estructurados que generes, de manera sencilla y automática; con la capacidad de digerir altos volúmenes de información.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Servicios -->
+								<div class="tab-pane fade " id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+									<div class="soluciones-tab">
+										<a title="Analítica avanzada" href="https://x-data.mx/analitica-avanzada/" target="_blank"><div class="soluciones-tab-ind">
+											<img loading="lazy"  src="https://x-data.mx/img/analitica-avanzada.png" alt="">
+											<div>
+												<p class="tab-ind-titulo">Analítica Avanzada</p>
+												<p class="tab-ind-p">Centraliza y analiza la data de tu organización para identicar oportunidades de negocio y resolver problemas. Deja que los datos hablen por sí mismos y te muestren cómo se está comportando tu mercado.</p>
+											</div>
+										</div></a>
+										<div class="soluciones-tab-ind">
+											<img loading="lazy"  src="https://x-data.mx/img/dashboards.png" alt="">
+											<div>
+												<p class="tab-ind-titulo">Dashboards</p>
+												<p class="tab-ind-p">Toma el control de tu empresa usando herramientas que te permitan monitorear la información de tu negocio en tiempo real. Toma decisiones basadas en datos duros, apoyándote de tableros fáciles de leer. Descubre insights valiosos dentro de tu información y empodera a toda tu empresa con ellos.</p>
+											</div>
+										</div>
+										<div class="soluciones-tab-ind">
+											<img loading="lazy"  src="https://x-data.mx/img/dataviz.png" alt="">
+											<div>
+												<p class="tab-ind-titulo">Dataviz</p>
+												<p class="tab-ind-p">Muestra a tu audiencia sets de datos complejos de una manera atractiva y fácil de digerir. La visualización de datos es la intersección entre la ciencia y el arte de mostrar información, lo cual hace mucho más fácil identicar insights clave.</p>
+											</div>
+										</div>
+										<a title="Consultoria en arquitectura de datos" href="https://x-data.mx/consultoria-de-soluciones/" target="_blank"><div class="soluciones-tab-ind">
+											<img loading="lazy"  src="https://x-data.mx/img/arquitectura-de-datos.png" alt="">
+											<div>
+												<p class="tab-ind-titulo">Consultoría en arquitectura de datos</p>
+												<p class="tab-ind-p">Tu empresa genera grandes volúmenes de datos y procesarlos es un reto que nosotros te ayudamos a resolver. Súmate a las mejores prácticas de la industria para almacenar y estructurar la información, permitiéndote tener una mayor escalabilidad y colaboración en ujos de datos.</p>
+											</div>
+										</div></a>
+
+									</div>
+								</div>
+								<!-- Industrias -->
+								<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+									<!-- Transporte -->
+									<div class="transporte-grid">
+										<div class="nav-transporte nav flex-column me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+											<button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-t1" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+												<img loading="lazy"  src="https://x-data.mx/img/logistica-y-transporte.png" alt="">
+												<p class="titulo-industrias">Logística y transporte</p>
+											</button>
+											<button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-t2" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+												<img loading="lazy"  src="https://x-data.mx/img/manufactura.png" alt="">
+												<p class="titulo-industrias">Manufactura</p>
+											</button>
+											<button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-t3" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+												<img loading="lazy"  src="https://x-data.mx/img/retail.png" alt="">
+												<p class="titulo-industrias">Retail y bienes de consumo</p>
+											</button>
+											<button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-t4" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+												<img loading="lazy"  src="https://x-data.mx/img/salud-y-farmaceutica.png" alt="">
+												<p class="titulo-industrias">Salud y farmacéutica</p>
+											</button>
+										</div>
+										<div class="tab-content" id="v-pills-tabContent">
+											<div class="tab-pane fade show active" id="v-pills-t1" role="tabpanel" aria-labelledby="v-pills-home-tab">
+												<img loading="lazy"  src="https://x-data.mx/img/logistica-y-transporte.png" alt="">
+												<p class="tab-transporte-titulo">Logística y transporte</p>
+												<p class="tab-transporte-p">Optimiza rutas y tiempos de entrega con la centralización de datos y el análisis de tendencias. 
+												</p>
+											</div>
+											<div class="tab-pane fade" id="v-pills-t2" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+												<img loading="lazy"  src="https://x-data.mx/img/manufactura.png" alt="">
+												<p class="tab-transporte-titulo">Manufactura</p>
+												<p class="tab-transporte-p">Eleva la calidad de producción, mide el desempeño de la planta, reduce el riesgo de incidentes en tu personal, y genera predicciones sustentadas en datos utilizando nuestras herramientas.</p>
+											</div>
+											<div class="tab-pane fade" id="v-pills-t3" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+												<img loading="lazy"  src="https://x-data.mx/img/retail.png" alt="">
+												<p class="tab-transporte-titulo">Retail y bienes de consumo</p>
+												<p class="tab-transporte-p">Consolidamos la información de ventas, inventarios, devoluciones, órdenes de compra y facturas pendientes de pago dentro de una misma plataforma, para facilitar la comunicación con tus clientes, analizar el desempeño de tus principales canales de venta y monitorear la salud de tu empresa.</p>
+											</div>
+											<div class="tab-pane fade" id="v-pills-t4" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+												<img loading="lazy"  src="https://x-data.mx/img/salud-y-farmaceutica.png" alt="">
+												<p class="tab-transporte-titulo">Salud y farmacéutica</p>
+												<p class="tab-transporte-p">Analiza la demanda, venta, distribución y comportamiento de los productos del sector para mejorar la operación y asegurar la disponibilidad del producto en todo el país.</p>
+											</div>
+											<div class="tab-pane fade" id="v-pills-t5" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+												<img loading="lazy"  src="https://x-data.mx/img/avion-icon.png" alt="">
+												<p class="tab-transporte-titulo">Turismo</p>
+												<p class="tab-transporte-p">Centraliza la información, analiza el comportamiento y las tendencias globales de la industria con nuestro observatorio turístico. </p>
+											</div>
+											<div class="tab-pane fade" id="v-pills-t6" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+												<img loading="lazy"  src="https://x-data.mx/img/energetico-icon.png" alt="">
+												<p class="tab-transporte-titulo">Energético</p>
+												<p class="tab-transporte-p">Actualiza en tiempo real variables como el precio del dólar, de los metales y otros indicadores para agilizar la toma de decisiones</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Termina menú soluciones -->
+					<li class="nav-item">
+	<a href="https://x-data.mx/blog/" class="nav-link pagescroll" aria-current="true" onclick="">Blog</a>
+</li><li class="nav-item">
+	<a href="https://x-data.mx/prensa" class="nav-link pagescroll" aria-current="true" onclick="">Prensa</a>
+</li>
+					<!-- <li class="nav-item">
+						<a class="nav-link pagescroll" aria-current="true" onclick="">NFT</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link pagescroll" aria-current="true" onclick="">Dataviz</a>
+					</li> -->
+					<li class="nav-item">
+						<a href="https://x-data.mx/contacto" class="nav-link pagescroll" aria-current="true" onclick="">Contacto</a>
+					</li>
+					<li class="nav-item">
+						<div class="navMob-dropdown_lang dropdown">
+							<button class="dropbtn btn " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+								ES
+								<img loading="lazy"  src="https://x-data.mx/img/icons/dropdown-soluciones.svg" alt="">
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+								<li><a class="dropdown-item" href="https://x-data.mx/home">EN</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="nav-mobile-all">
+			<div class="navMobile d-xl-none">
+				<img loading="lazy"  src="https://x-data.mx/img/logos/x-data.svg" alt="">
+				<div class="navMobile-header">
+					<!-- dropdown EN/ES -->
+					<div class="navMob-dropdown_lang dropdown">
+						<button class="dropbtn btn " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+							ES
+							<img loading="lazy"  src="https://x-data.mx/img/icons/dropdown-soluciones.svg" alt="">
+						</button>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+							<li><a class="dropdown-item" href="https://x-data.mx/home">EN</a></li>
+						</ul>
+					</div>
+					<!-- Termina dropdown EN/ES -->
+					<div class="button_container" id="toggle">
+						<span class="top"></span>
+						<span class="middle"></span>
+						<span class="bottom"></span>
+					</div>
+				</div>
+			</div>
+			<!-- Carousel -->
+			<div id="carouselSolucionesMobile"  class="carousel slide carousel-soluciones-mobile" data-bs-ride="carousel" data-bs-interval="false">
+				<div class="carousel-inner">
+					<!-- Item de opciones principales -->
+					<div class="carousel-item active" id="soluciones-mobile-item1">
+						<div class="overlay d-xl-none" id="overlay">
+							<nav class="overlay-menu">
+								<ul>
+									<li class="navMobile-li-interno"><a href="#nosotros">Nosotros</a></li>
+									<li class="navMobile-li-soluciones"><a href="#" id="navMobile-ir-a-soluciones">Soluciones <img loading="lazy"  src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></a></li>
+									<li><a href="https://x-data.mx/blog/">Blog</a></li><li><a href="https://x-data.mx/prensa">Prensa</a></li>
+									<!-- <li><a href="#">NFT</a></li> -->
+									<!-- <li><a href="#">Dataviz</a></li> -->
+									<li><a href="https://x-data.mx/contacto">Contacto</a></li>
+									<li>
+										<div class="navMobile-social">
+											<a href="https://twitter.com/xdatamx" target="_blank">
+												<img loading="lazy"  src="https://x-data.mx/img/icons/fr-tw.svg" alt="">
+											</a>
+											<a href="https://www.instagram.com/xdatamx/" target="_blank">
+												<img loading="lazy"  src="https://x-data.mx/img/icons/fr-ig.svg" alt="">
+											</a>
+											<a href="https://www.linkedin.com/company/x-data/" target="_blank">
+												<img loading="lazy"  src="https://x-data.mx/img/icons/fr-in.svg" alt="">
+											</a>
+											<a href="https://www.facebook.com/XDATAMX/" target="_blank">
+												<img loading="lazy"  src="https://x-data.mx/img/icons/fr-fb.svg" alt="">
+											</a>
+										</div>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<!-- Item de opciones secundarias -->
+					<div class="carousel-item" id="soluciones-mobile-item2">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-ir-a-principal-de-soluciones">
+								<p><img loading="lazy"  id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Soluciones</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones">
+								<ul>
+									<li id="navMobile-ir-a-servicios">
+										<p>Servicios<img loading="lazy"  class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+									</li>
+									<li id="navMobile-ir-a-productos">
+										<p>Productos<img loading="lazy"  class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+									</li>
+									<li id="navMobile-ir-a-industrias">
+										<p>Industrias<img loading="lazy"  class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<!-- Item de servicios -->
+					<div class="carousel-item" id="soluciones-mobile-item3">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-a-soluciones-de-servicios">
+								<p><img loading="lazy"  id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Servicios</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones op2">
+								<ul>
+									<a href="https://x-data.mx/analitica-avanzada/" title="Analítica Avanzada" target="_blank"><li id="ir-a-analitica">
+										<p><span> <img loading="lazy"  src="https://x-data.mx/img/analitica-avanzada.png" alt="">Analítica avanzada</span><img loading="lazy"  class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+									</li>
+</a>
+									<li id="ir-a-dash">
+										<p><span> <img loading="lazy"  src="https://x-data.mx/img/dashboards.png" alt="">Dashboards</span><img loading="lazy"  class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+									</li>
+									<li id="ir-a-dataviz">
+										<p><span> <img loading="lazy"  src="https://x-data.mx/img/dataviz.png" alt="">Dataviz</span><img loading="lazy"  class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+									</li>
+									<a href="https://x-data.mx/consultoria-de-soluciones/" title="Consultoría en arquitectura de datos" target="_blank"><li id="ir-a-consultoria">
+										<p><span> <img loading="lazy"  src="https://x-data.mx/img/arquitectura-de-datos.png" alt="">Consultoría en arquitectura de datos</span><img loading="lazy"  class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+									</li>
+</a>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<!-- Item de analítica avanzada -->
+					<div class="carousel-item" id="soluciones-mobile-item6">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-de-analitica">
+								<p><img loading="lazy"  id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Servicios</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones">
+								<ul class="soluciones-ul-container">
+									<img loading="lazy"  src="https://x-data.mx/img/analitica-avanzada.png" alt="">
+									<p class="ul-container-titulo">Analítica Avanzada</p>
+									<p>Centraliza y analiza la data de tu organización para identicar oportunidades de negocio y resolver problemas. Deja que los datos hablen por sí mismos y te muestren cómo se está comportando tu mercado.</p>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<!-- Item de dashboards -->
+					<div class="carousel-item" id="soluciones-mobile-item7">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-de-dash">
+								<p><img loading="lazy"  id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Servicios</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones">
+								<ul class="soluciones-ul-container">
+									<img loading="lazy"  src="https://x-data.mx/img/dashboards.png" alt="">
+									<p class="ul-container-titulo">Dashboards</p>
+									<p>Toma el control de tu empresa usando herramientas que te permitan monitorear la información de tu negocio en tiempo real. Toma decisiones basadas en datos duros, apoyándote de tableros fáciles de leer. Descubre insights valiosos dentro de tu información y empodera a toda tu empresa con ellos.</p>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<!-- Item de dataviz -->
+					<div class="carousel-item" id="soluciones-mobile-item8">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-de-dataviz">
+								<p><img loading="lazy"  id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Servicios</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones">
+								<ul class="soluciones-ul-container">
+									<img loading="lazy"  src="https://x-data.mx/img/dataviz.png" alt="">
+									<p class="ul-container-titulo">Dataviz</p>
+									<p>Muestra a tu audiencia sets de datos complejos de una manera atractiva y fácil de digerir. La visualización de datos es la intersección entre la ciencia y el arte de mostrar información, lo cual hace mucho más fácil identicar insights clave.</p>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<!-- Item de consultoria -->
+					<div class="carousel-item" id="soluciones-mobile-item9">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-de-consultoria">
+								<p><img loading="lazy"  id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Servicios</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones">
+								<ul class="soluciones-ul-container">
+									<img loading="lazy"  src="https://x-data.mx/img/arquitectura-de-datos.png" alt="">
+									<p class="ul-container-titulo">Consultoría en arquitectura de datos</p>
+									<p>Tu empresa genera grandes volúmenes de datos y procesarlos es un reto que nosotros te ayudamos a resolver. Súmate a las mejores prácticas de la industria para almacenar y estructurar la información, permitiéndote tener una mayor escalabilidad y colaboración en ujos de datos.</p>
+								</ul>
+							</div>
+						</div>	
+					</div>
+
+					<!-- Item de productos -->
+					<div class="carousel-item" id="soluciones-mobile-item4">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-a-soluciones-de-productos">
+								<p><img loading="lazy"  id="navMobile-flecha-atras" src="img/icons/flecha-soluciones-mobile.svg" alt="">Productos</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones op2">
+								<ul>
+									<li>
+										<a href="https://x-data.mx/baiwa">
+											<p><span><img loading="lazy"  src="https://x-data.mx/img/baiwa-icon.png" alt="">Baiwa</span><img loading="lazy"  class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+										</a>
+
+									</li>
+									<li id="ir-a-datalake">
+										<p><span><img loading="lazy"  src="https://x-data.mx/img/data-lake.png" alt="">Data Lake</span><img loading="lazy"  class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+									</li>
+									<li id="ir-a-energymap">
+										<p><span><img loading="lazy"  src="https://x-data.mx/img/energy-map.png" alt="">Energy Map</span><img loading="lazy"  class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- Item de baiwa -->
+					<div class="carousel-item" id="soluciones-mobile-item10">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-de-baiwa">
+								<p><img loading="lazy"  id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Productos</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones">
+								<ul class="soluciones-ul-container">
+									<img loading="lazy"  src="https://x-data.mx/img/baiwa-icon.png" alt="">
+									<p class="ul-container-titulo">Baiwa</p>
+									<p>Transforma tu área de Recursos Humanos en data driven. Diseña tu estrategia utilizando recursos tecnológicos donde contemples las necesidades de tu empresa y tus colaboradores. Reduce la rotación, contrata de manera inteligente y promueve activos valiosos dentro de tu organización.</p>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<!-- Item de data lake -->
+					<div class="carousel-item" id="soluciones-mobile-item11">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-de-datalake">
+								<p><img loading="lazy"  id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Productos</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones">
+								<ul class="soluciones-ul-container">
+									<img loading="lazy"  src="https://x-data.mx/img/data-lake.png" alt="">
+									<p class="ul-container-titulo">Data Lake</p>
+									<p>Todos tus datos en un mismo lugar. Crea un repositorio para almacenar, gestionar, indexar y disponer de todos los datos estructurados o no estructurados que generes, de manera sencilla y automática; con la capacidad de digerir altos volúmenes de información.</p>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<!-- Item de energy map -->
+					<div class="carousel-item" id="soluciones-mobile-item12">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-de-energymap">
+								<p><img loading="lazy"  id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Productos</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones">
+								<ul class="soluciones-ul-container">
+									<img loading="lazy"  src="https://x-data.mx/img/energy-map.png" alt="">
+									<p class="ul-container-titulo">Energy Map</p>
+									<p>A través de un tablero ejecutivo, monitorea en tiempo real el precio de la energía eléctrica, gas natural y otros factores que puedan alterar estos indicadores, como el tipo de cambio, INPC, etc.</p>
+								</ul>
+							</div>
+						</div>	
+					</div>
+
+
+					<!-- Item de industrias -->
+					<div class="carousel-item" id="soluciones-mobile-item5">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-a-soluciones-de-industrias">
+								<p><img loading="lazy"  id="navMobile-flecha-atras" src="img/icons/flecha-soluciones-mobile.svg" alt="">Industrias</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones op2">
+								<ul>
+									<li id="ir-a-logistica">
+										<p><span><img loading="lazy"  src="https://x-data.mx/img/logistica-y-transporte.png" alt="">Logística y transporte</span><img loading="lazy"  class="soluciones-flecha-next" src="img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+									</li>
+									<li id="ir-a-manufactura">
+										<p><span><img loading="lazy"  src="https://x-data.mx/img/manufactura.png" alt="">Manufactura</span><img loading="lazy"  class="soluciones-flecha-next" src="img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+									</li>
+									<li id="ir-a-retail">
+										<p><span><img loading="lazy"  src="https://x-data.mx/img/retail.png" alt="">Retail y bienes de consumo</span><img loading="lazy"  class="soluciones-flecha-next" src="img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+									</li>
+									<li id="ir-a-salud">
+										<p><span><img loading="lazy"  src="https://x-data.mx/img/salud-y-farmaceutica.png" alt="">Salud y farmacéutica</span><img loading="lazy"  class="soluciones-flecha-next" src="img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+									</li>
+								</ul>
+							</div>
+						</div>		     	
+					</div>
+					<!-- Item de logistica -->
+					<div class="carousel-item" id="soluciones-mobile-item13">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-de-logistica">
+								<p><img loading="lazy"  id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Industrias</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones">
+								<ul class="soluciones-ul-container">
+									<img loading="lazy"  src="https://x-data.mx/img/logistica-y-transporte.png" alt="">
+									<p class="ul-container-titulo">Logística y transporte</p>
+									<p>Optimiza rutas y tiempos de entrega con la centralización de datos y el análisis de tendencias</p>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<!-- Item de manufactura -->
+					<div class="carousel-item" id="soluciones-mobile-item14">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-de-manufactura">
+								<p><img loading="lazy"  id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Industrias</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones">
+								<ul class="soluciones-ul-container">
+									<img loading="lazy"  src="https://x-data.mx/img/manufactura.png" alt="">
+									<p class="ul-container-titulo">Manufactura</p>
+									<p>Eleva la calidad de producción, mide el desempeño de la planta, reduce el riesgo de incidentes en tu personal, y genera predicciones sustentadas en datos utilizando nuestras herramientas.</p>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<!-- Item de retail -->
+					<div class="carousel-item" id="soluciones-mobile-item15">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-de-retail">
+								<p><img loading="lazy"  id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Industrias</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones">
+								<ul class="soluciones-ul-container">
+									<img loading="lazy"  src="https://x-data.mx/img/retail.png" alt="">
+									<p class="ul-container-titulo">Retail y bienes de consumo</p>
+									<p>Consolidamos la información de ventas, inventarios, devoluciones, órdenes de compra y facturas pendientes de pago dentro de una misma plataforma, para facilitar la comunicación con tus clientes, analizar el desempeño de tus principales canales de venta y monitorear la salud de tu empresa.</p>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<!-- Item de salud -->
+					<div class="carousel-item" id="soluciones-mobile-item16">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-de-salud">
+								<p><img loading="lazy"  id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Industrias</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones">
+								<ul class="soluciones-ul-container">
+									<img loading="lazy"  src="https://x-data.mx/img/salud-y-farmaceutica.png" alt="">
+									<p class="ul-container-titulo">Salud y farmaceútica</p>
+									<p>Analiza la demanda, venta, distribución y comportamiento de los productos del sector para mejorar la operación y asegurar la disponibilidad del producto en todo el país.</p>
+								</ul>
+							</div>
+						</div>	
+					</div>
+
+				</div>
+			</div>
+		</div>`
+	</header>
+		<main class="main-hija">
+			<!-- Banner -->
+			<section class="nieta-banner " id="x-data">
+				<h1 class="nieta-banner_titulo">Casos de éxito de People Analytics</h1>
+			</section>
+				<hr class="nieta-banner_hr">	
+			<section class="madre-section1 myContainer">
+				<a target="_blank" title="¿Qué es People Analytics?" href="https://x-data.mx/people-analytics/que-es-people-analytics/" class="nieta-titulos_hija">¿Qué es People Analytics?</a>
+				<h2 class="titulo-grande-seccion">Casos de éxito de People Analytics</h2>
+				
+				<p class="p-center">Este estudio  de caso muestra cómo incluso las organizaciones con <a target="_blank" style="color: var(--navy);" title="¿Cómo medir la madurez de la organización?" href="https://x-data.mx/people-analytics/que-es-people-analytics/medir-la-madurez-de-la-organizacion/">alta madurez analítica</a> aún pueden mejorar sus procesos y beneficiarse de las ciencias sociales.</p>
+				<p class="p-center">
+					Una empresa estadounidense de software con más de 40 años en el sector de T.I y una plantilla de más de 100 mil colaboradores, cuenta con una gestión madura de datos y una función de analítica interna altamente sofisticada.
+				</p>
+				<p class="p-center">
+					Hace algunos años, dicha empresa se interesó por la metodología de People Analytics, especialmente en el uso de la <b>psicometría</b> y el aprendizaje automático para mejorar su capacidad de análisis de talento. Dado que ya era una empresa Data-driven, el desafío era pasar de ser una organización impulsada por datos; a una impulsada por conocimientos mediante la implementación de marcadores psicológicos para mejorar la predicción de la deserción, el rendimiento, compromiso de los empleados, selección de líderes y el ambiente laboral.
+
+				</p>
+				<p class="p-center">
+					Como ya hemos mencionado antes, People Analytics es un trabajo en conjunto, por lo que una estrecha cooperación entre las partes interesadas,transferencia de conocimiento y confianza, fue fundamental para el éxito de este proyecto.
+				</p>
+				<p class="p-center">El resultado fue un enriquecimiento notable en los modelos predictivos ya existentes mediante la identificación y correlación de características psicométricas. Además de una estrecha relación con el cliente como consecuencia del aprendizaje mutuo.</p>
+				<p class="p-center">En este caso la pregunta de investigación era ¿cómo las operaciones de analítica avanzada ayudan a tomar decisiones sobre la gestión de personas e impulsar una organización más unida? Cuyo desafío entraba dentro del rubro de Optimización.</p>
+				<p class="p-center">
+					El proyecto tuvo una duración total de 12 meses que se desglosaron en 4 fases:
+				</p>
+			<!-- 	<div class="nieta-banderas">
+					<div class="bandera-div">
+						<img class="bandera-img" src="/img/dashboards.png" alt="">
+						<div class="bandera">
+							<h3 class="bandera-titulo">Contratación</h3>
+							<ul class="bandera-ul">
+								<li class="bandera-li"><p>Creación de la estrategia</p></li>
+								<li class="bandera-li"><p>Alineación de objetivos y alcanzables</p></li>
+								<li class="bandera-li"><p>Reunión con los Stakeholders (CDPO, CHRO)</p></li>
+							</ul>
+						</div>
+					</div>
+					<div class="bandera-div">
+						<img class="bandera-img" src="/img/adn-visualizacion.png" alt="">
+						<div class="bandera">
+							<h3 class="bandera-titulo">Determinación</h3>
+							<ul class="bandera-ul">
+								<li class="bandera-li"><p>Exploración del almacén de datos</p></li>
+								<li class="bandera-li"><p>Reconocimiento de las fuentes de datos</p></li>
+								<li class="bandera-li"><p>Recopilación, análisis e interpretación de datos</p></li>
+								<li class="bandera-li"><p>Reuiones con los cinetíficos de datos, psicólogos e ingenieros</p></li>
+							</ul>
+						</div>
+					</div>
+					<div class="bandera-div">
+						<img class="bandera-img" src="/img/adn-nodos.png" alt="">
+						<div class="bandera">
+							<h3 class="bandera-titulo">Psicometría</h3>
+							<ul class="bandera-ul">
+								<li class="bandera-li"><p>Colaboración con psicólogos y analistas internos</p></li>
+								<li class="bandera-li"><p>Creación de modelos psicométricos con los científicos de datos y analistas</p></li>
+							</ul>
+						</div>
+					</div>
+					<div class="bandera-div">
+						<img class="bandera-img" src="/img/dataviz.png" alt="">
+						<div class="bandera">
+							<h3 class="bandera-titulo">Resultados</h3>
+							<ul class="bandera-ul">
+								<li class="bandera-li"><p>Participación en discusiones y talleres comunes</p></li>
+								<li class="bandera-li"><p>Impartición de estudios psicológicos para la ingeniería de características</p></li>
+								<li class="bandera-li"><p>Implementación de los modelos psicométricos basados en resultados</p></li>
+							</ul>
+						</div>
+					</div>
+					<div class="bandera-div">
+						<img class="bandera-img" src="/img/analitica-avanzada.png" alt="">
+						<div class="bandera">
+							<h3 class="bandera-titulo">Optimización</h3>
+							<ul class="bandera-ul">
+								<li class="bandera-li"><p>Mejora del rendimiento</p></li>
+								<li class="bandera-li"><p>Capacitación</p></li>
+								<li class="bandera-li"><p>¿Cómo alinea la carrera de un colaborador a las necesidades de la organización?</p></li>
+								<li class="bandera-li"><p>Desarrollo del liderazgo</p></li>
+							</ul>
+						</div>
+					</div>
+				</div> -->
+				<img src="/img/diagrama-fases-mobile.png" alt="" class="diagrama-fases-mobile">
+				<img src="/img/diagrama-fases.png" alt="" class="diagrama-fases">
+				<p class="p-center">
+					A pesar de que el objetivo del proyecto era técnico, uno de los factores de éxito fue la mirada <b>out of the box</b> para incorporar teoría psicológica a la ingeniería de características. Además de la cooperación entre psicólogos, analistas y expertos en People Analytics que enriquecieron el enfoque y la creación de hipótesis.
+				</p>
+				<p class="p-center">Se implementaron una gran variedad de técnicas de ciencia de datos como análisis factorial, análisis de supervivencia, procesamiento del lenguaje natural, optimización de oferta y demanda y, predicción. <br>Para esto se analizaron dos muestras equiparables de colaboradores, cumpliendo ya con las 4 de 4 consideraciones para implementar People Analytics que repasamos en <a target="_blank" title="¿Qué necesito para comenzar en People Analytics?" href=" https://x-data.mx/people-analytics/que-es-people-analytics/que-necesito-para-comenzar-en-people-analytics/">¿Qué necesito para comenzar?</a> :</p>
+				<ul class="p-center">
+					<li>
+						<p class="">Una estrategia bien definida</p>
+					</li>
+					<li>
+						<p class="">Tamaño de muestra mayor o igual a 200 personas</p>
+					</li>
+					<li>
+						<p class="">Muestra comparable</p>
+					</li>
+					<li>
+						<p class="">Serie temporal de los datos no mayor a 3 años</p>
+					</li>
+				</ul>
+				<p class="p-center">De este caso de estudio podemos identificar tres elementos que generaron un ROI para esta empresa de software:</p>
+				<ol class="p-center">
+					<li>
+						<p>Mejora en la explicabilidad de los modelos, que pasaron de ser <b>cajas negras</b> a beneficiarse de la teoría y así reducir los riesgos éticos.</p>
+					</li>
+					<li>
+						<p>Perfeccionamiento de la precisión predictiva de los modelos ya existentes, mismos que apuntan a la rotación, rendimiento y compromiso de los colaboradores.</p>
+					</li>
+					<li>
+						<p>Transferencia de aprendizaje y formación en conjunto generada por la colaboración.</p>
+					</li>
+				</ol>
+				<p class="p-center">Podríamos decir que fue un proyecto exitoso que trajo muchos beneficios a largo plazo, la organización pasó de ser una empresa únicamente impulsada por datos, a beneficiarse de los conocimientos resultantes del proyecto de People Analytics.</p>
+			</section>
+		</main>
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/21424823.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+<script defer src="/js/jquery.js"></script>
+<script src="/js/bootstrap.bundle.js" defer></script>
+<script src="/js/app0106.js" defer></script>
+
+</body>
+</html>
+

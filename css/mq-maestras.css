@@ -1,0 +1,451 @@
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	.myContainer{
+	    max-width: 80%;
+	}
+    .titulo-grande-seccion{
+    	font-size: 2rem;
+    }
+    .titulo-seccion{
+	    font-size: 1.4rem;
+	}
+	p, a, button, .mybtn, .timeline-li .content li, .table-diferencias li{
+        font-size: .875rem;
+    }
+
+    /* section1 */
+    	.madre-section1_flex{
+    	    margin-top: 2rem;
+    	}
+    	 .main-hija .section1-flex_img{
+	        width: 35vw;
+	        height: 35vw;
+	    }
+
+	/* table */
+		.table-diferencias{
+			margin: 2rem auto;
+		}
+		.table-diferencias th{
+		    font-size: .975rem;
+		}
+
+		.nieta-banner{
+			padding: 0 15%;
+		}
+		.nieta-banner_titulo{
+			font-size: 2.4rem;
+		}
+		.nieta-titulos_hija{
+			font-size: 1.4rem;
+		}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.myContainer{
+	    max-width: 676px;
+	    margin: 3rem auto;
+	} 
+	.link-interno{
+        max-width: 16rem;
+	}
+	.links-internos{
+		/*border-style: solid;*/
+        padding: 2rem 0;
+	}
+	.link-interno_title{
+	    font-size: 1rem;
+	    margin-bottom: 8px;
+	    margin-top: 1rem;
+	}
+    .titulo-grande-seccion{
+    	font-size: 2rem;
+    }
+    .titulo-seccion{
+	    font-size: 1.1rem;
+	}
+	p, a, button, .mybtn, .timeline-li .content li, .table-diferencias li{
+        font-size: .975rem;
+    }
+   
+    /* banner */
+    	.home-banner{
+    	    min-height: calc(50vh - 80px);
+    	    background: url('../img/fondo-portada-desktop2.png'), url('../img/cuadros-banner.png'), linear-gradient(0deg, rgba(223,247,246,1) 50%, rgba(255,255,255,1) 100%);
+		    background-size: cover;
+		    background-position: 50% 100%;
+    	}
+    	.home-banner_titulo{
+            font-size: 2.5rem;
+        }
+        .banner-btns_flex{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+        .btn-modal{
+            width: 200px;
+            margin: 0 1.5rem;
+            padding: 12px 0;
+            font-size: .9rem;
+        }
+
+    /* Section1 */
+    	.madre-section1_flex{
+    	    gap: 2rem;
+    	    margin-top: 2.5rem;
+    	}
+    	.section1-flex_img{
+    	    width: 300px;
+    	    height: 300px;
+    	    display: flex;
+    	    justify-content: space-evenly;
+    	}
+    	.section1-flex_img img{
+    	    width: 50%;
+    	}
+    	.main-hija .section1-flex_img{
+	        width: 200px;
+	        height: 200px;
+	    }
+
+	/* table */
+
+		.table-diferencias th{
+		    font-size: 1rem;
+		}
+		.table-diferencias th{
+		    padding: 12px 22px;
+		}
+		.table-diferencias td{
+		    padding: 18px 22px;
+		}
+    /* nieta */
+    	.flecha{
+    	    width: 90%;
+    	    max-width: 400px;
+    	    height: 300px;
+    	    padding: 1rem;
+    	}
+    	.bandera{
+	        height: 320px;
+	        width: 320px;
+	    }
+	     .bandera-titulo{
+	        font-size: 1.2rem;
+	        margin-bottom: .5rem;
+	    }
+
+	/* timeline */
+		.time-icon{
+			width: 4rem
+		}
+		.timeline-li:nth-child(odd) .time-icon{
+		    top: -50%;
+		    left: 120%;
+		}
+		.timeline-li:nth-child(even) .time-icon{
+		    top: -50%;
+		    left: unset;
+		    right: 120%;
+		}
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.myContainer{
+	    max-width: 745px;
+	    margin: 6rem auto;
+	} 
+	/* slider */
+ 		.container.container-blog{
+		    width: 40rem;
+		}
+		.swiper-wrapper{
+			margin-top: 2rem;
+			margin-bottom: 4rem;
+		}
+	.myContainer.links-internos{
+		gap: 4rem;
+	}
+    .titulo-grande-seccion{
+    	font-size: 2.1rem;
+    	margin-bottom: 2rem;
+    }
+	p, a, button, .mybtn, .table-diferencias li{
+        font-size: 1rem;
+    }
+    .mybtn{
+    	width: 240px;
+    }
+    .p-center{
+    	text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    /* section1 */
+    	.section1-flex_img{
+    	    width: 350px;
+    	    height: 350px;
+    	    display: flex;
+    	    justify-content: space-evenly;
+    	}
+		.main-hija .section1-flex_img{
+	        width: 250px;
+	        height: 250px;
+	    }
+
+	/* Timeline */
+		.timeline{
+			display: none;
+		}
+		.timeline-desk{
+			display: block;
+		 	position: relative;
+		}
+		.timeline-desk-icons{
+		 	padding-bottom: 3rem;
+		}
+		.timeline-desk-noicons{
+		 	padding: 0 0 19rem;
+		}
+		.timeline-desk-interna{
+        	list-style-position: inside;
+        	text-align: left;
+        	margin: 0 auto;
+			max-width: 340px;
+		}
+		.timeline-desk-interna li{
+			color: var(--gris9);
+			margin-bottom: .5rem;
+		}
+		.timeline-desk .timeline-desk-li h3{
+			color: var(--navy);
+			font-size: 1.2rem;
+			font-weight:600;
+			margin-bottom: 1rem;
+			margin-top: 1.5rem;
+		}
+		.timeline-desk .timeline-desk-li{
+		  list-style: none;
+		  float: left;
+		  width: 33.3333%;
+		  position: relative;
+		  text-align: center;
+		}
+		.time-icon{
+			all: unset;
+			width: 4rem;
+		}
+		.timeline-desk.timeline-desk-noicons .timeline-desk-li:nth-child(1):before{
+			content: "80's";
+		}
+		.timeline-desk.timeline-desk-noicons .timeline-desk-li:nth-child(2):before{
+			content: "2000's";
+		}
+		.timeline-desk.timeline-desk-noicons .timeline-desk-li:nth-child(3):before{
+			content: "Hoy";
+		}
+		.timeline-desk.timeline-desk-noicons .timeline-desk-li:before{
+		  content: '80s';
+		  width: 100px;
+		  height: 40px;
+		  border-radius: 2rem;
+		  display: block;
+		  text-align: center;
+		  line-height: 40px;
+		  margin: 0 auto 10px auto;
+		  background-color: var(--indigo);
+		  color: #fff;
+		}
+		.timeline-desk.timeline-desk-icons .timeline-desk-li:before{
+		  content: '';
+		  display: inline-block;
+		}
+
+		.timeline-desk.timeline-desk-noicons .timeline-desk-li:after{
+		  content: "";
+		  position: absolute;
+		  width: 100%;
+		  height: 1px;
+		  background-color: var(--gris9);
+		  top: 25px;
+		  left: -50%;
+		  z-index: -999;
+		  transition: all ease-in-out .3s;
+		}
+
+		.timeline-desk .timeline-desk-li:first-child:after{
+		  content: none;
+		}
+		
+	/* table */
+		.table-diferencias{
+			max-width: 800px;
+			margin: 3rem auto;
+		}
+		.table-diferencias th{
+		    font-size: 1.1rem;
+		}
+
+	/* nieta */
+
+		.ul-people-analytics-que-necesito{
+		    margin: 3rem auto;
+		}
+		.transitemos{
+	        margin-top: 4rem;
+	    }
+	    .nieta-titulos_hija{
+	    	font-size: 1.6rem;
+	    }
+	    .lista-colores{
+	        padding: 1rem 2.5rem;
+	    }
+
+	    .diagrama-analitica-desk{
+	    	display: block;
+	    	width: 100%;
+	    	margin: 4rem auto;
+	    	max-width: 900px;
+	    }
+	    .diagrama-analitica-mob{
+	    	display: none;
+	    }
+	   .nieta-banderas{
+			display: none;
+		}
+		.diagrama-fases-mobile{
+			display: none;
+		}
+		.diagrama-fases{
+			display: block
+		}
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+	main{
+	    margin-top: 100px;
+	}
+	.myContainer{
+	    max-width: 900px;
+	} 
+    .titulo-grande-seccion{
+    	font-size: 2.4rem;
+    }
+	p, a, button, .mybtn{
+        font-size: 1rem;
+    }
+    .mybtn{
+    	width: 240px;
+    }
+    picture img{
+        max-width: 850px;
+        display: block;
+        margin: 0 auto;
+    }
+    figcaption{
+    	font-size: .975rem;
+    }
+    .link-interno{
+        max-width: 20rem;
+	}
+    /* banner */
+		.home-banner{
+    	    min-height: calc(55vh - 80px);
+    	    background: url('../img/fondo-portada-desktop2.png'), url('../img/cuadros-banner.png'), linear-gradient(0deg, rgba(223,247,246,1) 50%, rgba(255,255,255,1) 100%);
+		    background-size: cover;
+		    background-position: 0% 95%;
+		}
+		.home-banner_titulo{
+	        font-size: 3.5rem;
+	    }
+	    .main-hija .home-banner{
+    	    min-height: calc(65vh - 80px);
+	    }
+
+	/* timeline */
+		.timeline-desk{
+			display: block;
+		 	position: relative;
+		}
+		.timeline-desk-noicons{
+			padding-bottom: 16rem;
+		}
+		.timeline-desk-icons{
+			padding-top: 2rem;
+			padding-bottom: 4rem;
+		}
+		.time-icon{
+			width: 5rem;
+		}
+
+	.links-internos{
+		margin: 6rem 0;
+	}
+	.nieta-banner{
+		padding: 0 25%;
+		height: 500px;
+		margin-top: 100px;
+	}
+	.nieta-banner_titulo{
+		font-size: 3.2rem;
+	}
+
+}
+
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+	.myContainer{
+	    max-width: 1220px;
+	} 
+	.links-internos{
+		gap: 6rem;
+	}
+    .titulo-grande-seccion{
+    	font-size: 2.2rem;
+    	margin-top: 3rem;
+    }
+	p, a, button, .mybtn{
+        font-size: 1rem;
+    }
+    .mybtn{
+    	width: 260px;
+    }
+    .titulo-etapa{
+        padding: 12px 16px;
+    	font-size: 1.2rem;
+    	margin-left: 160px;
+    	margin-bottom: 1rem;
+    }
+
+    /* section 1 */
+
+    		.main-hija .section1-flex_img{
+    	        width: 280px;
+    	        height: 280px;
+    	    }
+ 	/* table */
+ 		.table-diferencias{
+ 			max-width: 800px;
+ 			margin: 4rem auto;
+ 		}
+
+
+}
+
+
+
+/*// Widescreen*/
+@media (min-width: 1600px) { 
+
+}

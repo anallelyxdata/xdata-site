@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Presupuesto 2022 | X-DATA</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles2704.css">
+	<link rel="stylesheet" href="css/mediaqueries2704.css">
+	<link rel="stylesheet" href="css/styles-milenio.css">
+	<link rel="stylesheet" href="css/mediaqueries-milenio.css">
+
+	<script src="js/milenio.js"></script>
+
+	<!-- SEO -->
+
+	<meta name="robots" content="X-DATA, Te presentamos una visualizacón que representa el presupuesto del gobierno en el año 2022.">
+
+	<meta name="author" content="X-DATA"><img src="https://tracker.metricool.com/c3po.jpg?hash=c793ed5268b27d984a56705fa4b1b83e"/><img src="https://tracker.metricool.com/c3po.jpg?hash=c793ed5268b27d984a56705fa4b1b83e"/>
+
+	<meta name="copyright" content="2020">
+
+	<meta name="description" content="X-DATA, Te presentamos una visualizacón que representa el presupuesto del gobierno en el año 2022. ">
+
+	<meta name="keywords" content="X-DATA, Te presentamos una visualizacón que representa el presupuesto del gobierno en el año 2022.">
+
+	<meta property="og:title" content="X-DATA"/>
+
+	<meta property="og:site_name" content="X-DATA, Te presentamos una visualizacón que representa el presupuesto del gobierno en el año 2022."/>
+
+	<meta property="og:description" content="X-DATA, Te presentamos una visualizacón que representa el presupuesto del gobierno en el año 2022."/>
+
+	<meta property="og:image" content="img/X-DATA.jpg">
+
+	<link href="img/logos/fav-icon.svg" rel="icon">
+</head>
+<body>
+	
+	<header>
+		<app-navbar></app-navbar>
+	</header>
+
+	<main class="main-milenio">
+		
+		<div class="container pt-5 text-white">
+			<h1 class="text-center">PRESUPUESTO NACIONAL</h1>
+			<p class="text-center text-white w-75 mx-auto">Creamos esta visualización para analizar cómo se conforma en México el Presupuesto de Egresos de la Federación 2022 emitido por la Secretaría de Hacienda y Crédito Público.  Es importante tener presente que el PEF se clasifica por finalidad y por ramos. Las cuatro categorías son: <span style="color:#a4d1cb;">desarrollo social</span>, <span style="color:#6bccce;">económico</span>, <span style="color:#82c294;">gobierno</span> y <span style="color:#e7c53f;">otros no clasificados</span>. Este último incluye el pago de la deuda pública nacional, la cuál analizaremos más adelante. </p>
+		</div>
+		<!-- grafica principal -->
+		<div class="container-principal" id="normal">
+			<img id="grafica" class="img-scale grafica-desk" src="img/grafica_presupuesto.png" alt="" usemap="#workmap">
+			<map name="workmap">
+				<div id="tooltip-1" class="shadow-lg  text-center">
+					<p id="tooltip-p">02. Agricultura, Ganadería, Desarrollo Rural, Pesca, Alimentación</p>
+					<p id="tooltip-cant">$ 3,310,409,841,977</p>
+				</div>
+				<!-- blanco -->
+					<!-- 1 - blanco -->
+					<area href ="sun.htm" target ="_blank" shape="circle" coords="205,3076,13"
+				onmouseover="ShowTooltip('#a4d1cb','78px','1950px','01. Agricultura y Desarrollo Rural', '$ 18,031,034,217')" onmouseout="RemoveTooltip()"/>
+					
+					<!-- 2 - blanco -->
+					<area href ="sun.htm" target ="_blank"shape="circle" coords ="233,2887,13"
+					onmouseover="ShowTooltip('#a4d1cb','96px','1830px','02. Agricultura, Ganadería, Desarrollo Rural, Pesca, Alimentación', '$ 4,172,434,069')" onmouseout="RemoveTooltip()"/>
+					<!-- 3 - blanco -->
+					<area shape="circle" coords ="267,3766,15"
+					onmouseover="ShowTooltip('#a4d1cb','114px','2375px','03. Aportaciones a Seguridad Social','$ 3,310,409,841,977')" onmouseout="RemoveTooltip()"
+					href ="sun.htm" target ="_blank" alt="Sun" />
+					<!-- 4 - blanco -->
+					<area shape="circle" coords ="295,3751,15"
+					onmouseover="ShowTooltip('#a4d1cb','132px','2370px','04. Aportaciones Federales para Entidades Federativas y Municipios', '$ 2,930,161,656,048')" onmouseout="RemoveTooltip()"
+					href ="sun.htm" target ="_blank" alt="Sun" />
+					<!-- 5 - blanco -->
+					<area shape="circle" coords ="320,3512,15"
+					onmouseover="ShowTooltip('#a4d1cb','150px','2220px','05. Bienestar', '$ 515,299,984,088')" onmouseout="RemoveTooltip()"
+					href ="sun.htm" target ="_blank" alt="Sun" />
+					<!-- 6  - blanco-->
+					<area shape="circle" coords ="349,3217,15"
+					onmouseover="ShowTooltip('#a4d1cb','166px','2035px','06. Cultura', '$51,719,592,167')" onmouseout="RemoveTooltip()"
+					href ="sun.htm" target ="_blank" alt="Sun" />
+					<!-- 7 - blanco -->
+					<area shape="circle" coords ="377,3171,13"
+					onmouseover="ShowTooltip('#a4d1cb','186px','2010px','07. Defensa Nacional', '$ 36,711,609,786')" onmouseout="RemoveTooltip()"
+					href ="sun.htm" target ="_blank" alt="Sun" />
+					<!-- 8 - blanco -->
+					<area shape="circle" coords ="410,3225,15"
+					onmouseover="ShowTooltip('#a4d1cb','204px','2040px','08. Desarrollo Agrario, Territorial y Urbano', '$ 55,075,885,054')" onmouseout="RemoveTooltip()"
+					href ="sun.htm" target ="_blank" alt="Sun" />
+
+					<!-- 9 - blanco -->
+					<area shape="circle" coords ="436,3315,15"
+					onmouseover="ShowTooltip('#a4d1cb','220px','2092px','09. Desarrollo Social', '$ 106,548,092,465')" onmouseout="RemoveTooltip()"
+					href ="sun.htm" target ="_blank" alt="Sun" />
+					<!-- 10 - blanco -->
+					<area shape="circle" coords ="467,3633,13"
+					onmouseover="ShowTooltip('#a4d1cb','238px','2295px','10. Educación Pública', '$ 1,184,092,978,946')" onmouseout="RemoveTooltip()"
+					href ="sun.htm" target ="_blank" alt="Sun" />
+					<!-- 11 - blanco -->
+					<area shape="circle" coords ="500,3092,15"
+					onmouseover="ShowTooltip('#a4d1cb','256px','1960px','11. Entidades no Sectorizadas', '$ 20,417,947,083')" onmouseout="RemoveTooltip()"
+					href ="sun.htm" target ="_blank" alt="Sun" />
+					<!-- 12 - blanco -->
+					<area shape="circle" coords ="526,2302,15"
+					onmouseover="ShowTooltip('#a4d1cb','274px','1470px','12. Gobernacion', '$49,107,586')" onmouseout="RemoveTooltip()"
+					href ="sun.htm" target ="_blank" alt="Sun" />
+					<!-- 13 - blanco -->
+					<area shape="circle" coords ="554,2779,15"
+					onmouseover="ShowTooltip('#a4d1cb','292px','1762px','13. Hacienda y Crédito Público', '$1,890,468,717')" onmouseout="RemoveTooltip()"
+					href ="sun.htm" target ="_blank" alt="Sun" />
+					<!-- 14 - blanco -->
+					<area shape="circle" coords ="585,2779,13"
+					onmouseover="ShowTooltip('#a4d1cb','312px','1762px','14. Instituto Nacional para la Evaluación de la Educación', '$ 1,925,069,356')" onmouseout="RemoveTooltip()"
+					href ="sun.htm" target ="_blank" alt="Sun" />
+					<!-- 15 - blanco -->
+					<area shape="circle" coords ="613,3066,15"
+					onmouseover="ShowTooltip('#a4d1cb','330px','1940px','15. Marina', '$16,760,563,156')" onmouseout="RemoveTooltip()"
+					href ="sun.htm" target ="_blank" alt="Sun" />
+					<!-- 16 - blanco -->
+					<area shape="circle" coords ="638,3297,15"
+					onmouseover="ShowTooltip('#a4d1cb','346px','2085px','16. Medio Ambiente y Recursos Naturales', '$ 96,790,767,332')" onmouseout="RemoveTooltip()"
+					href ="sun.htm" target ="_blank" alt="Sun" />
+					<!-- 17 - blanco -->
+					<area shape="circle" coords ="672,3407,18"
+					onmouseover="ShowTooltip('#a4d1cb','366px','2155px','17. Previsiones y aportaciones para los sistemas de educación báscia, normal tecnológica y de adultos', '$ 222,268,983,111')" onmouseout="RemoveTooltip()"
+					href ="sun.htm" target ="_blank" alt="Sun" />
+					<!-- 18 - blanco -->
+					<area shape="circle" coords ="700,3517,15"
+					onmouseover="ShowTooltip('#a4d1cb','384px','2230px','18. Salud', '$ 509,962,065,705')" onmouseout="RemoveTooltip()"
+					href ="sun.htm" target ="_blank" alt="Sun" />
+
+				<!-- azules -->
+
+				<!-- 1 - azul -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="731,3348,15"
+				onmouseover="ShowTooltip('#6bccce','404px','2120px','01. Agricultura y Desarrollo Rural', '$ 142,732,514,537')" onmouseout="RemoveTooltip()"/>
+				<!-- 2 - azul -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="756,3233,15"
+				onmouseover="ShowTooltip('#6bccce','420px','2050px','02. Agricultura, Ganadería, Desarrollo Rural, Pesca, Alimentación', '$ 60,022,235,629')" onmouseout="RemoveTooltip()"/>
+				<!-- 7 - azul -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="787,3053,13"
+				onmouseover="ShowTooltip('#6bccce','438px','1940px','07. Defensa Nacional', '$ 15,000,000,000')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 8 - azul -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="818,2902,15"
+				onmouseover="ShowTooltip('#6bccce','456px','1850px','08. Desarrollo Agrario, Territorial y Urbano', '$ 4,884,116,647')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 10 - azul -->
+				<area shape="circle" coords ="843,3241,15"
+				onmouseover="ShowTooltip('#6bccce','474px','2060px','10. Educación Pública', '$ 60,767,721,500')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 11 - azul -->
+				<area shape="circle" coords ="874,2966,18"
+				onmouseover="ShowTooltip('#6bccce','492px','1880px','11. Entidades no Sectorizadas', '$ 7,617,584,553')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 13 - azul -->
+				<area shape="circle" coords ="905,2917,13"
+				onmouseover="ShowTooltip('#6bccce','510px','1860px','13. Hacienda y Crédito Público', '$ 5,530,541,382')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 16 - azul -->
+				<area shape="circle" coords ="933,3151,15"
+				onmouseover="ShowTooltip('#6bccce','528px','2000px','16. Medio Ambiente y Recursos Naturales', '$ 31,918,444,720')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 18 - azul -->
+				<area shape="circle" coords ="961,2984,15"
+				onmouseover="ShowTooltip('#6bccce','544px','1900px','18. Salud', '$ 9,108,956,341')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 19 - azul -->
+				<area shape="circle" coords ="992,2805,15"
+				onmouseover="ShowTooltip('#6bccce','564px','1790px','19. Comisión Federal de Competencia Económica', '$ 2,332,121,425')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 20 - azul -->
+				<area shape="circle" coords ="1019,2678,14"
+				onmouseover="ShowTooltip('#6bccce','582px','1700px','20. Comisión Nacional de Hidrocarburos', '$ 870,937,120')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 21 - azul -->
+				<area shape="circle" coords ="1049,2694,15"
+				onmouseover="ShowTooltip('#6bccce','600px','1720px','21. Comisión Reguladora de Energía', '$ 1,009,705,590')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 22 - azul -->
+				<area shape="circle" coords ="1077,3425,15"
+				onmouseover="ShowTooltip('#6bccce','618px','2170px','22. Comunicaciones y Transportes', '$ 253,897,283,495')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 23 - azul -->
+				<area shape="circle" coords ="1108,3307,15"
+				onmouseover="ShowTooltip('#6bccce','636px','2100px','23. Consejo Nacional de Ciencia y Tecnología', '$ 103,637,393,226')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 24 - azul -->
+				<area shape="circle" coords ="1136,3148,18"
+				onmouseover="ShowTooltip('#6bccce','656px','2000px','24. Economía', '$ 31,175,358,807')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 25 - azul -->
+				<area shape="circle" coords ="1164,3330,18"
+				onmouseover="ShowTooltip('#6bccce','670px','2120px','25. Energía', '$ 125,104,076,891')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 26 - azul -->
+				<area shape="circle" coords ="1192,2946,15"
+				onmouseover="ShowTooltip('#6bccce','690px','1870px','26. Instituto Federal de Telecomunicaciones', '$ 6,567,782,744')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 27 - azul -->
+				<area shape="circle" coords ="1223,3474,18"
+				onmouseover="ShowTooltip('#6bccce','708px','2190px','27. Provisiones Salariales y Económicas', '$ 367,221,983,269')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 28 - azul -->
+				<area shape="circle" coords ="1254,3294,18"
+				onmouseover="ShowTooltip('#6bccce','75%','1200px','28. Trabajo y Previsión Social', '$ 95,638,974,217')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 29 - azul -->
+				<area shape="circle" coords ="1284,3228,15"
+				onmouseover="ShowTooltip('#6bccce','746px','2050px','29. Turismo', '$ 55,984,188,243')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+
+				<!-- verde -->
+
+				<!-- 1 - verde -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="1310,2494,15"
+				onmouseover="ShowTooltip('#82c294','762px','1594px','01. Agricultura y Desarrollo Rural', '$ 215,927,279')" onmouseout="RemoveTooltip()"/>
+				<!-- 2 - verde -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="1341,2428,15"
+				onmouseover="ShowTooltip('#82c294','780px','1554px','02. Agricultura, Ganadería, Desarrollo Rural, Pesca, Alimentación', '$ 130,413,780')" onmouseout="RemoveTooltip()"/>
+				<!-- 4 - verde -->
+				<area shape="circle" coords ="1369,3141,15"
+				onmouseover="ShowTooltip('#82c294','800px','1990px','04. Aportaciones Federales para Entidades Federativas y Municipios', '$ 29,349,602,458')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 5 - verde -->
+				<area shape="circle" coords ="1400,2418,15"
+				onmouseover="ShowTooltip('#82c294','818px','1550px','05. Bienestar', '$ 122,755,076')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 6 - verde -->
+				<area shape="circle" coords ="1425,2507,15"
+				onmouseover="ShowTooltip('#82c294','836px','1600px','06. Cultura', '$ 243,270,000')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 7 - verde -->
+				<area shape="circle" coords ="1456,3464,15"
+				onmouseover="ShowTooltip('#82c294','856px','2190px','07. Defensa Nacional', '$ 329,566,344,339')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 8 - verde -->
+				<area shape="circle" coords ="1484,2835,15"
+				onmouseover="ShowTooltip('#82c294','872px','1800px','08. Desarrollo Agrario, Territorial y Urbano', '$ 3,020,736,169')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 9 - verde -->
+				<area shape="circle" coords ="1515,2389,15"
+				onmouseover="ShowTooltip('#82c294','890px','1525px','09. Desarrollo Social', '$ 97,411,563')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 10 - verde -->
+				<area shape="circle" coords ="1543,2710,15"
+				onmouseover="ShowTooltip('#82c294','908px','1730px','10. Educación Pública', '$ 1,117,093,786')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 11 - verde -->
+				<area shape="circle" coords ="1574,3030,15"
+				onmouseover="ShowTooltip('#82c294','926px','1920px','11. Entidades no Sectorizadas', '$ 13,148,431,645')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 12 - verde -->
+				<area shape="circle" coords ="1605,3341,15"
+				onmouseover="ShowTooltip('#82c294','946px','2110px','12. Gobernacion', '$ 135,599,197,199')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 13 - verde -->
+				<area shape="circle" coords ="1631,3276,15"
+				onmouseover="ShowTooltip('#82c294','964px','2080px','13. Hacienda y Crédito Público', '$ 82,248,475,449')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 15 - verde -->
+				<area shape="circle" coords ="1663,3322,14"
+				onmouseover="ShowTooltip('#82c294','982px','2100px','15. Marina', '$ 115,663,088,337')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 16 - verde -->
+				<area shape="circle" coords ="1689,2561,15"
+				onmouseover="ShowTooltip('#82c294','1000px','1630px','16. Medio Ambiente y Recursos Naturales', '$ 369,077,795')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 17 - verde -->
+				<area shape="circle" coords ="1720,2433,18"
+				onmouseover="ShowTooltip('#82c294','1018px','1550px','17. Previsiones y aportaciones para los sistemas de educación báscia, normal tecnológica y de adultos', '$ 139,278,879')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 18 - verde -->
+				<area shape="circle" coords ="1748,2710,15"
+				onmouseover="ShowTooltip('#82c294','1036px','1725px','18. Salud', '$ 1,134,555,101')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 19 - verde -->
+				<area shape="circle" coords ="1779,2315,15"
+				onmouseover="ShowTooltip('#82c294','1054px','1480px','19. Comisión Federal de Competencia Económica', '$ 56,986,487')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 20 - verde -->
+				<area shape="circle" coords ="1805,2200,15"
+				onmouseover="ShowTooltip('#82c294','1072px','1400px','20. Comisión Nacional de Hidrocarburos', '$ 23,555,934')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 21 - verde -->
+				<area shape="circle" coords ="1836,2205,15"
+				onmouseover="ShowTooltip('#82c294','1090px','1410px','21. Comisión Reguladora de Energía', '$ 24,799,551')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 22 - verde -->
+				<area shape="circle" coords ="1869,2489,18"
+				onmouseover="ShowTooltip('#82c294','1108px','1600px','22. Comunicaciones y Transportes', '$ 204,803,999')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 23 - verde -->
+				<area shape="circle" coords ="1895,2530,15"
+				onmouseover="ShowTooltip('#82c294','1126px','1610px','23. Consejo Nacional de Ciencia y Tecnología', '$ 285,105,403')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 24 - verde -->
+				<area shape="circle" coords ="1925,2489,15"
+				onmouseover="ShowTooltip('#82c294','1144px','1600px','24. Economía', '$ 203,116,483')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 25 - verde -->
+				<area shape="circle" coords ="1954,2392,15"
+				onmouseover="ShowTooltip('#82c294','1162px','1530px','25. Energía', '$ 103,594,062')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 26 - verde -->
+				<area shape="circle" coords ="1982,2461,15"
+				onmouseover="ShowTooltip('#82c294','1180px','1570px','26. Instituto Federal de Telecomunicaciones', '$ 170,217,256')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 27 - verde -->
+				<area shape="circle" coords ="2010,3325,18"
+				onmouseover="ShowTooltip('#82c294','1198px','2100px','27. Provisiones Salariales y Económicas', '$ 111,751,088,670')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 28 - verde -->
+				<area shape="circle" coords ="2038,2884,15"
+				onmouseover="ShowTooltip('#82c294','1216px','1820px','28. Trabajo y Previsión Social', '$ 4,023,281,075')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 29 - verde -->
+				<area shape="circle" coords ="2069,2464,18"
+				onmouseover="ShowTooltip('#82c294','1234px','1570px','29. Turismo', '$ 165,812,086')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 30 - verde -->
+				<area shape="circle" coords ="2097,2964,15"
+				onmouseover="ShowTooltip('#82c294','1252px','1870px','30. Comisión Nacional de los Derechos Humanos', '$ 7,433,523,646')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 31 - verde -->
+				<area shape="circle" coords ="2128,2612,15"
+				onmouseover="ShowTooltip('#82c294','1270px','1670px','31. Consejería Jurídica del Ejecutivo Federal', '$ 529,143,181')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 32 - verde -->
+				<area shape="circle" coords ="2156,2861,15"
+				onmouseover="ShowTooltip('#82c294','1288px','1830px','32. Fiscalía General de la República', '$ 35,47,287,090')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 33 - verde -->
+				<area shape="circle" coords ="2187,2905,15"
+				onmouseover="ShowTooltip('#82c294','1306px','1845px','33. Función Pública', '$ 4,944,128,862')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 34 - verde -->
+				<area shape="circle" coords ="2215,3194,18"
+				onmouseover="ShowTooltip('#82c294','1324px','2030px','34. Información Nacional Estadística y Geografía', '$ 44,037,578,975')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 35 - verde -->
+				<area shape="circle" coords ="2243,2871,15"
+				onmouseover="ShowTooltip('#82c294','1342px','1830px','35. Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales', '$ 3,831,400,984')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 36 - verde -->
+				<area shape="circle" coords ="2277,3279,15"
+				onmouseover="ShowTooltip('#82c294','1360px','2080px','36. Instituto Nacional Electoral', '$ 84,930,525,301')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 37 - verde -->
+				<area shape="circle" coords ="2300,2912,18"
+				onmouseover="ShowTooltip('#82c294','1378px','1845px','37. Oficina de la Presidencia de la República', '$ 5,090,864,931')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 38 - verde -->
+				<area shape="circle" coords ="2333,3440,18"
+				onmouseover="ShowTooltip('#82c294','1396px','2170px','38. Poder Judicial', '$ 280,854,921,735')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 39 - verde -->
+				<area shape="circle" coords ="2361,3230,15"
+				onmouseover="ShowTooltip('#82c294','1414px','2050px','39. Poder Legislativo', '$ 56,733,805,651')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 40 - verde -->
+				<area shape="circle" coords ="2389,3151,15"
+				onmouseover="ShowTooltip('#82c294','1432px','2000px','40. Procuraduría General de la República', '$ 31,594,870,152')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 41 - verde -->
+				<area shape="circle" coords ="2423,3156,15"
+				onmouseover="ShowTooltip('#82c294','1450px','2010px','41. Relaciones Exteriores', '$ 33,980,345,464')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 42 - verde -->
+				<area shape="circle" coords ="2448,3325,13"
+				onmouseover="ShowTooltip('#82c294','1468px','2105px','42. Seguridad y Protección Ciudadana', '$ 122,592365,365')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 43 - verde -->
+				<area shape="circle" coords ="2477,3020,15"
+				onmouseover="ShowTooltip('#82c294','1486px','1915px','43. Tribunal Federal de Justicia Administrativa', '$ 11,638,751,259')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 44 - verde -->
+				<area shape="circle" coords ="2510,2859,13"
+				onmouseover="ShowTooltip('#82c294','1504px','1820px','44. Tribunales Agrarios', '$ 3,433,889,809')" onmouseout="RemoveTooltip()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+
+				<!-- amarillo -->
+
+				<!-- 45 - amarillo -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="2535,3315,15"
+				onmouseover="ShowTooltip('#e7c53f','1522px','2105px','45. Adeudos de Efercicios Fiscales Anteriores', '$ 112,532,382,119')" onmouseout="RemoveTooltip()"/>
+				<!-- 46 - amarillo -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="2566,3776,15"
+				onmouseover="ShowTooltip('#e7c53f','1540px','2385px','46. Participaciones a Entidades Federativas y Municipios', '$ 3,592,007,404,880')" onmouseout="RemoveTooltip()"/>
+				<!-- 45 - amarillo -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="2597,3356,15"
+				onmouseover="ShowTooltip('#e7c53f','1558px','2120px','47. Erogaciones para los Programas de Apoyo a Ahorradores y Deudores de la Banca', '$ 144,589,603,500')" onmouseout="RemoveTooltip()"/>
+				<!-- 45 - amarillo -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="2625,3705,15"
+				onmouseover="ShowTooltip('#e7c53f','1576px','2350px','48. Deuda Pública', '$ 2,116,532,448,075')" onmouseout="RemoveTooltip()"/>
+
+
+
+			</map>
+			</map>
+
+		</div>
+
+
+		<!-- grafica pequeña -->
+		<div class="container-principal" id="pequeña" >
+			<img id="grafica2" class="img-scale grafica-desk" src="img/grafica_presupuesto.png" alt="" usemap="#workmapmob">
+			<map name="workmapmob">
+				<div id="tooltip-2" class="shadow-lg  text-center">
+					<p id="tooltip-p2">01. Agricultura y Desarrollo Rural</p>
+					<p id="tooltip-cant2">$ 18,031,034,217</p>
+				</div>
+				<!-- blanco -->
+				<!-- 1 - blanco -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords="205,3076,13"
+			onmouseover="ShowTooltip2('#a4d1cb','75%','1200px','01. Agricultura y Desarrollo Rural', '$ 18,031,034,217')" onmouseout="RemoveTooltip2()"/>
+				
+				<!-- 2 - blanco -->
+				<area href ="sun.htm" target ="_blank"shape="circle" coords ="233,2887,13"
+				onmouseover="ShowTooltip2('#a4d1cb','75%','1200px','02. Agricultura, Ganadería, Desarrollo Rural, Pesca, Alimentación', '$ 4,172,434,069')" onmouseout="RemoveTooltip2()"/>
+				<!-- 3 - blanco -->
+				<area shape="circle" coords ="267,3766,15"
+				onmouseover="ShowTooltip2('#a4d1cb','75%','1200px','03. Aportaciones a Seguridad Social','$ 3,310,409,841,977')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 4 - blanco -->
+				<area shape="circle" coords ="295,3751,15"
+				onmouseover="ShowTooltip2('#a4d1cb','75%','1200px','04. Aportaciones Federales para Entidades Federativas y Municipios', '$ 2,930,161,656,048')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 5 - blanco -->
+				<area shape="circle" coords ="320,3512,15"
+				onmouseover="ShowTooltip2('#a4d1cb','75%','1200px','05. Bienestar', '$ 515,299,984,088')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 6  - blanco-->
+				<area shape="circle" coords ="349,3217,15"
+				onmouseover="ShowTooltip2('#a4d1cb','75%','1200px','06. Cultura', '$51,719,592,167')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 7 - blanco -->
+				<area shape="circle" coords ="377,3171,13"
+				onmouseover="ShowTooltip2('#a4d1cb','75%','1200px','07. Defensa Nacional', '$ 36,711,609,786')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 8 - blanco -->
+				<area shape="circle" coords ="410,3225,15"
+				onmouseover="ShowTooltip2('#a4d1cb','75%','1200px','08. Desarrollo Agrario, Territorial y Urbano', '$ 55,075,885,054')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+
+				<!-- 9 - blanco -->
+				<area shape="circle" coords ="436,3315,15"
+				onmouseover="ShowTooltip2('#a4d1cb','75%','1200px','09. Desarrollo Social', '$ 106,548,092,465')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 10 - blanco -->
+				<area shape="circle" coords ="436,3315,15"
+				onmouseover="ShowTooltip2('#a4d1cb','75%','1200px','10. Educación Pública', '$ 1,184,092,978,946')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 11 - blanco -->
+				<area shape="circle" coords ="500,3092,15"
+				onmouseover="ShowTooltip2('#a4d1cb','75%','1200px','11. Entidades no Sectorizadas', '$ 20,417,947,083')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 12 - blanco -->
+				<area shape="circle" coords ="526,2302,15"
+				onmouseover="ShowTooltip2('#a4d1cb','75%','1200px','12. Gobernacion', '$49,107,586')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 13 - blanco -->
+				<area shape="circle" coords ="554,2779,15"
+				onmouseover="ShowTooltip2('#a4d1cb','75%','1200px','13. Hacienda y Crédito Público', '$1,890,468,717')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 14 - blanco -->
+				<area shape="circle" coords ="585,2779,13"
+				onmouseover="ShowTooltip2('#a4d1cb','75%','1200px','14. Instituto Nacional para la Evaluación de la Educación', '$ 1,925,069,356')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 15 - blanco -->
+				<area shape="circle" coords ="613,3066,15"
+				onmouseover="ShowTooltip2('#a4d1cb','75%','1200px','15. Marina', '$16,760,563,156')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 16 - blanco -->
+				<area shape="circle" coords ="638,3297,15"
+				onmouseover="ShowTooltip2('#a4d1cb','75%','1200px','16. Medio Ambiente y Recursos Naturales', '$ 96,790,767,332')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 17 - blanco -->
+				<area shape="circle" coords ="672,3407,18"
+				onmouseover="ShowTooltip2('#a4d1cb','75%','1200px','17. Previsiones y aportaciones para los sistemas de educación báscia, normal tecnológica y de adultos', '$ 222,268,983,111')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 18 - blanco -->
+				<area shape="circle" coords ="700,3517,15"
+				onmouseover="ShowTooltip2('#a4d1cb','75%','1200px','18. Salud', '$ 509,962,065,705')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+
+				<!-- azules -->
+
+				<!-- 1 - azul -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="731,3348,15"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','01. Agricultura y Desarrollo Rural', '$ 142,732,514,537')" onmouseout="RemoveTooltip2()"/>
+				<!-- 2 - azul -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="756,3233,15"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','02. Agricultura, Ganadería, Desarrollo Rural, Pesca, Alimentación', '$ 60,022,235,629')" onmouseout="RemoveTooltip2()"/>
+				<!-- 7 - azul -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="787,3053,13"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','07. Defensa Nacional', '$ 15,000,000,000')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 8 - azul -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="818,2902,15"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','08. Desarrollo Agrario, Territorial y Urbano', '$ 4,884,116,647')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 10 - azul -->
+				<area shape="circle" coords ="843,3241,15"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','10. Educación Pública', '$ 60,767,721,500')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 11 - azul -->
+				<area shape="circle" coords ="874,2966,18"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','11. Entidades no Sectorizadas', '$ 7,617,584,553')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 13 - azul -->
+				<area shape="circle" coords ="905,2917,13"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','13. Hacienda y Crédito Público', '$ 5,530,541,382')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 16 - azul -->
+				<area shape="circle" coords ="933,3151,15"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','16. Medio Ambiente y Recursos Naturales', '$ 31,918,444,720')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 18 - azul -->
+				<area shape="circle" coords ="961,2984,15"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','18. Salud', '$ 9,108,956,341')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 19 - azul -->
+				<area shape="circle" coords ="992,2805,15"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','19. Comisión Federal de Competencia Económica', '$ 2,332,121,425')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 20 - azul -->
+				<area shape="circle" coords ="1019,2678,14"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','20. Comisión Nacional de Hidrocarburos', '$ 870,937,120')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 21 - azul -->
+				<area shape="circle" coords ="1049,2694,15"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','21. Comisión Reguladora de Energía', '$ 1,009,705,590')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 22 - azul -->
+				<area shape="circle" coords ="1077,3425,15"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','22. Comunicaciones y Transportes', '$ 253,897,283,495')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 23 - azul -->
+				<area shape="circle" coords ="1108,3307,15"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','23. Consejo Nacional de Ciencia y Tecnología', '$ 103,637,393,226')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 24 - azul -->
+				<area shape="circle" coords ="1136,3148,18"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','24. Economía', '$ 31,175,358,807')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 25 - azul -->
+				<area shape="circle" coords ="1164,3330,18"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','25. Energía', '$ 125,104,076,891')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 26 - azul -->
+				<area shape="circle" coords ="1192,2946,15"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','26. Instituto Federal de Telecomunicaciones', '$ 6,567,782,744')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 27 - azul -->
+				<area shape="circle" coords ="1223,3474,18"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','27. Provisiones Salariales y Económicas', '$ 367,221,983,269')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 28 - azul -->
+				<area shape="circle" coords ="1254,3294,18"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','28. Trabajo y Previsión Social', '$ 95,638,974,217')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 29 - azul -->
+				<area shape="circle" coords ="1284,3228,15"
+				onmouseover="ShowTooltip2('#6bccce','75%','1200px','29. Turismo', '$ 55,984,188,243')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+
+				<!-- verde -->
+
+				<!-- 1 - verde -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="1310,2494,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','01. Agricultura y Desarrollo Rural', '$ 215,927,279')" onmouseout="RemoveTooltip2()"/>
+				<!-- 2 - verde -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="1341,2428,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','02. Agricultura, Ganadería, Desarrollo Rural, Pesca, Alimentación', '$ 130,413,780')" onmouseout="RemoveTooltip2()"/>
+				<!-- 4 - verde -->
+				<area shape="circle" coords ="1369,3141,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','04. Aportaciones Federales para Entidades Federativas y Municipios', '$ 29,349,602,458')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 5 - verde -->
+				<area shape="circle" coords ="1400,2418,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','05. Bienestar', '$ 122,755,076')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 6 - verde -->
+				<area shape="circle" coords ="1425,2507,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','06. Cultura', '$ 243,270,000')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 7 - verde -->
+				<area shape="circle" coords ="1456,3464,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','07. Defensa Nacional', '$ 329,566,344,339')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 8 - verde -->
+				<area shape="circle" coords ="1484,2835,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','08. Desarrollo Agrario, Territorial y Urbano', '$ 3,020,736,169')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 9 - verde -->
+				<area shape="circle" coords ="1515,2389,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','09. Desarrollo Social', '$ 97,411,563')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 10 - verde -->
+				<area shape="circle" coords ="1543,2710,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','10. Educación Pública', '$ 1,117,093,786')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 11 - verde -->
+				<area shape="circle" coords ="1574,3030,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','11. Entidades no Sectorizadas', '$ 13,148,431,645')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 12 - verde -->
+				<area shape="circle" coords ="1605,3341,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','12. Gobernacion', '$ 135,599,197,199')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 13 - verde -->
+				<area shape="circle" coords ="1631,3276,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','13. Hacienda y Crédito Público', '$ 82,248,475,449')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 15 - verde -->
+				<area shape="circle" coords ="1663,3322,14"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','15. Marina', '$ 115,663,088,337')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 16 - verde -->
+				<area shape="circle" coords ="1689,2561,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','16. Medio Ambiente y Recursos Naturales', '$ 369,077,795')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 17 - verde -->
+				<area shape="circle" coords ="1720,2433,18"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','17. Previsiones y aportaciones para los sistemas de educación báscia, normal tecnológica y de adultos', '$ 139,278,879')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 18 - verde -->
+				<area shape="circle" coords ="1748,2710,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','18. Salud', '$ 1,134,555,101')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 19 - verde -->
+				<area shape="circle" coords ="1779,2315,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','19. Comisión Federal de Competencia Económica', '$ 56,986,487')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 20 - verde -->
+				<area shape="circle" coords ="1805,2200,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','20. Comisión Nacional de Hidrocarburos', '$ 23,555,934')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 21 - verde -->
+				<area shape="circle" coords ="1836,2205,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','21. Comisión Reguladora de Energía', '$ 24,799,551')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 22 - verde -->
+				<area shape="circle" coords ="1869,2489,18"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','22. Comunicaciones y Transportes', '$ 204,803,999')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 23 - verde -->
+				<area shape="circle" coords ="1895,2530,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','23. Consejo Nacional de Ciencia y Tecnología', '$ 285,105,403')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 24 - verde -->
+				<area shape="circle" coords ="1925,2489,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','24. Economía', '$ 203,116,483')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 25 - verde -->
+				<area shape="circle" coords ="1954,2392,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','25. Energía', '$ 103,594,062')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 26 - verde -->
+				<area shape="circle" coords ="1982,2461,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','26. Instituto Federal de Telecomunicaciones', '$ 170,217,256')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 27 - verde -->
+				<area shape="circle" coords ="2010,3325,18"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','27. Provisiones Salariales y Económicas', '$ 111,751,088,670')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 28 - verde -->
+				<area shape="circle" coords ="2038,2884,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','28. Trabajo y Previsión Social', '$ 4,023,281,075')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 29 - verde -->
+				<area shape="circle" coords ="2069,2464,18"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','29. Turismo', '$ 165,812,086')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 30 - verde -->
+				<area shape="circle" coords ="2097,2964,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','30. Comisión Nacional de los Derechos Humanos', '$ 7,433,523,646')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 31 - verde -->
+				<area shape="circle" coords ="2128,2612,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','31. Consejería Jurídica del Ejecutivo Federal', '$ 529,143,181')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 32 - verde -->
+				<area shape="circle" coords ="2156,2861,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','32. Fiscalía General de la República', '$ 35,47,287,090')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 33 - verde -->
+				<area shape="circle" coords ="2187,2905,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','33. Función Pública', '$ 4,944,128,862')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 34 - verde -->
+				<area shape="circle" coords ="2215,3194,18"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','34. Información Nacional Estadística y Geografía', '$ 44,037,578,975')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 35 - verde -->
+				<area shape="circle" coords ="2243,2871,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','35. Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales', '$ 3,831,400,984')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 36 - verde -->
+				<area shape="circle" coords ="2277,3279,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','36. Instituto Nacional Electoral', '$ 84,930,525,301')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 37 - verde -->
+				<area shape="circle" coords ="2300,2912,18"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','37. Oficina de la Presidencia de la República', '$ 5,090,864,931')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 38 - verde -->
+				<area shape="circle" coords ="2333,3440,18"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','38. Poder Judicial', '$ 280,854,921,735')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 39 - verde -->
+				<area shape="circle" coords ="2361,3230,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','39. Poder Legislativo', '$ 56,733,805,651')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 40 - verde -->
+				<area shape="circle" coords ="2389,3151,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','40. Procuraduría General de la República', '$ 31,594,870,152')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 41 - verde -->
+				<area shape="circle" coords ="2423,3156,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','41. Relaciones Exteriores', '$ 33,980,345,464')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 42 - verde -->
+				<area shape="circle" coords ="2448,3325,13"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','42. Seguridad y Protección Ciudadana', '$ 122,592365,365')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 43 - verde -->
+				<area shape="circle" coords ="2477,3020,15"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','43. Tribunal Federal de Justicia Administrativa', '$ 11,638,751,259')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+				<!-- 44 - verde -->
+				<area shape="circle" coords ="2510,2859,13"
+				onmouseover="ShowTooltip2('#82c294','75%','1200px','44. Tribunales Agrarios', '$ 3,433,889,809')" onmouseout="RemoveTooltip2()"
+				href ="sun.htm" target ="_blank" alt="Sun" />
+
+				<!-- amarillo -->
+
+				<!-- 45 - amarillo -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="2535,3315,15"
+				onmouseover="ShowTooltip2('#e7c53f','75%','1200px','45. Adeudos de Efercicios Fiscales Anteriores', '$ 112,532,382,119')" onmouseout="RemoveTooltip2()"/>
+				<!-- 46 - amarillo -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="2566,3776,15"
+				onmouseover="ShowTooltip2('#e7c53f','75%','1200px','46. Participaciones a Entidades Federativas y Municipios', '$ 3,592,007,404,880')" onmouseout="RemoveTooltip2()"/>
+				<!-- 45 - amarillo -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="2597,3356,15"
+				onmouseover="ShowTooltip2('#e7c53f','75%','1200px','47. Erogaciones para los Programas de Apoyo a Ahorradores y Deudores de la Banca', '$ 144,589,603,500')" onmouseout="RemoveTooltip2()"/>
+				<!-- 45 - amarillo -->
+				<area href ="sun.htm" target ="_blank" shape="circle" coords ="2625,3705,15"
+				onmouseover="ShowTooltip2('#e7c53f','75%','1200px','48. Deuda Pública', '$ 2,116,532,448,075')" onmouseout="RemoveTooltip2()"/>
+
+
+
+			</map>
+			</map>
+
+		</div>
+		<!-- Fijo -->
+		<div>
+			<img src="img/grafica_presupuesto.png" alt="" id="mini">
+		</div>
+		<div class="deuda-publica container-fluid bg-amarillo">
+			
+			<div class="deuda-publica-sticky bg-amarillo" id="parte1">
+				<div class="deuda-publica-h">
+					<h2>DEUDA PÚBLICA</h2>
+					<h3>EVOLUCIÓN DE LA DEUDA PÚBLICA</h3>
+				</div>
+				<img src="img/1.png" alt="">
+			</div>
+			
+			<div class="deuda-publica-sticky bg-amarillo" id="parte2">
+				<img src="img/2.png" alt="">
+			</div>
+		</div>
+		<div class="container-fluid">
+			<!-- <img class="graf-img" src="img/3.png" alt=""> -->
+			<img src="img/07.png" alt="" class="graf-img">
+			<img class="graf-img" src="img/4.png" alt="">
+		</div>
+		<div class="container-fluid bg-amarillo">
+			<img class="graf-img" src="img/5.png" alt="">
+		</div>
+		<div class="container-fluid">
+			<img class="graf-img" src="img/6.png" alt="">
+		</div>
+	</main>
+	<footer class="bg-amarillo">
+		
+		<div class="container p-5 text-center">
+			<div class="d-flex align-items-center align-content-center justify-content-center">
+				<img width="70" src="img/logo.svg" alt="">
+				<p class="mx-0">Los datos nos permiten resolver problemas y tomar decisiones ...</p>
+			</div>
+			<h4 class="text-center mt-5 mb-3">Para nuevos análisis, síguenos en: </h4>
+			<div class="redes d-flex justify-content-center align-items-center align-content-center">
+				<div class="d-flex justify-content-center align-items-center align-content-center">
+					<a href="https://x-data.mx/">
+						<img class="d-block mx-2" width="40" src="img/red.svg" alt="">
+					</a>
+					<a target="_blank" class="d-block" href="https://x-data.mx/">x-data.mx</a>
+				</div>
+				<div class="d-flex justify-content-center align-items-center align-content-center mx-4">
+					<a target="_blank" href="https://twitter.com/xdatamx">
+					<img class="d-block mx-1" width="40" src="img/tw.svg" alt="">
+						
+					</a>
+					<a target="_blank" href="https://www.facebook.com/XDATAMX/">
+					<img class="d-block mx-1" width="40" src="img/fb.svg" alt="">
+						
+					</a>
+					<a target="_blank" href="https://www.linkedin.com/company/x-data/">
+					<img class="d-block mx-1" width="40" src="img/ig.svg" alt="">
+						
+					</a>
+					<a class="d-block" href="">@xdatamx</a>
+				</div>
+				<div class="d-flex justify-content-center align-items-center align-content-center">
+					<a href="https://www.linkedin.com/company/x-data/"><img class="d-block mx-2" width="40" src="img/in.svg" alt=""></a>
+					<a target="_blank" class="d-block" href="https://www.linkedin.com/company/x-data/">X-Data</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/21424823.js"></script>
+<!-- End of HubSpot Embed Code -->
+</body>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/component.js"></script>
+
+<!-- <script src="./js/app2704.js"></script> -->
+
+
+</html>

@@ -1,0 +1,220 @@
+.cocina-banner{
+        background: rgb(223,247,246);
+        min-height: calc(100vh - 90px);
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-size: cover;
+        background-position: 0% 100%;
+        position: relative;
+        background-color: #E7E5D7;
+        padding: 10% 10%;
+}
+.cocina-title{
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+}
+.banner-cotas{
+        display: grid;
+        padding: 1rem 0;
+        justify-content: center;
+}
+.banner-cotas-ind{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        color: #285EB7;
+        width: max-content;
+        /*border-style: solid;*/
+        padding: 1rem 0;
+}
+.banner-cotas-ind p{
+        margin-bottom: 0;
+}
+.banner-cotas-map{
+        width: 20px;
+}
+.banner-cotas-calendar{
+        width: 22px;
+}
+.banner-cotas-time{
+        width: 22px;
+}
+.banner-cotas-ind img{
+        margin-right: 16px;
+}
+.cocina-btn{
+        background-color: #285EB7;
+        color: #E7E5D7;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 220px;
+        height: 40px;
+        border-radius: 2rem;
+        letter-spacing: 1px;
+        margin: 0 auto;
+        transition: all .3s ease;
+}
+.cocina-flor{
+        position: absolute;
+        width: 56%;
+}
+.cocina-flor-izq{
+        left: -32%;
+}
+.cocina-flor-der{
+        right: -32%;
+}
+.cocina-btn:hover{
+        color: #E7E5D7;
+        transform: translateY(-4px);
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 400px) { 
+        .cocina-banner{
+                min-height: calc(100vh - 90px);
+                justify-content: center;
+        }
+        .cocina-title{
+                width: 80%;
+                max-width: 300px;
+        }
+        .banner-cotas{
+                padding: 1.5rem 0;
+        }
+        .banner-cotas-ind p{
+                font-size: .9rem;
+        }
+        .banner-cotas-map{
+                width: 24px;
+        }
+        .banner-cotas-calendar{
+                width: 26px;
+        }
+        .banner-cotas-time{
+                width: 26px;
+        }
+        .cocina-btn{
+                width: 260px;
+                height: 50px;
+                font-size: 1rem;
+        }
+        .cocina-flor-izq{
+                left: -32%;
+                top: 8%;
+        }
+        .cocina-flor-der{
+                right: -32%;
+                top: 8%;
+        }
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+        .cocina-banner{
+                padding: 10% 8%;
+        }
+        .banner-cotas{
+                padding: 3rem 0;
+                grid-template-columns: 40% 40% 20%;
+                width: 600px;
+                margin: 0 auto;
+        }
+        .banner-cotas-ind{
+                border-right: 1px solid #285EB7;
+                padding-left: 10%;
+                padding-right: 10%;
+                justify-self: center;
+        }
+        .sin-borde{
+                border: none;
+        }
+        .banner-cotas-ind p{
+                font-size: 1rem;
+        }
+        .cocina-flor{
+                width: 400px
+        }
+        .cocina-flor-izq{
+                left: -20%;
+                top: 8%;
+        }
+        .cocina-flor-der{
+                right: -20%;
+                top: 8%;
+        }
+}
+/**/
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+        .cocina-banner{
+                padding: 5% 8%;
+        }
+        .banner-cotas{
+                padding: 3rem 0;
+                grid-template-columns: 40% 40% 20%;
+                width: 700px;
+                margin: 0 auto;
+        }
+        .banner-cotas-ind{
+                border-right: 1px solid #285EB7;
+                padding-left: 14%;
+                padding-right: 14%;
+                justify-self: center;
+        }
+        .sin-borde{
+                border: none;
+        }
+        .banner-cotas-ind p{
+                font-size: 1rem;
+        }
+        .cocina-flor{
+                width: 400px
+        }
+        .cocina-flor-izq{
+                left: 0;
+                top: 8%;
+        }
+        .cocina-flor-der{
+                right: 0;
+                top: 8%;
+        }
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+        
+
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+        .cocina-title{
+                width: 80%;
+                max-width: 350px;
+        }
+        .banner-cotas-ind p{
+                font-size: 1.1rem;
+        }
+        .banner-cotas{
+                width: 800px;
+        }
+        .banner-cotas-ind{
+                border-right: 1px solid #285EB7;
+                padding-left: 16%;
+                padding-right: 16%;
+                justify-self: center;
+        }
+        .sin-borde{
+                border: none;
+        }
+}

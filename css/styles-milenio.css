@@ -1,0 +1,196 @@
+:root{
+	--azul: #12424f;
+	--amarillo:#e7c53f;
+}
+body{
+	background-color: var(--azul);
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+	flex: 1 0 auto;
+}
+/* Font face */
+   /* @font-face {
+        font-family: 'CircularStdBook';
+        src:     url('fonts/Circular Std Book.woff') format('woff'), 
+                 url('fonts/CircularStd-Book.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'CircularStdBlack';
+        src: url('fonts/CircularStdBlack.eot');
+        src: url('fonts/CircularStdBlack.woff'), 
+             url('fonts/CircularStdBlack.ttf'); 
+    }*/
+.body-milenio p, .main-milenio a{
+ 	font-family: 'circularstdbook', sans-serif;
+ 	font-weight: lighter;
+ 	font-size: 1rem;
+}
+.body-milenio h1,.body-milenio h2, .body-milenio h3, .body-milenio h4{
+ 	font-family: 'CircularStdBlack';
+ 	font-weight: lighter;
+}
+p span{
+ 	font-family: 'CircularStdBlack';
+ 	font-weight: lighter;
+
+}
+footer p{
+ 	font-family: 'circularbook';
+
+	font-size: 1.2rem;
+	width: 30%;
+}
+footer{
+	color: #113339;
+}
+footer a{
+	color: #113339;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+footer a:hover{
+	color: #113339;
+	text-decoration: underline;
+}
+footer a img{
+	transition: transform 1s ease;
+}
+footer a:hover img{
+	transform: rotate(360deg);
+}
+h4{
+	font-size: 1.4rem;
+}
+::selection{
+	background-color: #e7c53f;
+	color: #12424f;
+}
+.bg-amarillo{
+	background-color: #e7c53f;
+}
+.bg-azul{
+	background-color: #12424f;
+}
+#grafica, #grafica2{
+	/*width: 100%;*/
+	transform: scale(.62);
+	transform-origin: 10% 0;
+	/*margin-left: 2%;*/
+	position: absolute;
+}
+.container-principal{
+	/*transform: scale(.62);
+	transform-origin: 10% 0;*/
+	position: relative;
+}
+/* tooltip */
+	#tooltip-1{
+		display: none;
+		/*display: block;*/
+		position: absolute;
+		background-color: #05292e;
+		color: #a4d1cb;
+		/*top: 1200px;
+		left: 75%;*/
+		/*top: calc( 1774px + 70px);
+		left: calc(116px + 70px);*/
+		padding: 1rem;
+		border-radius: 19px;
+		/*font-weight: bold;*/
+		width: 20rem;
+	 	font-family: 'CircularStdBlack'
+	}
+	#tooltip-2{
+		/*display: none;*/
+		display: block;
+		position: absolute;
+		background-color: #05292e;
+		color: #a4d1cb;
+		/*top: 1200px;
+		left: 75%;*/
+		/*top: calc( 1774px + 70px);
+		left: calc(116px + 70px);*/
+		padding: 1rem;
+		border-radius: 19px;
+		/*font-weight: bold;*/
+		width: 20rem;
+	 	font-family: 'CircularStdBlack'
+	}
+
+	#tooltip-1:before{
+		content: '';
+	    clip-path: polygon(50% 30%, 0% 100%, 100% 100%);
+	    border-style: none;
+	    height: 24px;
+	    width: 30px;
+	    position: absolute;
+	    top: -24px;
+	    left: calc(50% - 15px);
+	    background-color: #05292e;
+	}
+	/*#tooltip-2:before{
+		content: '';
+	    clip-path: polygon(50% 30%, 0% 100%, 100% 100%);
+	    border-style: none;
+	    height: 24px;
+	    width: 30px;
+	    position: absolute;
+	    top: -24px;
+	    left: calc(50% - 15px);
+	    background-color: #05292e;
+	}*/
+	#tooltip-p, #tooltip-p2{
+		line-height: 1.3;
+		font-size: .95rem;
+	}
+	#tooltip-cant, #tooltip-cant2{
+		font-weight: bold;
+		font-size: 1.4rem;
+		line-height: .5;
+	}
+#pequeña{
+	display: none;
+}
+#mini{
+	display: none;
+}
+.deuda-publica{
+	margin-top: 3100px;
+}
+.deuda-publica-h{
+	padding: 3rem 5%;
+}
+.deuda-publica-h h2{
+	color:#fff;
+	font-size: 250%;
+}
+.deuda-publica img, .graf-img, #footer{
+	display: block;
+	margin: auto;
+	width:90%;
+}
+.deuda-publica-sticky{
+	position: sticky;
+	/*padding-top: calc(var(--index) * var(--card-top-offset));*/
+}
+
+#parte1{
+	/*background-color: #12424f;*/
+	top: 0vh;
+	/*border: solid #12424f;*/
+}
+#parte2{
+	/*background-color: #12424f;*/
+	top: 21vh;
+	z-index: 30;
+}
+#footer{
+	/*width: 100%;*/
+	display: block;
+	margin: auto;
+}

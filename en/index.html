@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Data analysis and visualization | X-DATA</title>
+	<link rel="canonical" href="https://x-data.mx/en/">
+	<link rel="alternate" href="http://x-data.mx" hreflang="en-us"/>
+
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/styles0806.css">
+	<link rel="stylesheet" href="/css/mediaqueries0806.css">
+	<link media="screen" rel="stylesheet" href="/css/swiper.min.css" >
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<link rel="icon" href="/img/logos/fav-icon.svg">
+
+	<!-- SEO -->
+		<meta name="robots" content="Data analysis and visualization. X-DATA ">
+
+		<meta name="author" content="X-DATA"><img src="https://tracker.metricool.com/c3po.jpg?hash=c793ed5268b27d984a56705fa4b1b83e"/><img src="https://tracker.metricool.com/c3po.jpg?hash=c793ed5268b27d984a56705fa4b1b83e"/>
+
+		<meta name="copyright" content="2022">
+
+		<meta name="description" content="Data analysis and visualization | X-DATA">
+
+		<meta name="keywords" content="Data analysis and visualization | X-DATA">
+
+		<meta property="og:title" content="X-DATA"/>
+
+		<meta property="og:site_name" content="Empresa de Business Intelligence | X-DATA"/>
+
+		<meta property="og:description" content="Data analysis and visualization | X-DATA"/>
+
+		<meta property="og:image" content="../img/X-DATA.jpg">
+
+
+</head>
+<body >
+	<!--PreLoader style.css-->
+	<div class="loader">
+		<div class="loader-inner">
+			<div class="cssload-loader"></div>
+		</div>
+	</div>
+	<!-- nav -->
+	<div class="nav-column d-none d-xl-flex">
+		<div class="nav-block" data-0="transform:rotate(-90deg) translateY(65px);" data-1000="transform:rotate(-90deg) translateY(35px);" data-1800="transform:rotate(-90deg) translateY(5px);" data-4800="transform:rotate(-90deg) translateY(-85px);"  data-5800="transform:rotate(-90deg) translateY(-115px);">
+			<div class="">X-DATA</div>
+			<div class="">About us</div>
+			<div class="gold">Solutions</div>
+			<div class="">Success stories</div>
+			<div class="gold">Dataviz</div>
+		</div>
+		<div class="nav-line" data-0="background-color: rgba(0, 57, 76, .4)" data-800="background-color: rgba(0, 57, 76, .4)" data-1600="background-color:rgba(182, 155, 31, .4)" data-2400=" background-color:rgba(0, 57, 76, .4);"  data-3400="background-color:rgba(182, 155, 31, .4)" data-4200="background-color:rgba(182, 155, 31, 0)">
+			<span data-0="top:0; background-color: var(--navy)" data-800="top:50px; background-color: var(--navy)" data-1600="top:100px; background-color:var(--gold)" data-2400="top:150px; background-color:var(--navy);"  data-3400="top:200px; background-color:var(--gold)" data-4200="top:200px; background-color:var(--transparent)"></span>
+		</div>
+		<a href="#x-data">
+			<img loading="lazy"  data-0="filter: invert(0) saturate(0) hue-rotate(0);transform:rotate(0);" data-800="filter: invert(0) saturate(0) hue-rotate(0);transform:rotate(0);" data-1600="filter: invert(90%) sepia() saturate(7000%) hue-rotate(2deg);transform:rotate(0);" data-2400="filter: invert(0) saturate(0) hue-rotate(0);transform:rotate(0);"  data-3400="filter: invert(90%) sepia() saturate(7000%) hue-rotate(2deg);transform:rotate(0);" data-4200="filter: invert(0) saturate(0) hue-rotate(0); transform:rotate(180deg);" src="./img/flecha.png" alt="">
+		</a>
+		<!-- <span>&#8593;</span> -->
+	</div>
+	<nav class="navDesktop d-none d-xl-flex navbar" id="navbar">
+		<div class="container">
+			<a class="navbar-brand" href="https://x-data.mx/en">
+				<img src="https://x-data.mx/img/logos/x-data.svg" alt="logotipo-xdata">
+			</a>
+			<ul class="navDesktop-ul">
+				<li class="nav-item">
+					<a class="nav-link pagescroll" aria-current="true" href="https://x-data.mx/en/#about-us" onclick="">About us</a>
+				</li>
+				<li class="nav-item nav-item-soluciones" onclick="navlinksoluciones()">
+					<a class="nav-link pagescroll" aria-current="true" onclick="">Solutions <img id="dropdown-soluciones_img" src="https://x-data.mx/img/icons/dropdown-soluciones.svg" alt=""></a>
+				</li>
+					<div id="menuSoluciones" class="navlinksoluciones">
+						<div class="grid-soluciones">
+							<div class="nav navlinksoluciones-buttons" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+								<button class="nav-link active" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Products</button>
+								<button class="nav-link " id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Services</button>
+								<button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Industries</button>
+							</div>
+							<div class="tab-content" id="v-pills-tabContent">
+								<div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+									<div class="soluciones-tab">
+										<div href="https://x-data.mx/baiwa">
+											<div class="soluciones-tab-ind">
+												<img id="soluciones-baiwa-icon" src="https://x-data.mx/img/icons/baiwa-icon.png" alt="">
+												<div>
+													<p class="tab-ind-titulo">Baiwa</p>
+													<p class="tab-ind-p">Transform your Human Resources area into a data driven one. Design your strategy using technological resources where you contemplate the needs of your company and your employees. Reduce turnover, hire intelligently and promote valuable assets within your organization.</p>
+												</div>
+											</div>
+										</div>
+										<div class="soluciones-tab-ind">
+											<img src="https://x-data.mx/img/energy-map.png" alt="">
+											<div>
+												<p class="tab-ind-titulo">Energy Map</p>
+												<p class="tab-ind-p">Through an executive dashboard, it monitors in real time the price of electricity, natural gas and other factors that may alter these indicators, such as the exchange rate, CPI, etc.</p>
+											</div>
+										</div>
+										<div class="soluciones-tab-ind">
+											<img src="https://x-data.mx/img/data-lake.png" alt="">
+											<div>
+												<p class="tab-ind-titulo">Data Lake</p>
+												<p class="tab-ind-p">All your data in one place. Create a repository to store, manage, index and dispose of all the structured or unstructured data you generate, in a simple and automatic way; with the capacity to digest high volumes of information.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Servicios -->
+								<div class="tab-pane fade " id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+									<div class="soluciones-tab">
+										<div class="soluciones-tab-ind">
+											<img src="https://x-data.mx/img/analitica-avanzada.png" alt="">
+											<div>
+												<p class="tab-ind-titulo">Advanced Analytics</p>
+												<p class="tab-ind-p">Centralize and analyze your organization's data to identify business opportunities and solve problems. Let the data speak for itself and show you how your market is performing.</p>
+											</div>
+										</div>
+										<div class="soluciones-tab-ind">
+											<img src="https://x-data.mx/img/dashboards.png" alt="">
+											<div>
+												<p class="tab-ind-titulo">Dashboards</p>
+												<p class="tab-ind-p">Take control of your business using tools that allow you to monitor your business information in real time. Make decisions based on hard data, supported by easy-to-read dashboards. Discover valuable insights within your information and empower your entire company with them.</p>
+											</div>
+										</div>
+										<div class="soluciones-tab-ind">
+											<img src="https://x-data.mx/img/dataviz.png" alt="">
+											<div>
+												<p class="tab-ind-titulo">Dataviz</p>
+												<p class="tab-ind-p">Show your audience complex data sets in an engaging and easy-to-digest way. Data visualization is the intersection between the science and art of displaying information, which makes it much easier to identify key insights.</p>
+											</div>
+										</div>
+										<div class="soluciones-tab-ind">
+											<img src="https://x-data.mx/img/arquitectura-de-datos.png" alt="">
+											<div>
+												<p class="tab-ind-titulo">Data architecture consulting</p>
+												<p class="tab-ind-p">Your company generates large volumes of data and processing them is a challenge that we help you solve. Join the industry's best practices for storing and structuring information, allowing you to have greater scalability and collaboration in data warehouses.</p>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+								<!-- Industrias -->
+								<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+									<!-- Transporte -->
+									<div class="transporte-grid">
+										<div class="nav-transporte nav flex-column me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+											<button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-t1" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+												<img src="https://x-data.mx/img/logistica-y-transporte.png" alt="">
+												<p class="titulo-industrias">Logistics and transportation</p>
+											</button>
+											<button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-t2" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+												<img src="https://x-data.mx/img/manufactura.png" alt="">
+												<p class="titulo-industrias">Manufacturing</p>
+											</button>
+											<button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-t3" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+												<img src="https://x-data.mx/img/retail.png" alt="">
+												<p class="titulo-industrias">Retail and consumer goods	</p>
+											</button>
+											<button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-t4" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+												<img src="https://x-data.mx/img/salud-y-farmaceutica.png" alt="">
+												<p class="titulo-industrias">Health and pharmaceutical</p>
+											</button>
+										</div>
+										<div class="tab-content" id="v-pills-tabContent">
+											<div class="tab-pane fade show active" id="v-pills-t1" role="tabpanel" aria-labelledby="v-pills-home-tab">
+												<img src="https://x-data.mx/img/logistica-y-transporte.png" alt="">
+												<p class="tab-transporte-titulo">Logistics and transportation</p>
+												<p class="tab-transporte-p">Optimize routes and delivery times with data centralization and trend analysis.  
+												</p>
+											</div>
+											<div class="tab-pane fade" id="v-pills-t2" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+												<img src="https://x-data.mx/img/manufactura.png" alt="">
+												<p class="tab-transporte-titulo">Manufacturing</p>
+												<p class="tab-transporte-p">Raise production quality, measure plant performance, reduce the risk of incidents in your staff, and generate data-driven predictions using our tools.</p>
+											</div>
+											<div class="tab-pane fade" id="v-pills-t3" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+												<img src="https://x-data.mx/img/retail.png" alt="">
+												<p class="tab-transporte-titulo">Retail and consumer goods</p>
+												<p class="tab-transporte-p">We consolidate information on sales, inventories, returns, purchase orders and invoices pending payment within a single platform, to facilitate communication with your customers, analyze the performance of your main sales channels and monitor the health of your company.</p>
+											</div>
+											<div class="tab-pane fade" id="v-pills-t4" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+												<img src="https://x-data.mx/img/salud-y-farmaceutica.png" alt="">
+												<p class="tab-transporte-titulo">Health and pharmaceutical</p>
+												<p class="tab-transporte-p">Analyzes the demand, sales, distribution and performance of the sector's products to improve the operation and ensure product availability throughout the country.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				<!-- Termina menú soluciones -->
+				<li class="nav-item">
+					<a href="https://x-data.mx/en/contact" class="nav-link pagescroll" aria-current="true" onclick="">Contact</a>
+				</li>
+				<li class="nav-item">
+					<div class="navMob-dropdown_lang dropdown">
+					  <button class="dropbtn btn " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+					    EN
+					    <img src="https://x-data.mx/img/icons/dropdown-soluciones.svg" alt="">
+					  </button>
+					  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+					    <li><a class="dropdown-item" href="https://x-data.mx/">ES</a></li>
+					  </ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="nav-mobile-all">
+		<div class="navMobile d-xl-none">
+			<img src="https://x-data.mx/img/logos/x-data.svg" alt="">
+			<div class="navMobile-header">
+				<!-- dropdown EN/ES -->
+				<div class="navMob-dropdown_lang dropdown">
+				  <button class="dropbtn btn " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+				    EN
+				    <img src="https://x-data.mx/img/icons/dropdown-soluciones.svg" alt="">
+				  </button>
+				  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+				    <li><a class="dropdown-item" href="https://x-data.mx/">ES</a></li>
+				  </ul>
+				</div>
+				<!-- Termina dropdown EN/ES -->
+				<div class="button_container" id="toggle">
+				  <span class="top"></span>
+				  <span class="middle"></span>
+				  <span class="bottom"></span>
+				</div>
+			</div>
+		</div>
+		<!-- Carousel -->
+		<div id="carouselSolucionesMobile"  class="carousel slide carousel-soluciones-mobile" data-bs-ride="carousel" data-bs-interval="false">
+		  <div class="carousel-inner">
+		  	<!-- Item de opciones principales -->
+		    <div class="carousel-item active" id="soluciones-mobile-item1">
+		      <div class="overlay d-xl-none" id="overlay">
+		        <nav class="overlay-menu">
+		          <ul>
+		            <li class="navMobile-li-interno"><a href="#about-us">About us</a></li>
+		            <li class="navMobile-li-soluciones"><a href="#" id="navMobile-ir-a-soluciones">Solutions <img src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></a></li>
+		            <li><a href="https://x-data.mx/en/contact">Contact</a></li>
+		            <li>
+		            	<div class="navMobile-social">
+		            		<a href="https://twitter.com/xdatamx" target="_blank">
+		            			<img src="https://x-data.mx/img/icons/fr-tw.svg" alt="">
+		            		</a>
+		            		<a href="https://www.instagram.com/xdatamx/" target="_blank">
+		            			<img src="https://x-data.mx/img/icons/fr-ig.svg" alt="">
+		            		</a>
+		            		<a href="https://www.linkedin.com/company/x-data/" target="_blank">
+		            			<img src="https://x-data.mx/img/icons/fr-in.svg" alt="">
+		            		</a>
+		            		<a href="https://www.facebook.com/XDATAMX/" target="_blank">
+		            			<img src="https://x-data.mx/img/icons/fr-fb.svg" alt="">
+		            		</a>
+		            	</div>
+		            </li>
+		          </ul>
+		        </nav>
+		      </div>
+		    </div>
+		    <!-- Item de opciones secundarias -->
+		    <div class="carousel-item" id="soluciones-mobile-item2">
+		    	<div class="soluciones-mobile-item2-container">
+		    		<div class="navMobile-regresar" id="navMobile-ir-a-principal-de-soluciones">
+		    			<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Solutions</p>
+		    		</div>
+		    		<div class="soluciones-mobile-item2-opciones">
+		    			<ul>
+		    				<li id="navMobile-ir-a-servicios">
+		    					<p>Services<img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+		    				</li>
+		    				<li id="navMobile-ir-a-productos">
+		    					<p>Products<img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+		    				</li>
+		    				<li id="navMobile-ir-a-industrias">
+		    					<p>Industries<img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+		    				</li>
+		    			</ul>
+		    		</div>
+		    	</div>
+		     	
+		    </div>
+		    <!-- Item de servicios -->
+		    <div class="carousel-item" id="soluciones-mobile-item3">
+		    	<div class="soluciones-mobile-item2-container">
+		    		<div class="navMobile-regresar" id="navMobile-regresar-a-soluciones-de-servicios">
+		    			<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Services</p>
+		    		</div>
+		    		<div class="soluciones-mobile-item2-opciones op2">
+		    			<ul>
+		    				<li id="ir-a-analitica">
+		    					<p><span> <img src="https://x-data.mx/img/analitica-avanzada.png" alt="">Advanced Analytics</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+		    				</li>
+		    				<li id="ir-a-dash">
+		    					<p><span> <img src="https://x-data.mx/img/dashboards.png" alt="">Dashboards</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+		    				</li>
+		    				<li id="ir-a-dataviz">
+		    					<p><span> <img src="https://x-data.mx/img/dataviz.png" alt="">Dataviz</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+		    				</li>
+		    				<li id="ir-a-consultoria">
+		    					<p><span> <img src="https://x-data.mx/img/arquitectura-de-datos.png" alt="">Data architecture consulting</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+		    				</li>
+		    			</ul>
+		    		</div>
+		    	</div>
+		     	
+		    </div>
+		    <!-- Item de analítica avanzada -->
+		    <div class="carousel-item" id="soluciones-mobile-item6">
+		    	<div class="soluciones-mobile-item2-container">
+		    		<div class="navMobile-regresar" id="navMobile-regresar-de-analitica">
+		    			<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Servicios</p>
+		    		</div>
+		    		<div class="soluciones-mobile-item2-opciones">
+		    			<ul class="soluciones-ul-container">
+		    				<img src="https://x-data.mx/img/analitica-avanzada.png" alt="">
+		    				<p class="ul-container-titulo">Advanced Analytics</p>
+		    				<p>Centralize and analyze your organization's data to identify business opportunities and solve problems. Let the data speak for itself and show you how your market is performing.</p>
+		    			</ul>
+		    		</div>
+		    	</div>	
+		    </div>
+		     <!-- Item de dashboards -->
+		    <div class="carousel-item" id="soluciones-mobile-item7">
+		    	<div class="soluciones-mobile-item2-container">
+		    		<div class="navMobile-regresar" id="navMobile-regresar-de-dash">
+		    			<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Services</p>
+		    		</div>
+		    		<div class="soluciones-mobile-item2-opciones">
+		    			<ul class="soluciones-ul-container">
+		    				<img src="https://x-data.mx/img/dashboards.png" alt="">
+		    				<p class="ul-container-titulo">Dashboards</p>
+		    				<p>Take control of your business using tools that allow you to monitor your business information in real time. Make decisions based on hard data, supported by easy-to-read dashboards. Discover valuable insights within your information and empower your entire company with them.</p>
+		    			</ul>
+		    		</div>
+		    	</div>	
+		    </div>
+		     <!-- Item de dataviz -->
+		    <div class="carousel-item" id="soluciones-mobile-item8">
+		    	<div class="soluciones-mobile-item2-container">
+		    		<div class="navMobile-regresar" id="navMobile-regresar-de-dataviz">
+		    			<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Services</p>
+		    		</div>
+		    		<div class="soluciones-mobile-item2-opciones">
+		    			<ul class="soluciones-ul-container">
+		    				<img src="https://x-data.mx/img/dataviz.png" alt="">
+		    				<p class="ul-container-titulo">Dataviz</p>
+		    				<p>Show your audience complex data sets in an engaging and easy-to-digest way. Data visualization is the intersection between the science and art of displaying information, which makes it much easier to identify key insights.</p>
+		    			</ul>
+		    		</div>
+		    	</div>	
+		    </div>
+		     <!-- Item de consultoria -->
+		    <div class="carousel-item" id="soluciones-mobile-item9">
+		    	<div class="soluciones-mobile-item2-container">
+		    		<div class="navMobile-regresar" id="navMobile-regresar-de-consultoria">
+		    			<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Services</p>
+		    		</div>
+		    		<div class="soluciones-mobile-item2-opciones">
+		    			<ul class="soluciones-ul-container">
+		    				<img src="https://x-data.mx/img/arquitectura-de-datos.png" alt="">
+		    				<p class="ul-container-titulo">Data architecture consulting</p>
+		    				<p>Your company generates large volumes of data and processing them is a challenge that we help you solve. Join the industry's best practices for storing and structuring information, allowing you to have greater scalability and collaboration in data warehouses</p>
+		    			</ul>
+		    		</div>
+		    	</div>	
+		    </div>
+
+		    <!-- Item de productos -->
+		    <div class="carousel-item" id="soluciones-mobile-item4">
+		    	<div class="soluciones-mobile-item2-container">
+		    		<div class="navMobile-regresar" id="navMobile-regresar-a-soluciones-de-productos">
+		    			<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Products</p>
+		    		</div>
+		    		<div class="soluciones-mobile-item2-opciones op2">
+		    			<ul>
+		    				<li>
+		    					<!-- <a href="https://x-data.mx/baiwa"> -->
+		    						<p><span><img src="https://x-data.mx/img/baiwa-icon.png" alt="">Baiwa</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+		    					<!-- </a> -->
+		    					
+		    				</li>
+		    				<li id="ir-a-datalake">
+		    					<p><span><img src="https://x-data.mx/img/data-lake.png" alt="">Data Lake</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+		    				</li>
+		    				<li id="ir-a-energymap">
+		    					<p><span><img src="https://x-data.mx/img/energy-map.png" alt="">Energy Map</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+		    				</li>
+		    			</ul>
+		    		</div>
+		    	</div>
+		    </div>
+		     <!-- Item de baiwa -->
+		    <div class="carousel-item" id="soluciones-mobile-item10">
+		    	<div class="soluciones-mobile-item2-container">
+		    		<div class="navMobile-regresar" id="navMobile-regresar-de-baiwa">
+		    			<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Products</p>
+		    		</div>
+		    		<div class="soluciones-mobile-item2-opciones">
+		    			<ul class="soluciones-ul-container">
+		    				<img src="https://x-data.mx/img/baiwa-icon.png" alt="">
+		    				<p class="ul-container-titulo">Baiwa</p>
+		    				<p>Transform your Human Resources area into a data driven one. Design your strategy using technological resources where you contemplate the needs of your company and your employees. Reduce turnover, hire intelligently and promote valuable assets within your organization.</p>
+		    			</ul>
+		    		</div>
+		    	</div>	
+		    </div>
+		     <!-- Item de data lake -->
+		    <div class="carousel-item" id="soluciones-mobile-item11">
+		    	<div class="soluciones-mobile-item2-container">
+		    		<div class="navMobile-regresar" id="navMobile-regresar-de-datalake">
+		    			<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Products</p>
+		    		</div>
+		    		<div class="soluciones-mobile-item2-opciones">
+		    			<ul class="soluciones-ul-container">
+		    				<img src="https://x-data.mx/img/data-lake.png" alt="">
+		    				<p class="ul-container-titulo">Data Lake</p>
+		    				<p>All your data in one place. Create a repository to store, manage, index and dispose of all the structured or unstructured data you generate, in a simple and automatic way; with the capacity to digest high volumes of information.</p>
+		    			</ul>
+		    		</div>
+		    	</div>	
+		    </div>
+		     <!-- Item de energy map -->
+		    <div class="carousel-item" id="soluciones-mobile-item12">
+		    	<div class="soluciones-mobile-item2-container">
+		    		<div class="navMobile-regresar" id="navMobile-regresar-de-energymap">
+		    			<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Products</p>
+		    		</div>
+		    		<div class="soluciones-mobile-item2-opciones">
+		    			<ul class="soluciones-ul-container">
+		    				<img src="https://x-data.mx/img/energy-map.png" alt="">
+		    				<p class="ul-container-titulo">Energy Map</p>
+		    				<p>Through an executive dashboard, it monitors in real time the price of electricity, natural gas and other factors that may alter these indicators, such as the exchange rate, CPI, etc.</p>
+		    			</ul>
+		    		</div>
+		    	</div>	
+		    </div>
+
+
+		    <!-- Item de industrias -->
+		    <div class="carousel-item" id="soluciones-mobile-item5">
+		    	<div class="soluciones-mobile-item2-container">
+		    		<div class="navMobile-regresar" id="navMobile-regresar-a-soluciones-de-industrias">
+		    			<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Industries</p>
+		    		</div>
+		    		<div class="soluciones-mobile-item2-opciones op2">
+		    			<ul>
+		    				<li id="ir-a-logistica">
+		    					<p><span><img src="https://x-data.mx/img/logistica-y-transporte.png" alt="">Logistics and transportation</span><img class="soluciones-flecha-next" src="img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+		    				</li>
+		    				<li id="ir-a-manufactura">
+		    					<p><span><img src="https://x-data.mx/img/manufactura.png" alt="">Manufacturing</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+		    				</li>
+		    				<li id="ir-a-retail">
+		    					<p><span><img src="https://x-data.mx/img/retail.png" alt="">Retail y bienes de consumo</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+		    				</li>
+		    				<li id="ir-a-salud">
+		    					<p><span><img src="https://x-data.mx/img/salud-y-farmaceutica.png" alt="">Salud y farmacéutica</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+		    				</li>
+		    			</ul>
+		    		</div>
+		    	</div>		     	
+		    </div>
+		     <!-- Item de logistica -->
+		    <div class="carousel-item" id="soluciones-mobile-item13">
+		    	<div class="soluciones-mobile-item2-container">
+		    		<div class="navMobile-regresar" id="navMobile-regresar-de-logistica">
+		    			<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Industrias</p>
+		    		</div>
+		    		<div class="soluciones-mobile-item2-opciones">
+		    			<ul class="soluciones-ul-container">
+		    				<img src="https://x-data.mx/img/logistica-y-transporte.png" alt="">
+		    				<p class="ul-container-titulo">Logistics and transportation</p>
+		    				<p>Optimize routes and delivery times with data centralization and trend analysis. </p>
+		    			</ul>
+		    		</div>
+		    	</div>	
+		    </div>
+		     <!-- Item de manufactura -->
+		    <div class="carousel-item" id="soluciones-mobile-item14">
+		    	<div class="soluciones-mobile-item2-container">
+		    		<div class="navMobile-regresar" id="navMobile-regresar-de-manufactura">
+		    			<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Industries</p>
+		    		</div>
+		    		<div class="soluciones-mobile-item2-opciones">
+		    			<ul class="soluciones-ul-container">
+		    				<img src="https://x-data.mx/img/manufactura.png" alt="">
+		    				<p class="ul-container-titulo">Manufacturing</p>
+		    				<p>Raise production quality, measure plant performance, reduce the risk of incidents in your staff, and generate data-driven predictions using our tools.</p>
+		    			</ul>
+		    		</div>
+		    	</div>	
+		    </div>
+		     <!-- Item de retail -->
+		    <div class="carousel-item" id="soluciones-mobile-item15">
+		    	<div class="soluciones-mobile-item2-container">
+		    		<div class="navMobile-regresar" id="navMobile-regresar-de-retail">
+		    			<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Industries</p>
+		    		</div>
+		    		<div class="soluciones-mobile-item2-opciones">
+		    			<ul class="soluciones-ul-container">
+		    				<img src="https://x-data.mx/img/retail.png" alt="">
+		    				<p class="ul-container-titulo">Retail and consumer goods</p>
+		    				<p>We consolidate information on sales, inventories, returns, purchase orders and invoices pending payment within a single platform, to facilitate communication with your customers, analyze the performance of your main sales channels and monitor the health of your company.</p>
+		    			</ul>
+		    		</div>
+		    	</div>	
+		    </div>
+		     <!-- Item de salud -->
+		    <div class="carousel-item" id="soluciones-mobile-item16">
+		    	<div class="soluciones-mobile-item2-container">
+		    		<div class="navMobile-regresar" id="navMobile-regresar-de-salud">
+		    			<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Industries</p>
+		    		</div>
+		    		<div class="soluciones-mobile-item2-opciones">
+		    			<ul class="soluciones-ul-container">
+		    				<img src="https://x-data.mx/img/salud-y-farmaceutica.png" alt="">
+		    				<p class="ul-container-titulo">Health and pharmaceutical</p>
+		    				<p>Analyzes the demand, sales, distribution and performance of the sector's products to improve the operation and ensure product availability throughout the country.</p>
+		    			</ul>
+		    		</div>
+		    	</div>	
+		    </div>
+
+		  </div>
+		</div>
+	</div>`
+
+	<div>
+		<main >
+				
+			<!-- Banner -->
+			<section class="home-banner" id="x-data">
+				<div class="myContainer">
+					<h2 class="home-banner_titulo">X-DATA</h2>
+					<p class="home-banner_p">We help you solve problems and make better decisions for your business through data analysis, dashboards and visualizations; together we can challenge the challenges of the digital world and transform your data into business assets.</p>
+				<!-- Modal -->
+				<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" onclick="stopVid()">
+					<div class="modal-dialog">
+						<div class="modal-content-video modal-content">
+							<div class="modal-body">
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="stopVid()"></button>
+								<video playsinline controls  preload="auto" id="video-banner" poster="https://x-data.mx/img/poster-inicial-video.png">
+									<source loading="lazy" src="./video/Xdata_BannerRedes.mp4">
+									</video> 
+								</div>
+							</div>
+						</div>
+					</div>
+			</section>
+
+			<!-- ADN -->
+			<section class="container-fluid home-nosotros nosotrosAdn" id="about-us">
+				<div class="nosotros-texto myContainer">
+					<h3 class="titulo-seccion">About us</h3>
+					<h1 class="titulo-grande-seccion">DATA ANALYTICS STUDIO</h1>
+					<p class="nosotros-texto_p">We are the #1 Data Analytics Studio in Mexico. We create solutions tailored to the challenges of your organization so that you unleash the potential of your data and use it to your advantage</p>
+				</div>
+				<div class="nosotros-adn myContainer">
+					<div class="nosotros-adn_cuadro">
+						<!-- <img id="adn" src="../img/adn.png" alt=""> -->
+						<div id="adn-cuadro_circulo1" class="adn-cuadro_circulo">
+							1.
+						</div>
+						<div id="adn-cuadro_circulo2" class="adn-cuadro_circulo">
+							2.
+						</div>
+						<div id="adn-cuadro_circulo3" class="adn-cuadro_circulo">
+							3.
+						</div>
+						<div id="adn-cuadro_circulo4" class="adn-cuadro_circulo">
+							4.
+						</div>
+						<span class="adn-linea linea1"></span>
+						<span class="adn-linea linea2"></span>
+						<span class="adn-linea linea3"></span>
+						<span class="adn-linea linea4"></span>
+					</div>
+					<div class="nosotros-adn_textos">
+						<!-- carousel de adn textos -->
+						<div id="carouselADN" class=" carousel slide"data-bs-interval="false">
+							<div class="carousel-inner">
+								<div id="carousel-item_adn1" class="carousel-item_adn carousel-item  active">
+									<div class="adn-textos_content">
+										<img src="https://x-data.mx/tercera/img/adn-nube.png" alt="">
+										<h2 class="adn-textos_titulo">We transform data into assets</h2>
+										<p class="adn-textos_p">We encourage your company to make better decisions based on data so that it can scale to new levels of productivity, efficiency and savings.
+										</p>
+										<p class="adn-textos_p">We turn data analysis into the backbone of your organization, developing a competitive advantage over your rivals in the market.</p>
+									</div>
+								</div>
+								<div id="carousel-item_adn2" class="carousel-item_adn carousel-item ">
+									<div class="adn-textos_content">
+										<img src="https://x-data.mx/tercera/img/adn-calendario.png" alt="">
+										<h2 class="adn-textos_titulo">Results in 40 days</h2>
+										<p class="adn-textos_p">We evaluate the level of use of your company's data and help you find the ideal route to solve your challenges. We are committed to delivering tangible results in less than 40 days thanks to the iterative process that we have developed with our talented team.</p>
+									</div>
+								</div>
+								<div id="carousel-item_adn3" class="carousel-item_adn carousel-item ">
+									<div class="adn-textos_content">
+										<img src="https://x-data.mx/tercera/img/adn-visualizacion.png" alt="">
+										<h2 class="adn-textos_titulo">Dataviz</h2>
+										<p class="adn-textos_p">We take your data, analyze it and visualize it in dashboards that allow you to better understand what is happening with your company, identify problems or advantages and start making better informed and strategic decisions. </p>
+									</div>
+								</div>
+								<div id="carousel-item_adn4" class="carousel-item_adn carousel-item ">
+									<div class="adn-textos_content">
+										<img src="https://x-data.mx/tercera/img/adn-nodos.png" alt="" id="nodos">
+										<h2 class="adn-textos_titulo">Break information silos</h2>
+										<p class="adn-textos_p">We are committed to grouping data, even those that are isolated, to find relationships and insights that become useful information and finally actions that transform your company into a totally data-driven organization.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- carousel de adn textos -->
+					</div>
+				</div>
+			</section>
+
+			<!-- Productos y servicios -->
+			<section class="servicios">
+				<div class="myContainer">
+					<div class="">
+						<h3 class="titulo-seccion">Solutions - productos and services </h3>
+						<ul class="nav nav-tabs nav-tabs-servicios" id="tabServicios" role="tablist">
+							<li class="nav-item" role="presentation">
+								<button class="shadow-lg nav-link active" id="servicios-tab" data-bs-toggle="tab" data-bs-target="#servicios" type="button" role="tab" aria-controls="servicios" aria-selected="true">Services</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="shadow-lg nav-link" id="productos-tab" data-bs-toggle="tab" data-bs-target="#productos" type="button" role="tab" aria-controls="productos" aria-selected="false">Products</button>
+							</li>
+						</ul>
+					</div>
+					<div class="tab-content  tab-content-soluciones" id="myTabContent">
+						<!-- Soluciones -->
+						<!-- Servicios -->
+						<div class="tab-pane  tab-pane-soluciones fade show active" id="servicios" role="tabpanel" aria-labelledby="servicios-tab">
+							<!-- Pills servicios -->
+							<ul class="nav nav-pills nav-pills-soluciones nav-pills-servicios" id="pills-servicios" role="tablist">
+								<li class="nav-item" role="presentation" id="item-dashboards">
+									<button class="nav-link active" id="pills-dashboards-tab" data-bs-toggle="pill" data-bs-target="#pills-dashboards" type="button" role="tab" aria-controls="pills-dashboards" aria-selected="true">
+										<img src="https://x-data.mx/img/dashboards.png" alt="">
+										Dashboards
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="pills-dataviz-tab" data-bs-toggle="pill" data-bs-target="#pills-dataviz" type="button" role="tab" aria-controls="pills-dataviz" aria-selected="false">
+										<img src="https://x-data.mx/img/dataviz.png" alt="">
+										Dataviz
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="pills-analitica-tab" data-bs-toggle="pill" data-bs-target="#pills-analitica" type="button" role="tab" aria-controls="pills-analitica" aria-selected="false">
+										<img src="https://x-data.mx/img/analitica-avanzada.png" alt="">
+										Advanced Analytics
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="pills-consultoria-tab" data-bs-toggle="pill" data-bs-target="#pills-consultoria" type="button" role="tab" aria-controls="pills-consultoria" aria-selected="false">
+										<img src="https://x-data.mx/img/arquitectura-de-datos.png" alt="">
+										Data architecture consulting
+									</button>
+								</li>
+							</ul>
+							<div class="tab-content tab-content-servicios" id="pills-tabContent">
+								<div class="tab-pane fade show active" id="pills-dashboards" role="tabpanel" aria-labelledby="pills-dashboards-tab">
+									<div class="servicios-tab-individual">
+										<div class="servicios-individual_img">
+											<div>
+												<img src="https://x-data.mx/img/dashboards.png" alt="">
+											</div>
+										</div>
+										<h3 class="servicios-individual_titulo titulo-grande-seccion">Dashboards</h3>
+										<p>Take control of your business using tools that allow you to monitor your business information in real time. Make decisions based on hard data, supported by easy-to-read dashboards. Discover valuable insights within your information and empower your entire company with them.</p>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="pills-dataviz" role="tabpanel" aria-labelledby="pills-dataviz-tab">
+									<div class="servicios-tab-individual">
+										<div class="servicios-individual_img">
+											<div>
+												<img src="https://x-data.mx/img/dataviz.png" alt="">
+											</div>
+										</div>
+										<h3 class="servicios-individual_titulo titulo-grande-seccion">Dataviz</h3>
+										<p>Show your audience complex data sets in an engaging and easy-to-digest way. Data visualization is the intersection between the science and art of displaying information, which makes it much easier to identify key insights.</p>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="pills-analitica" role="tabpanel" aria-labelledby="pills-analitica-tab">
+									<div class="servicios-tab-individual">
+										<div class="servicios-individual_img">
+											<div>
+												<img src="https://x-data.mx/img/analitica-avanzada.png" alt="">
+											</div>
+										</div>
+										<h3 class="servicios-individual_titulo titulo-grande-seccion">Advanced Analytics</h3>
+										<p>Centralize and analyze your organization's data to identify business opportunities and solve problems. Let the data speak for itself and show you how your market is performing.</p>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="pills-consultoria" role="tabpanel" aria-labelledby="pills-consultoria-tab">
+									<div class="servicios-tab-individual ">
+										<div class="servicios-individual_img">
+											<div>
+												<img src="https://x-data.mx/img/arquitectura-de-datos.png" alt="">
+											</div>
+										</div> <h3 class="servicios-individual_titulo titulo-grande-seccion">Data architecture consulting</h3>
+										<p>Your company generates large volumes of data and processing them is a challenge that we help you solve. Join the industry's best practices for storing and structuring information, allowing you to have greater scalability and collaboration in data warehouses.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Productos -->
+						<div class="tab-pane tab-pane-soluciones fade" id="productos" role="tabpanel" aria-labelledby="productos-tab">
+							<!-- Pills productos -->
+							<ul class="nav nav-pills nav-pills-soluciones nav-pills-productos" id="pills-productos" role="tablist">
+								<li class="nav-item" role="presentation">
+									<a target="_blank" href="" class="nav-link active d-xl-none" id="pills-baiwa-tab" data-bs-toggle="pill" data-bs-target="#pills-baiwa" type="button" role="tab" aria-controls="pills-baiwa" aria-selected="true">
+										<img src="https://x-data.mx/img/baiwa-icon.png" alt="">
+										Baiwa
+									</a>
+									<a target="_blank" href="" class="nav-link active d-none d-xl-flex" id="pills-baiwa-tab">
+										<img src="https://x-data.mx/img/baiwa-icon.png" alt="">
+										Baiwa
+									</a>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="pills-datalake-tab" data-bs-toggle="pill" data-bs-target="#pills-datalake" type="button" role="tab" aria-controls="pills-datalake" aria-selected="false">
+										<img src="https://x-data.mx/img/data-lake.png" alt="">
+										Data Lake
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="pills-energymap-tab" data-bs-toggle="pill" data-bs-target="#pills-energymap" type="button" role="tab" aria-controls="pills-energymap" aria-selected="false">
+										<img src="https://x-data.mx/img/energy-map.png" alt="">
+										Energy Map
+									</button>
+								</li>
+							</ul>
+							<div class="tab-content tab-content-productos" id="pills-tabContent">
+								<div class="tab-pane fade show active" id="pills-baiwa" role="tabpanel" aria-labelledby="pills-baiwa-tab">
+									<div class="servicios-tab-individual ">
+										<div class="servicios-individual_img">
+											<div>
+												<img id="ind-baiwa" src="https://x-data.mx/img/baiwa-icon.png" alt="">
+											</div>
+										</div>
+										<h3 class="servicios-individual_titulo titulo-grande-seccion">Baiwa</h3>
+										<p>Transform your Human Resources area into a data driven one. Design your strategy using technological resources where you contemplate the needs of your company and your employees. Reduce turnover, hire intelligently and promote valuable assets within your organization.</p>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="pills-datalake" role="tabpanel" aria-labelledby="pills-datalake-tab">
+									<div class="servicios-tab-individual ">
+										<div class="servicios-individual_img">
+											<div>
+												<img src="https://x-data.mx/img/data-lake.png" alt="">
+											</div>
+										</div>
+										<h3 class="servicios-individual_titulo titulo-grande-seccion">Data Lake</h3>
+										<p>All your data in one place. Create a repository to store, manage, index and dispose of all the structured or unstructured data you generate, in a simple and automatic way; with the capacity to digest high volumes of information.</p>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="pills-energymap" role="tabpanel" aria-labelledby="pills-energymap-tab">
+									<div class="servicios-tab-individual ">
+										<div class="servicios-individual_img">
+											<div>
+												<img src="https://x-data.mx/img/energy-map.png" alt="">
+											</div>
+										</div>
+										<h3 class="servicios-individual_titulo titulo-grande-seccion">Energy Map</h3>
+										<p>Through an executive dashboard, it monitors in real time the price of electricity, natural gas and other factors that may alter these indicators, such as the exchange rate, CPI, etc.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="fondo">
+				<!-- Casos de éxito y logos -->
+				<section class="exito">
+					<!-- Logos -->
+						<section class="logos-cambian d-lg-none">
+							<div id='image1' class="cambian1"></div>
+							<div id='image2' class="cambian2"></div>
+							<div id='image3' class="cambian3"></div>
+						</section>
+						<section class="confia d-none d-lg-block " id="exito">
+							<div class="logos-quien-confia container">
+								<img loading="lazy" src="https://x-data.mx/img/logos/logo-nadro.png"  alt="">
+								<!-- XL -->
+								<img loading="lazy" class="" src="https://x-data.mx/img/logos/logo-proquifa.png"  alt="">
+								<!-- LG -->
+								<img loading="lazy" class=""   src="https://x-data.mx/img/logos/logo-royal-canin.png"  alt="">
+								<!-- MD -->
+								<img loading="lazy" class="" src="https://x-data.mx/img/logos/logo-alsea.png"  alt="">
+								<!-- SM -->
+								<img loading="lazy" class="" src="https://x-data.mx/img/logos/logo-bohn.png"  alt="">
+							</div>
+						</section>
+
+					<!-- Casos de éxito -->
+					<div class="div-exito">
+						<section class="casos-de-exito">
+							<div id="carouselExampleIndicators" data-bs-ride="carousel" class="carousel carousel-fade" data-bs-interval="false">
+								<div class="carousel-indicators-grande ">
+									<button class="indicator-grande active" id="indicator-grande-logistica">
+										<img loading="lazy" src="https://x-data.mx/img/logistica-icon.svg" alt="">
+										<h5 class="indicator-grande_titulo">Logistics and transportation</h5>
+									</button>
+									<button class="indicator-grande" id="indicator-grande-people">
+										<img loading="lazy" src="https://x-data.mx/img/people-analytics-icon.svg" alt="">
+										<h5 class="indicator-grande_titulo">People analytics</h5>
+									</button>
+									<button class="indicator-grande" id="indicator-grande-pricing">
+										<img loading="lazy" src="https://x-data.mx/img/pricing-icon.svg" alt="">
+										<h5 class="indicator-grande_titulo">Retail and consumer goods</h5>
+									</button>
+								</div>
+								<div class="carousel-indicators carousel-indicators-chico ">
+									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" id="indicators-logistica-circulo"></button>
+									<button id="indicators-people-circulo" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+									<button id="indicators-pricing-circulo" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+								</div>
+								<div class="carousel-inner">
+									<!-- Item logística -->
+									<div class="carousel-item carousel-item-exito active" id="carousel-item-logistica">
+										<div class="item-exito-grid">
+											<img loading="lazy" src="https://x-data.mx/img/logistica-distribucion.png" class="exito-dash d-block" alt="...">
+											<div class="item-exito-content">
+												<h4 class="exito-titulo-arriba titulo-seccion">success stories</h4>
+												<h2 class="item-exito-content_titulo titulo titulo-grande-seccion">Logistics and transportation</h2>
+												<p>We analyze delivery logs and consumption patterns to identify the ideal delivery time for each customer.</p>
+												<div class="list-exito-content">
+													<h3 class="exito-content-list">20% less km traveled monthly </h3>
+													<hr>
+													<h3 class="exito-content-list">Reduction of false deliveries</h3>
+													<hr>
+													<h3 class="exito-content-list">Short-term return on investment</h3>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Item people -->
+									<div class="carousel-item carousel-item-exito" id="carousel-item-people">
+										<div class="item-exito-grid">
+											<img loading="lazy" src="https://x-data.mx/img/people-analytics-dash.png" class="exito-dash d-block" alt="...">
+											<div class="item-exito-content">
+												<h4 class="exito-titulo-arriba titulo-seccion titulo">Success stories</h4>
+												<h2 class="item-exito-content_titulo titulo-grande-seccion">People Analytics</h2>
+												<p>With Baiwa we analyze the data of the collaborators and find patterns to identify the characteristics of the ideal profile for the organization, in order to attract and hire key talent.</p>
+												<div class="list-exito-content">
+													<h3 class="exito-content-list">17% reduction in turnover in 3 months</h3>
+													<hr>
+													<h3 class="exito-content-list">Audit tool in recruitment area</h3>
+													<hr>
+													<h3 class="exito-content-list">Increased efficiency and creation of KPIs </h3>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Item pricing -->
+									<div class="carousel-item carousel-item-exito" id="carousel-item-pricing">
+										<div class="item-exito-grid">
+											<img loading="lazy" src="https://x-data.mx/img/pricing-dash.png" class="exito-dash d-block" alt="...">
+											<div class="item-exito-content">
+												<h4 class="exito-titulo-arriba titulo-seccion titulo">success stories</h4>
+												<h2 class="item-exito-content_titulo titulo-grande-seccion">Retail and consumer goods</h2>
+												<p>We built a predictive analytics tool to measure demand and identify which products are needed in inventory. Plus, a warehouse inventory tool to identify overages and shortages to seek coverage with other warehouses in the same chain.</p>
+												<div class="list-exito-content">
+													<h3 class="exito-content-list">30% more sales (SKU)</h3>
+													<hr>
+													<h3 class="exito-content-list">15% fewer trips to transport merchandise</h3>
+													<hr>
+													<h3 class="exito-content-list">Products with 40% less time in stock </h3>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<button id="carousel-control-prev-exito" class="carousel-control-prev d-none d-lg-block" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Previous</span>
+								</button>
+								<button id="carousel-control-next-exito" class="carousel-control-next d-none d-lg-block" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Next</span>
+								</button>
+							</div>
+						</section>
+					</div>
+				</section>
+
+				<!-- Dataviz -->
+				<section class="dataviz">
+					<div class="myContainer">
+						<h3 class="titulo-seccion text-center">Dataviz</h3>
+						<h2 class="titulo-grande-seccion text-center">Data Visualization</h2>
+						<p>At x-data we are experts in data visualization. Data is everywhere and can be represented in a very attractive way that is easy to understand and analyze depending on the target audience.</p>
+						<p>We show you some visualization projects that we have carried out with our allies:.</p>
+					</div>
+					<!-- carousel dataviz mobile -->
+					<div id="carouselDataviz" class="carousel myContainer d-xl-none" data-bs-interval="false" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item carousel-item-dataviz active">
+								<div class="item-dataviz-img">
+									<a target="_blank" href="https://x-data.mx/contrapedal/">
+										<img src="https://x-data.mx/img/dataviz-mob-contrapedal.png" class="d-block" alt="...">
+									</a>
+									<a class="carousel-dataviz-ir" target="_blank" href="https://x-data.mx/contrapedal/">
+										<img src="https://x-data.mx/img/flecha-ir.svg" alt="">
+									</a>
+								</div>
+								<h4 class="dataviz-mob-titulo">Contrapedal / <span>X-DATA</span></h4>
+								<p>We made a platform with D3 visualizations to demonstrate that data analysis and visualization can boost cycling mobility. We created a unique consultation space where all the information necessary to ride safely in CDMX is found.</p>
+							</div>
+							<div class="carousel-item carousel-item-dataviz">
+								<div class="item-dataviz-img">
+									<a target="_blank" href="https://www.instagram.com/p/CUArq4lNSMW/">
+										<img src="https://x-data.mx/img/Dataviz-06.png" class="d-block" alt="...">
+									</a>
+									<a class="carousel-dataviz-ir" target="_blank" href="https://www.instagram.com/p/CUArq4lNSMW/">
+										<img src="https://x-data.mx/img/flecha-ir.svg" alt="">
+									</a>
+								</div>
+								<h4 class="dataviz-mob-titulo">EARTHQUAKES IN MEXICO / <span>X-DATA</span></h4>
+								<p>We designed a visualization based on data from the National Seismological Service on earthquakes of magnitude greater than 6° that took place between 1980 and 2021 in Mexico, this to refute the idea that September is the month in which the country tremors the most. </p>
+							</div>
+							<div class="carousel-item carousel-item-dataviz">
+								<div class="item-dataviz-img">
+									<a target="_blank" href="https://x-data.mx/milenio">
+										<img src="https://x-data.mx/img/dataviz-mob-gobierno.png" class="d-block" alt="...">
+									</a>
+									<a class="carousel-dataviz-ir" target="_blank" href="https://x-data.mx/milenio">
+										<img src="https://x-data.mx/img/flecha-ir.svg" alt="">
+									</a>
+								</div>
+								<h4 class="dataviz-mob-titulo">GOVERNMENT CONTRACTS  / <span>Milenio</span></h4>
+								<p>In collaboration with Milenio Televisión, we carry out visualizations about the expenses of the Mexican government during fiscal year 2020. In this way, we identify which contracts, companies, dependencies and institutions represent the most expenses at the national level.</p>
+							</div>
+							<div class="carousel-item carousel-item-dataviz">
+								<div class="item-dataviz-img">
+									<a target="_blank" href="https://www.instagram.com/p/CTyGf8TMALw/">
+										<img src="https://x-data.mx/img/dataviz-mob-aborto.png" class="d-block" alt="...">
+									</a>
+									<a class="carousel-dataviz-ir" target="_blank" href="https://www.instagram.com/p/CTyGf8TMALw/">
+										<img src="https://x-data.mx/img/flecha-ir.svg" alt="">
+									</a>
+								</div>
+								<h4 class="dataviz-mob-titulo">FEMINICIDES VS ABORTION 2020 / <span>X-DATA</span></h4>
+								<p>We analyze and visualize the number of investigation files generated by crimes prosecuted by the Mexican justice system during 2020, classified as abortion and femicide.</p>
+							</div>
+							<div class="carousel-item carousel-item-dataviz">
+								<div class="item-dataviz-img">
+									<a href="https://x-data.mx/lgbt">
+										<img src="https://x-data.mx/img/dataviz-mob-lgbt.png" class="d-block" alt="...">
+									</a>
+									<a class="carousel-dataviz-ir" target="_blank" href="https://x-data.mx/lgbt">
+										<img src="https://x-data.mx/img/flecha-ir.svg" alt="">
+									</a>
+								</div>
+								<h4 class="dataviz-mob-titulo"> LGBT / <span>CULTURA COLECTIVA</span></h4>
+								<p>In alliance with Cultura Colectiva we created this visualization based on the journalistic investigation of Gerardo Sánchez Guadarrama about State LGBTIphobia and violence against the diverse community.</p>
+							</div>
+							<div class="carousel-item carousel-item-dataviz">
+								<div class="item-dataviz-img">
+									<a href="https://x-data.mx/lgbt">
+										<img src="https://x-data.mx/img/dv8.svg" class="d-block" alt="...">
+									</a>
+									<a class="carousel-dataviz-ir" target="_blank" href="https://x-data.mx/nft/emociones/index-en">
+										<img src="https://x-data.mx/img/flecha-ir.svg" alt="">
+									</a>
+								</div>
+								<h4 class="dataviz-mob-titulo"> EMOTIONS / <span>X-DATA</span></h4>
+								<p>X-DATA Emotions is our new collection of NFT's based on dataviz that integrates science and data with digital art. A total of 6 NFT's, where thanks to brain mapping, we can visualize how the human brain reacts when feeling different emotions, such as: happiness, fear, surprise, anger, disgust and sadness.</p>
+							</div>
+							<div class="carousel-item carousel-item-dataviz">
+								<div class="item-dataviz-img">
+									<a href="https://x-data.mx/lgbt">
+										<img src="https://x-data.mx/img/dv9.svg" class="d-block" alt="...">
+									</a>
+									<a class="carousel-dataviz-ir" target="_blank" href="https://x-data.mx/sabordeladata/en">
+										<img src="https://x-data.mx/img/flecha-ir.svg" alt="">
+									</a>
+								</div>
+								<h4 class="dataviz-mob-titulo"> DATA'S FLAVOUR / <span>X-DATA</span></h4>
+								<p>Dataviz project with artistic focus about mexican gastronomy, where we explore their origin through visualizations about the most representative dishes, desserts and beverages.</p>
+							</div>
+						</div>
+						<div class="carousel-dataviz-control">
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselDataviz" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselDataviz" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+
+					<!-- accordion dataviz desktop -->
+					<div class="dataviz-desktop d-none d-xl-block">
+						<div class="acc-wraper">
+							<div class="accordion">
+								<div>
+									<a target="_blank" title="Sismos en México" href="https://www.instagram.com/p/CUArq4lNSMW/">
+										<img class="img-dataviz" src="https://x-data.mx/img/Dataviz-06.png" alt="">
+									</a>
+									<a class="carousel-dataviz-ir_desktop" target="_blank" href="https://www.instagram.com/p/CUArq4lNSMW/">
+										<img  src="https://x-data.mx/img/flecha-ir.svg" alt="">
+									</a>
+									<div class="acc-texto">
+										<h4 class="dataviz-desk-titulo">EARTHQUAKES IN MEXICO / <span>X-DATA</span></h4>
+										<p>We designed a visualization based on data from the National Seismological Service on earthquakes of magnitude greater than 6° that took place between 1980 and 2021 in Mexico, this to refute the idea that September is the month in which the country tremors the most.</p>
+									</div>
+								</div>
+								<div>
+									<a target="_blank" title="Contrapedal" href="https://x-data.mx/contrapedal/">
+										<img class="img-dataviz" src="https://x-data.mx/img/dataviz-mob-contrapedal.png" alt="">
+									</a>
+									<a class="carousel-dataviz-ir_desktop" target="_blank" href="https://x-data.mx/contrapedal/">
+										<img  src="https://x-data.mx/img/flecha-ir.svg" alt="">
+									</a>
+									<div class="acc-texto">
+										<h4 class="dataviz-desk-titulo">Contrapedal / <span>X-DATA</span></h4>
+										<p>We made a platform with D3 visualizations to demonstrate that data analysis and visualization can boost cycling mobility. We created a unique consultation space where all the information necessary to ride safely in CDMX is found.</p>
+									</div>
+								</div>
+								<div>
+									<a target="_blank" title="Contrataciones" href="https://x-data.mx/milenio">
+										<img class="img-dataviz" src="https://x-data.mx/img/dataviz-mob-gobierno.png" alt="">
+									</a>
+									<a class="carousel-dataviz-ir_desktop" target="_blank" href="https://x-data.mx/milenio">
+										<img  src="https://x-data.mx/img/flecha-ir.svg" alt="">
+									</a>
+									<div class="acc-texto">
+										<h4 class="dataviz-desk-titulo">Government Contracts / <span>Milenio</span></h4>
+										<p>In collaboration with Milenio Televisión, we carry out visualizations about the expenses of the Mexican government during fiscal year 2020. In this way, we identify which contracts, companies, dependencies and institutions represent the most expenses at the national level.</p>
+									</div>
+								</div>
+								<div>
+									<a target="_blank" title="Aborto y feminicidio en México" href="https://www.instagram.com/p/CTyGf8TMALw/">
+										<img class="img-dataviz" src="https://x-data.mx/img/dataviz-mob-aborto.png" alt="">
+									</a>
+									<a class="carousel-dataviz-ir_desktop" target="_blank" href="https://www.instagram.com/p/CTyGf8TMALw/">
+										<img  src="https://x-data.mx/img/flecha-ir.svg" alt="">
+									</a>
+									<div class="acc-texto">
+										<h4 class="dataviz-desk-titulo">FEMINICIDES VS ABORTION 2020  / <span>X-DATA</span></h4>
+										<p>We analyze and visualize the number of investigation files generated by crimes prosecuted by the Mexican justice system during 2020, classified as abortion and femicide</p>
+									</div>
+								</div>
+								<div>
+									<a target="_blank" title="LGBTIfobia de estado" href="https://x-data.mx/lgbt">
+										<img class="img-dataviz" src="https://x-data.mx/img/dataviz-mob-lgbt.png" alt="">
+									</a>
+									<a class="carousel-dataviz-ir_desktop" target="_blank" href="https://x-data.mx/lgbt">
+										<img  src="https://x-data.mx/img/flecha-ir.svg" alt="">
+									</a>
+									<div class="acc-texto">
+										<h4 class="dataviz-desk-titulo">LGBT / <span>CULTURA COLECTIVA</span></h4>
+										<p>In alliance with Cultura Colectiva we created this visualization based on the journalistic investigation of Gerardo Sánchez Guadarrama about State LGBTIphobia and violence against the diverse community.</p>
+									</div>
+								</div>
+								<div>
+									<a target="_blank" title="Emociones" href="https://x-data.mx/nft/emociones/index-en">
+										<img class="img-dataviz" src="https://x-data.mx/img/dv7.png" alt="">
+									</a>
+									<a class="carousel-dataviz-ir_desktop" target="_blank" href="https://x-data.mx/nft/emociones/index-en">
+										<img  src="https://x-data.mx/img/flecha-ir.svg" alt="">
+									</a>
+									<div class="acc-texto">
+										<h4 class="dataviz-desk-titulo">EMOTIONS / <span>X-DATA</span></h4>
+										<p>X-DATA Emotions is our new collection of NFT's based on dataviz that integrates science and data with digital art. A total of 6 NFT's, where thanks to brain mapping, we can visualize how the human brain reacts when feeling different emotions, such as: happiness, fear, surprise, anger, disgust and sadness.</p>
+									</div>
+								</div>
+								<div>
+									<a target="_blank" title="Data's Flavour" href="https://x-data.mx/lgbt">
+										<img class="img-dataviz" src="https://x-data.mx/img/dataviz-sabor-desk.png" alt="">
+									</a>
+									<a class="carousel-dataviz-ir_desktop" target="_blank" href="https://x-data.mx/sabordeladata/en">
+										<img  src="https://x-data.mx/img/flecha-ir.svg" alt="">
+									</a>
+									<div class="acc-texto">
+										<h4 class="dataviz-desk-titulo">DATA'S FLAVOUR / <span>X-DATA</span></h4>
+										<p>Dataviz project with artistic focus about mexican gastronomy, where we explore their origin through visualizations about the most representative dishes, desserts and beverages.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+			<!-- Partners -->
+			<section class="partners">
+				<div class="partners-header myContainer">
+					<h3 class="titulo-seccion d-xl-none">Colaboradores
+					</h3>
+					<h2 class="titulo-grande-seccion">Join the community</h2>
+					<h3 class="titulo-seccion" style="text-transform: initial;">Alliance with the leaders</h3>
+					<!-- modal -->
+					<!-- Button trigger modal -->
+					<button type="button" class="shadow-lg mybtn btn-partners" data-bs-toggle="modal" data-bs-target="#partnersModal">
+						Do we team?
+					</button>
+				</div>
+
+				<!-- Modal partners -->
+				<div class="modal fade" id="partnersModal" tabindex="-1" aria-labelledby="partnersModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							<div class="modal-body">
+								<div>
+									<h2 class="titulo-grande-seccion">We love your enthusiasm!</h2>
+									<h3 class="titulo-seccion">Share your data to connect</h3>
+								</div>
+								<form action="">
+									<input required class="required" type="text" placeholder="Nombre: ">
+									<input required class="required" type="text" placeholder="Empresa: ">
+									<input required class="required" type="email" placeholder="Email: ">
+									<input required class="required" type="tel" placeholder="Teléfono: ">
+									<input type="submit" value="Enviar">
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- carousel partners -->
+				<div id="carouselExampleControls"  data-bs-interval="false" class="carousel slide carouselPartners myContainer">
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+						<h3 class="titulo-seccion d-none d-xl-block">Collaborators</h3>
+				      <div class="partners-item partners-item1">
+				      	<div class="partners-foto shadow-sm"><img class="horizontal" src="https://x-data.mx/img/logos/cultura-colectiva.png" alt=""></div>
+				      	<div class="partners-foto shadow-sm"><img class="horizontal" src="https://x-data.mx/img/logos/milenio.png" alt=""></div>
+				      	<div class="partners-foto shadow-sm"><img class="vertical" src="https://x-data.mx/img/logos/reinserta.png" alt=""></div>
+				      	<div class="partners-foto shadow-sm"><img class="vertical" src="https://x-data.mx/img/logos/isla-urbana.png" alt=""></div>
+				      </div>
+				    </div>
+				    <div class="carousel-item">
+						<h3 class="titulo-seccion d-none d-xl-block">Media</h3>
+				      <div class="partners-item partners-item1">
+				      	<div class="partners-foto shadow-sm"><img class="horizontal" src="https://x-data.mx/img/logos/players.png" alt=""></div>
+				      	<div class="partners-foto shadow-sm"><img class="horizontal" src="https://x-data.mx/img/logos/milenio.png" alt=""></div>
+				      </div>
+				    </div>
+				    <div class="carousel-item">
+						<h3 class="titulo-seccion d-none d-xl-block">Alliance with the leaders</h3>
+				      <div class="partners-item partners-item1">
+				      	<div class="partners-foto shadow-sm"><img class="horizontal" src="https://x-data.mx/img/logos/le-wagon.png" alt=""></div>
+				      	<div class="partners-foto shadow-sm"><img class="horizontal" src="https://x-data.mx/img/logos/snow-flake.png" alt=""></div>
+				      	<div class="partners-foto shadow-sm"><img class="vertical" src="https://x-data.mx/img/logos/colegio-bourbaki.png" alt=""></div>
+				      	<div class="partners-foto shadow-sm"><img class="horizontal" src="https://x-data.mx/img/logos/opentec.png" alt=""></div>
+				      </div>
+				    </div>
+				    <div class="carousel-item">
+						<h3 class="titulo-seccion d-none d-xl-block">Alliance with the leaders</h3>
+				      <div class="partners-item partners-item1">
+				      	<div class="partners-foto shadow-sm"><img class="horizontal" src="https://x-data.mx/img/logos/tableu.png" alt=""></div>
+				      	<div class="partners-foto shadow-sm"><img class="horizontal" src="https://x-data.mx/img/logos/theBGcompany.png" alt=""></div>
+				      </div>
+				    </div>
+				  </div>
+				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="visually-hidden">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="visually-hidden">Next</span>
+				  </button>
+				</div>
+			</section>
+
+			<section class="footer-form">
+				<div class="myContainer footer-form_container">
+					<div class="footer-form_txt">
+						<h2 class="titulo-grande-seccion">Do you want to take advantage of your data?</h2>
+						<p>Share your information with us and we will help you transform your data into assets.</p>
+					</div>
+					<div class="footer-form_form">
+						<form  action="" method="post" id="form-contacto_home" name="mc-embedded-subscribe-formC" class="footer-subscription">
+							<input required type="hidden" name="asunto" value="Llenaron el formulario! Footer en home">
+							<input required class="w-100 footer-form_input" type="text" name="name"  id="mce-NAME"  placeholder="Name">
+							<input required class="w-100 footer-form_input" type="email" placeholder="Mail" name="email" id="mce-EMAIL" >
+							<input type="hidden" name="formulario" value="Footer en home">
+							<div class="submit-div">
+								<input class="mybtn footer-form_submit" type="submit" id="submit-button" value="SUSCRIBE">
+								<p id="listo" class="output_message-footer mt-3"></p>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer id="contact">
+			<section class="footer-mob d-lg-none myContainer" >
+				<div>
+					<img class="footer-logo" src="https://x-data.mx/img/logos/logo-footer.png" alt="">
+					<h5 class="footer-title">All right reserved 2022</h5>
+				</div>
+				<div>
+					<h5 class="footer-title">Address</h5>
+					<p>Sófocles 115, Polanco II sección,Miguel Hidalgo, CDMX, C.P. 11530</p>
+				</div>
+				<div>
+					<h5 class="footer-title">Phone</h5>
+					<p>311-112-0772</p>
+				</div>
+				<div>
+					<h5 class="footer-title">Support</h5>
+					<p>contacto@x-data.mx</p>
+				</div>
+				<div class="footer-contacto_redes">
+					<a title="Twitter" href="https://twitter.com/xdatamx" target="_blank" ><img loading="lazy" src="https://x-data.mx/img/icons/fr-tw.svg" alt="x-data" class="marder15"  ></a>
+					
+					<a title="Instagram" href="https://www.instagram.com/xdatamx/" target="_blank"><img loading="lazy" src="https://x-data.mx/img/icons/fr-ig.svg" loading="lazy" class="marder15" > </a>
+					
+					<a title="Linkedin" href="https://www.linkedin.com/company/x-data/" target="_blank"> <img loading="lazy" src="https://x-data.mx/img/icons/fr-in.svg" loading="lazy" class="marder15" > </a>
+					
+					<a title="Facebook" href="https://www.facebook.com/XDATAMX/" target="_blank"><img loading="lazy" src="https://x-data.mx/img/icons/fr-fb.svg" loading="lazy" class="marder15" > </a> 
+					
+					<a title="Behance" href="https://www.behance.net/xdata" target="_blank"><img loading="lazy" src="https://x-data.mx/img/icons/fr-be.svg" loading="lazy" class="marder15" > </a> 
+
+					<a title="Medium" href="https://x-data.medium.com/" target="_blank"><img loading="lazy" src="https://x-data.mx/img/icons/fr-p.svg" loading="lazy" class="marder15" > </a> 
+
+					<a title="Youtube" href="https://www.youtube.com/channel/UC_zbhtZEUh9_9utpMWRXU9g" target="_blank" ><img loading="lazy" src="https://x-data.mx/img/icons/fr-yb.svg" class="marder15"></a>
+				</div>
+				<a href="notice-of-privacy.html">Notice of Privacy</a>
+			</section>
+
+			<section class="footer-mob d-none d-lg-grid myContainer">
+				<div>
+					<img class="footer-logo" src="https://x-data.mx/img/logos/logo-footer.png" alt="">
+					<h5 class="footer-title">All right reserved 2022</h5>
+				</div>
+				<div>
+					<div>
+						<h5 class="footer-title">Address</h5>
+						<p>Sófocles 115, Polanco II sección,Miguel Hidalgo, CDMX, C.P. 11530</p>
+					</div>
+					<div>
+						<h5 class="footer-title">Support</h5>
+						<p>contacto@x-data.mx</p>
+					</div>
+				</div>
+				<div>
+					<div>
+						<h5 class="footer-title">Phone</h5>
+						<p>+52 56 3402 4480</p>
+					</div>
+					
+					<div class="footer-contacto_redes">
+						<a title="Twitter" href="https://twitter.com/xdatamx" target="_blank" ><img loading="lazy" src="https://x-data.mx/img/icons/fr-tw.svg" alt="x-data" class="marder15"  ></a>
+						
+						<a title="Instagram" href="https://www.instagram.com/xdatamx/" target="_blank"><img loading="lazy" src="https://x-data.mx/img/icons/fr-ig.svg" loading="lazy" class="marder15" > </a>
+						
+						<a title="Linkedin" href="https://www.linkedin.com/company/x-data/" target="_blank"> <img loading="lazy" src="https://x-data.mx/img/icons/fr-in.svg" loading="lazy" class="marder15" > </a>
+						
+						<a title="Facebook" href="https://www.facebook.com/XDATAMX/" target="_blank"><img loading="lazy" src="https://x-data.mx/img/icons/fr-fb.svg" loading="lazy" class="marder15" > </a> 
+						
+						<a title="Behance" href="https://www.behance.net/xdata" target="_blank"><img loading="lazy" src="https://x-data.mx/img/icons/fr-be.svg" loading="lazy" class="marder15" > </a> 
+
+						<a title="Medium" href="https://x-data.medium.com/" target="_blank"><img loading="lazy" src="https://x-data.mx/img/icons/fr-p.svg" loading="lazy" class="marder15" > </a> 
+
+						<a title="Youtube" href="https://www.youtube.com/channel/UC_zbhtZEUh9_9utpMWRXU9g" target="_blank" ><img loading="lazy" src="https://x-data.mx/img/icons/fr-yb.svg" class="marder15"></a>
+					</div>
+					<a class="privacidad" href="notice-of-privacy.html">Notice of privacy</a>
+				</div>
+				
+			</section>
+		</footer>
+	</div>
+
+
+
+	
+	<script defer src="/js/jquery.js"></script>
+	<script src="/js/swiper.min.js" defer></script>
+	<script src="/js/bootstrap.bundle.js" defer></script>
+	<script src="/js/skrollr.min.js" defer></script>
+	<script src="/js/player2.min.js" defer></script>
+	<script src="/js/app0106.js" defer></script>
+
+
+<!-- pixels y fb -->
+	<!-- Messenger plugin de chat Code -->
+
+	<div id="fb-root"></div>
+
+
+	<!-- Your plugin de chat code -->
+
+	<div class="fb-customerchat"
+
+	attribution="page_inbox"
+
+	page_id="102241421509884">
+
+	</div> 
+
+</body>
+</html>

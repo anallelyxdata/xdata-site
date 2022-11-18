@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact | X-DATA</title>
+	<link rel="alternate" href="http://x-data.mx" hreflang="en-us"/>
+
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/styles0806.css">
+	<link rel="stylesheet" href="/css/mediaqueries0806.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<link rel="icon" href="/img/logos/fav-icon.svg">
+
+	<!-- SEO -->
+	<meta name="robots" content="Data analysis and visualization. X-DATA ">
+
+	<meta name="author" content="X-DATA"><img src="https://tracker.metricool.com/c3po.jpg?hash=c793ed5268b27d984a56705fa4b1b83e"/><img src="https://tracker.metricool.com/c3po.jpg?hash=c793ed5268b27d984a56705fa4b1b83e"/>
+
+	<meta name="copyright" content="2022">
+
+	<meta name="description" content="Data analysis and visualization | X-DATA">
+
+	<meta name="keywords" content="Data analysis and visualization | X-DATA">
+
+	<meta property="og:title" content="X-DATA"/>
+
+	<meta property="og:site_name" content="Empresa de Business Intelligence | X-DATA"/>
+
+	<meta property="og:description" content="Data analysis and visualization | X-DATA"/>
+
+	<meta property="og:image" content="../img/X-DATA.jpg">
+
+
+</head>
+<body >
+	<!--PreLoader style.css-->
+	<div class="loader">
+		<div class="loader-inner">
+			<div class="cssload-loader"></div>
+		</div>
+	</div>
+
+	<nav class="navDesktop d-none d-xl-flex navbar" id="navbar">
+		<div class="container">
+			<a class="navbar-brand" href="https://x-data.mx/en">
+				<img src="https://x-data.mx/img/logos/x-data.svg" alt="logotipo-xdata">
+			</a>
+			<ul class="navDesktop-ul">
+				<li class="nav-item">
+					<a class="nav-link pagescroll" aria-current="true" href="https://x-data.mx/en/#about-us" onclick="">About us</a>
+				</li>
+				<li class="nav-item nav-item-soluciones" onclick="navlinksoluciones()">
+					<a class="nav-link pagescroll" aria-current="true" onclick="">Solutions <img id="dropdown-soluciones_img" src="https://x-data.mx/img/icons/dropdown-soluciones.svg" alt=""></a>
+				</li>
+				<div id="menuSoluciones" class="navlinksoluciones">
+					<div class="grid-soluciones">
+						<div class="nav navlinksoluciones-buttons" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+							<button class="nav-link active" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Products</button>
+							<button class="nav-link " id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Services</button>
+							<button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Industries</button>
+						</div>
+						<div class="tab-content" id="v-pills-tabContent">
+							<div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+								<div class="soluciones-tab">
+									<div href="https://x-data.mx/baiwa">
+										<div class="soluciones-tab-ind">
+											<img id="soluciones-baiwa-icon" src="https://x-data.mx/img/icons/baiwa-icon.png" alt="">
+											<div>
+												<p class="tab-ind-titulo">Baiwa</p>
+												<p class="tab-ind-p">Transform your Human Resources area into a data driven one. Design your strategy using technological resources where you contemplate the needs of your company and your employees. Reduce turnover, hire intelligently and promote valuable assets within your organization.</p>
+											</div>
+										</div>
+									</div>
+									<div class="soluciones-tab-ind">
+										<img src="https://x-data.mx/img/energy-map.png" alt="">
+										<div>
+											<p class="tab-ind-titulo">Energy Map</p>
+											<p class="tab-ind-p">Through an executive dashboard, it monitors in real time the price of electricity, natural gas and other factors that may alter these indicators, such as the exchange rate, CPI, etc.</p>
+										</div>
+									</div>
+									<div class="soluciones-tab-ind">
+										<img src="https://x-data.mx/img/data-lake.png" alt="">
+										<div>
+											<p class="tab-ind-titulo">Data Lake</p>
+											<p class="tab-ind-p">All your data in one place. Create a repository to store, manage, index and dispose of all the structured or unstructured data you generate, in a simple and automatic way; with the capacity to digest high volumes of information.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Servicios -->
+							<div class="tab-pane fade " id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+								<div class="soluciones-tab">
+									<div class="soluciones-tab-ind">
+										<img src="https://x-data.mx/img/analitica-avanzada.png" alt="">
+										<div>
+											<p class="tab-ind-titulo">Advanced Analytics</p>
+											<p class="tab-ind-p">Centralize and analyze your organization's data to identify business opportunities and solve problems. Let the data speak for itself and show you how your market is performing.</p>
+										</div>
+									</div>
+									<div class="soluciones-tab-ind">
+										<img src="https://x-data.mx/img/dashboards.png" alt="">
+										<div>
+											<p class="tab-ind-titulo">Dashboards</p>
+											<p class="tab-ind-p">Take control of your business using tools that allow you to monitor your business information in real time. Make decisions based on hard data, supported by easy-to-read dashboards. Discover valuable insights within your information and empower your entire company with them.</p>
+										</div>
+									</div>
+									<div class="soluciones-tab-ind">
+										<img src="https://x-data.mx/img/dataviz.png" alt="">
+										<div>
+											<p class="tab-ind-titulo">Dataviz</p>
+											<p class="tab-ind-p">Show your audience complex data sets in an engaging and easy-to-digest way. Data visualization is the intersection between the science and art of displaying information, which makes it much easier to identify key insights.</p>
+										</div>
+									</div>
+									<div class="soluciones-tab-ind">
+										<img src="https://x-data.mx/img/arquitectura-de-datos.png" alt="">
+										<div>
+											<p class="tab-ind-titulo">Data architecture consulting</p>
+											<p class="tab-ind-p">Your company generates large volumes of data and processing them is a challenge that we help you solve. Join the industry's best practices for storing and structuring information, allowing you to have greater scalability and collaboration in data warehouses.</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<!-- Industrias -->
+							<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+								<!-- Transporte -->
+								<div class="transporte-grid">
+									<div class="nav-transporte nav flex-column me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+										<button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-t1" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+											<img src="https://x-data.mx/img/logistica-y-transporte.png" alt="">
+											<p class="titulo-industrias">Logistics and transportation</p>
+										</button>
+										<button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-t2" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+											<img src="https://x-data.mx/img/manufactura.png" alt="">
+											<p class="titulo-industrias">Manufacturing</p>
+										</button>
+										<button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-t3" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+											<img src="https://x-data.mx/img/retail.png" alt="">
+											<p class="titulo-industrias">Retail and consumer goods	</p>
+										</button>
+										<button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-t4" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+											<img src="https://x-data.mx/img/salud-y-farmaceutica.png" alt="">
+											<p class="titulo-industrias">Health and pharmaceutical</p>
+										</button>
+									</div>
+									<div class="tab-content" id="v-pills-tabContent">
+										<div class="tab-pane fade show active" id="v-pills-t1" role="tabpanel" aria-labelledby="v-pills-home-tab">
+											<img src="https://x-data.mx/img/logistica-y-transporte.png" alt="">
+											<p class="tab-transporte-titulo">Logistics and transportation</p>
+											<p class="tab-transporte-p">Optimize routes and delivery times with data centralization and trend analysis.  
+											</p>
+										</div>
+										<div class="tab-pane fade" id="v-pills-t2" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+											<img src="https://x-data.mx/img/manufactura.png" alt="">
+											<p class="tab-transporte-titulo">Manufacturing</p>
+											<p class="tab-transporte-p">Raise production quality, measure plant performance, reduce the risk of incidents in your staff, and generate data-driven predictions using our tools.</p>
+										</div>
+										<div class="tab-pane fade" id="v-pills-t3" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+											<img src="https://x-data.mx/img/retail.png" alt="">
+											<p class="tab-transporte-titulo">Retail and consumer goods</p>
+											<p class="tab-transporte-p">We consolidate information on sales, inventories, returns, purchase orders and invoices pending payment within a single platform, to facilitate communication with your customers, analyze the performance of your main sales channels and monitor the health of your company.</p>
+										</div>
+										<div class="tab-pane fade" id="v-pills-t4" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+											<img src="https://x-data.mx/img/salud-y-farmaceutica.png" alt="">
+											<p class="tab-transporte-titulo">Health and pharmaceutical</p>
+											<p class="tab-transporte-p">Analyzes the demand, sales, distribution and performance of the sector's products to improve the operation and ensure product availability throughout the country.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Termina menú soluciones -->
+				<li class="nav-item">
+					<a href="https://x-data.mx/en/contact" class="nav-link pagescroll" aria-current="true" onclick="">Contact</a>
+				</li>
+				<li class="nav-item">
+					<div class="navMob-dropdown_lang dropdown">
+						<button class="dropbtn btn " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+							EN
+							<img src="https://x-data.mx/img/icons/dropdown-soluciones.svg" alt="">
+						</button>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+							<li><a class="dropdown-item" href="https://x-data.mx/">ES</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="nav-mobile-all">
+		<div class="navMobile d-xl-none">
+			<img src="https://x-data.mx/img/logos/x-data.svg" alt="">
+			<div class="navMobile-header">
+				<!-- dropdown EN/ES -->
+				<div class="navMob-dropdown_lang dropdown">
+					<button class="dropbtn btn " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+						EN
+						<img src="https://x-data.mx/img/icons/dropdown-soluciones.svg" alt="">
+					</button>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+						<li><a class="dropdown-item" href="https://x-data.mx/">ES</a></li>
+					</ul>
+				</div>
+				<!-- Termina dropdown EN/ES -->
+				<div class="button_container" id="toggle">
+					<span class="top"></span>
+					<span class="middle"></span>
+					<span class="bottom"></span>
+				</div>
+			</div>
+		</div>
+		<!-- Carousel -->
+		<div id="carouselSolucionesMobile"  class="carousel slide carousel-soluciones-mobile" data-bs-ride="carousel" data-bs-interval="false">
+			<div class="carousel-inner">
+				<!-- Item de opciones principales -->
+				<div class="carousel-item active" id="soluciones-mobile-item1">
+					<div class="overlay d-xl-none" id="overlay">
+						<nav class="overlay-menu">
+							<ul>
+								<li class="navMobile-li-interno"><a href="#about-us">About us</a></li>
+								<li class="navMobile-li-soluciones"><a href="#" id="navMobile-ir-a-soluciones">Solutions <img src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></a></li>
+								<li><a href="https://x-data.mx/en/contact">Contact</a></li>
+								<li>
+									<div class="navMobile-social">
+										<a href="https://twitter.com/xdatamx" target="_blank">
+											<img src="https://x-data.mx/img/icons/fr-tw.svg" alt="">
+										</a>
+										<a href="https://www.instagram.com/xdatamx/" target="_blank">
+											<img src="https://x-data.mx/img/icons/fr-ig.svg" alt="">
+										</a>
+										<a href="https://www.linkedin.com/company/x-data/" target="_blank">
+											<img src="https://x-data.mx/img/icons/fr-in.svg" alt="">
+										</a>
+										<a href="https://www.facebook.com/XDATAMX/" target="_blank">
+											<img src="https://x-data.mx/img/icons/fr-fb.svg" alt="">
+										</a>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<!-- Item de opciones secundarias -->
+				<div class="carousel-item" id="soluciones-mobile-item2">
+					<div class="soluciones-mobile-item2-container">
+						<div class="navMobile-regresar" id="navMobile-ir-a-principal-de-soluciones">
+							<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Solutions</p>
+						</div>
+						<div class="soluciones-mobile-item2-opciones">
+							<ul>
+								<li id="navMobile-ir-a-servicios">
+									<p>Services<img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+								</li>
+								<li id="navMobile-ir-a-productos">
+									<p>Products<img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+								</li>
+								<li id="navMobile-ir-a-industrias">
+									<p>Industries<img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+				<!-- Item de servicios -->
+				<div class="carousel-item" id="soluciones-mobile-item3">
+					<div class="soluciones-mobile-item2-container">
+						<div class="navMobile-regresar" id="navMobile-regresar-a-soluciones-de-servicios">
+							<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Services</p>
+						</div>
+						<div class="soluciones-mobile-item2-opciones op2">
+							<ul>
+								<li id="ir-a-analitica">
+									<p><span> <img src="https://x-data.mx/img/analitica-avanzada.png" alt="">Advanced Analytics</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+								</li>
+								<li id="ir-a-dash">
+									<p><span> <img src="https://x-data.mx/img/dashboards.png" alt="">Dashboards</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+								</li>
+								<li id="ir-a-dataviz">
+									<p><span> <img src="https://x-data.mx/img/dataviz.png" alt="">Dataviz</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+								</li>
+								<li id="ir-a-consultoria">
+									<p><span> <img src="https://x-data.mx/img/arquitectura-de-datos.png" alt="">Data architecture consulting</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+				<!-- Item de analítica avanzada -->
+				<div class="carousel-item" id="soluciones-mobile-item6">
+					<div class="soluciones-mobile-item2-container">
+						<div class="navMobile-regresar" id="navMobile-regresar-de-analitica">
+							<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Servicios</p>
+						</div>
+						<div class="soluciones-mobile-item2-opciones">
+							<ul class="soluciones-ul-container">
+								<img src="https://x-data.mx/img/analitica-avanzada.png" alt="">
+								<p class="ul-container-titulo">Advanced Analytics</p>
+								<p>Centralize and analyze your organization's data to identify business opportunities and solve problems. Let the data speak for itself and show you how your market is performing.</p>
+							</ul>
+						</div>
+					</div>	
+				</div>
+				<!-- Item de dashboards -->
+				<div class="carousel-item" id="soluciones-mobile-item7">
+					<div class="soluciones-mobile-item2-container">
+						<div class="navMobile-regresar" id="navMobile-regresar-de-dash">
+							<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Services</p>
+						</div>
+						<div class="soluciones-mobile-item2-opciones">
+							<ul class="soluciones-ul-container">
+								<img src="https://x-data.mx/img/dashboards.png" alt="">
+								<p class="ul-container-titulo">Dashboards</p>
+								<p>Take control of your business using tools that allow you to monitor your business information in real time. Make decisions based on hard data, supported by easy-to-read dashboards. Discover valuable insights within your information and empower your entire company with them.</p>
+							</ul>
+						</div>
+					</div>	
+				</div>
+				<!-- Item de dataviz -->
+				<div class="carousel-item" id="soluciones-mobile-item8">
+					<div class="soluciones-mobile-item2-container">
+						<div class="navMobile-regresar" id="navMobile-regresar-de-dataviz">
+							<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Services</p>
+						</div>
+						<div class="soluciones-mobile-item2-opciones">
+							<ul class="soluciones-ul-container">
+								<img src="https://x-data.mx/img/dataviz.png" alt="">
+								<p class="ul-container-titulo">Dataviz</p>
+								<p>Show your audience complex data sets in an engaging and easy-to-digest way. Data visualization is the intersection between the science and art of displaying information, which makes it much easier to identify key insights.</p>
+							</ul>
+						</div>
+					</div>	
+				</div>
+				<!-- Item de consultoria -->
+				<div class="carousel-item" id="soluciones-mobile-item9">
+					<div class="soluciones-mobile-item2-container">
+						<div class="navMobile-regresar" id="navMobile-regresar-de-consultoria">
+							<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Services</p>
+						</div>
+						<div class="soluciones-mobile-item2-opciones">
+							<ul class="soluciones-ul-container">
+								<img src="https://x-data.mx/img/arquitectura-de-datos.png" alt="">
+								<p class="ul-container-titulo">Data architecture consulting</p>
+								<p>Your company generates large volumes of data and processing them is a challenge that we help you solve. Join the industry's best practices for storing and structuring information, allowing you to have greater scalability and collaboration in data warehouses</p>
+							</ul>
+						</div>
+					</div>	
+				</div>
+
+				<!-- Item de productos -->
+				<div class="carousel-item" id="soluciones-mobile-item4">
+					<div class="soluciones-mobile-item2-container">
+						<div class="navMobile-regresar" id="navMobile-regresar-a-soluciones-de-productos">
+							<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Products</p>
+						</div>
+						<div class="soluciones-mobile-item2-opciones op2">
+							<ul>
+								<li>
+									<!-- <a href="https://x-data.mx/baiwa"> -->
+										<p><span><img src="https://x-data.mx/img/baiwa-icon.png" alt="">Baiwa</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+										<!-- </a> -->
+
+									</li>
+									<li id="ir-a-datalake">
+										<p><span><img src="https://x-data.mx/img/data-lake.png" alt="">Data Lake</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+									</li>
+									<li id="ir-a-energymap">
+										<p><span><img src="https://x-data.mx/img/energy-map.png" alt="">Energy Map</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- Item de baiwa -->
+					<div class="carousel-item" id="soluciones-mobile-item10">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-de-baiwa">
+								<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Products</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones">
+								<ul class="soluciones-ul-container">
+									<img src="https://x-data.mx/img/baiwa-icon.png" alt="">
+									<p class="ul-container-titulo">Baiwa</p>
+									<p>Transform your Human Resources area into a data driven one. Design your strategy using technological resources where you contemplate the needs of your company and your employees. Reduce turnover, hire intelligently and promote valuable assets within your organization.</p>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<!-- Item de data lake -->
+					<div class="carousel-item" id="soluciones-mobile-item11">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-de-datalake">
+								<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Products</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones">
+								<ul class="soluciones-ul-container">
+									<img src="https://x-data.mx/img/data-lake.png" alt="">
+									<p class="ul-container-titulo">Data Lake</p>
+									<p>All your data in one place. Create a repository to store, manage, index and dispose of all the structured or unstructured data you generate, in a simple and automatic way; with the capacity to digest high volumes of information.</p>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<!-- Item de energy map -->
+					<div class="carousel-item" id="soluciones-mobile-item12">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-de-energymap">
+								<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Products</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones">
+								<ul class="soluciones-ul-container">
+									<img src="https://x-data.mx/img/energy-map.png" alt="">
+									<p class="ul-container-titulo">Energy Map</p>
+									<p>Through an executive dashboard, it monitors in real time the price of electricity, natural gas and other factors that may alter these indicators, such as the exchange rate, CPI, etc.</p>
+								</ul>
+							</div>
+						</div>	
+					</div>
+
+
+					<!-- Item de industrias -->
+					<div class="carousel-item" id="soluciones-mobile-item5">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-a-soluciones-de-industrias">
+								<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Industries</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones op2">
+								<ul>
+									<li id="ir-a-logistica">
+										<p><span><img src="https://x-data.mx/img/logistica-y-transporte.png" alt="">Logistics and transportation</span><img class="soluciones-flecha-next" src="img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+									</li>
+									<li id="ir-a-manufactura">
+										<p><span><img src="https://x-data.mx/img/manufactura.png" alt="">Manufacturing</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+									</li>
+									<li id="ir-a-retail">
+										<p><span><img src="https://x-data.mx/img/retail.png" alt="">Retail y bienes de consumo</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+									</li>
+									<li id="ir-a-salud">
+										<p><span><img src="https://x-data.mx/img/salud-y-farmaceutica.png" alt="">Salud y farmacéutica</span><img class="soluciones-flecha-next" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt=""></p>
+									</li>
+								</ul>
+							</div>
+						</div>		     	
+					</div>
+					<!-- Item de logistica -->
+					<div class="carousel-item" id="soluciones-mobile-item13">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-de-logistica">
+								<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Industrias</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones">
+								<ul class="soluciones-ul-container">
+									<img src="https://x-data.mx/img/logistica-y-transporte.png" alt="">
+									<p class="ul-container-titulo">Logistics and transportation</p>
+									<p>Optimize routes and delivery times with data centralization and trend analysis. </p>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<!-- Item de manufactura -->
+					<div class="carousel-item" id="soluciones-mobile-item14">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-de-manufactura">
+								<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Industries</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones">
+								<ul class="soluciones-ul-container">
+									<img src="https://x-data.mx/img/manufactura.png" alt="">
+									<p class="ul-container-titulo">Manufacturing</p>
+									<p>Raise production quality, measure plant performance, reduce the risk of incidents in your staff, and generate data-driven predictions using our tools.</p>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<!-- Item de retail -->
+					<div class="carousel-item" id="soluciones-mobile-item15">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-de-retail">
+								<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Industries</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones">
+								<ul class="soluciones-ul-container">
+									<img src="https://x-data.mx/img/retail.png" alt="">
+									<p class="ul-container-titulo">Retail and consumer goods</p>
+									<p>We consolidate information on sales, inventories, returns, purchase orders and invoices pending payment within a single platform, to facilitate communication with your customers, analyze the performance of your main sales channels and monitor the health of your company.</p>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<!-- Item de salud -->
+					<div class="carousel-item" id="soluciones-mobile-item16">
+						<div class="soluciones-mobile-item2-container">
+							<div class="navMobile-regresar" id="navMobile-regresar-de-salud">
+								<p><img id="navMobile-flecha-atras" src="https://x-data.mx/img/icons/flecha-soluciones-mobile.svg" alt="">Industries</p>
+							</div>
+							<div class="soluciones-mobile-item2-opciones">
+								<ul class="soluciones-ul-container">
+									<img src="https://x-data.mx/img/salud-y-farmaceutica.png" alt="">
+									<p class="ul-container-titulo">Health and pharmaceutical</p>
+									<p>Analyzes the demand, sales, distribution and performance of the sector's products to improve the operation and ensure product availability throughout the country.</p>
+								</ul>
+							</div>
+						</div>	
+					</div>
+
+				</div>
+			</div>
+		</div>`
+	<div>
+	
+	<main>
+			<section class="form-contacto">
+				<div class="form-contacto-texto">
+					<p>At X-DATA we offer a wide range of solutions and products to facilitate effective decision-making in your organization.</p>
+					<h2 class="form-contacto-title">Share your information and our team will contact you</h2>
+				</div>
+				<div class="form-contacto-form">
+					<form  autocomplete="on" method="post" id="form-contacto" class="contact-form" action="">
+						<input name="name" type="text" placeholder="Full name">
+						<input name="email" type="email" placeholder="E-mail">
+						<input name="phone" type="text" placeholder="Phone">
+						<input name="company" type="text" placeholder="Company">
+							<!-- country -->
+							<select class="select-country" id="country" name="country">
+							    <option>Select country</option>
+							    <option value="MX">Mexico</option>
+							    <option value="US">United States</option>
+							    <option value="AF">Afghanistan</option>
+							    <option value="AX">Aland Islands</option>
+							    <option value="AL">Albania</option>
+							    <option value="DZ">Algeria</option>
+							    <option value="AS">American Samoa</option>
+							    <option value="AD">Andorra</option>
+							    <option value="AO">Angola</option>
+							    <option value="AI">Anguilla</option>
+							    <option value="AQ">Antarctica</option>
+							    <option value="AG">Antigua and Barbuda</option>
+							    <option value="AR">Argentina</option>
+							    <option value="AM">Armenia</option>
+							    <option value="AW">Aruba</option>
+							    <option value="AU">Australia</option>
+							    <option value="AT">Austria</option>
+							    <option value="AZ">Azerbaijan</option>
+							    <option value="BS">Bahamas</option>
+							    <option value="BH">Bahrain</option>
+							    <option value="BD">Bangladesh</option>
+							    <option value="BB">Barbados</option>
+							    <option value="BY">Belarus</option>
+							    <option value="BE">Belgium</option>
+							    <option value="BZ">Belize</option>
+							    <option value="BJ">Benin</option>
+							    <option value="BM">Bermuda</option>
+							    <option value="BT">Bhutan</option>
+							    <option value="BO">Bolivia</option>
+							    <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+							    <option value="BA">Bosnia and Herzegovina</option>
+							    <option value="BW">Botswana</option>
+							    <option value="BV">Bouvet Island</option>
+							    <option value="BR">Brazil</option>
+							    <option value="IO">British Indian Ocean Territory</option>
+							    <option value="BN">Brunei Darussalam</option>
+							    <option value="BG">Bulgaria</option>
+							    <option value="BF">Burkina Faso</option>
+							    <option value="BI">Burundi</option>
+							    <option value="KH">Cambodia</option>
+							    <option value="CM">Cameroon</option>
+							    <option value="CA">Canada</option>
+							    <option value="CV">Cape Verde</option>
+							    <option value="KY">Cayman Islands</option>
+							    <option value="CF">Central African Republic</option>
+							    <option value="TD">Chad</option>
+							    <option value="CL">Chile</option>
+							    <option value="CN">China</option>
+							    <option value="CX">Christmas Island</option>
+							    <option value="CC">Cocos (Keeling) Islands</option>
+							    <option value="CO">Colombia</option>
+							    <option value="KM">Comoros</option>
+							    <option value="CG">Congo</option>
+							    <option value="CD">Congo, Democratic Republic of the Congo</option>
+							    <option value="CK">Cook Islands</option>
+							    <option value="CR">Costa Rica</option>
+							    <option value="CI">Cote D'Ivoire</option>
+							    <option value="HR">Croatia</option>
+							    <option value="CU">Cuba</option>
+							    <option value="CW">Curacao</option>
+							    <option value="CY">Cyprus</option>
+							    <option value="CZ">Czech Republic</option>
+							    <option value="DK">Denmark</option>
+							    <option value="DJ">Djibouti</option>
+							    <option value="DM">Dominica</option>
+							    <option value="DO">Dominican Republic</option>
+							    <option value="EC">Ecuador</option>
+							    <option value="EG">Egypt</option>
+							    <option value="SV">El Salvador</option>
+							    <option value="GQ">Equatorial Guinea</option>
+							    <option value="ER">Eritrea</option>
+							    <option value="EE">Estonia</option>
+							    <option value="ET">Ethiopia</option>
+							    <option value="FK">Falkland Islands (Malvinas)</option>
+							    <option value="FO">Faroe Islands</option>
+							    <option value="FJ">Fiji</option>
+							    <option value="FI">Finland</option>
+							    <option value="FR">France</option>
+							    <option value="GF">French Guiana</option>
+							    <option value="PF">French Polynesia</option>
+							    <option value="TF">French Southern Territories</option>
+							    <option value="GA">Gabon</option>
+							    <option value="GM">Gambia</option>
+							    <option value="GE">Georgia</option>
+							    <option value="DE">Germany</option>
+							    <option value="GH">Ghana</option>
+							    <option value="GI">Gibraltar</option>
+							    <option value="GR">Greece</option>
+							    <option value="GL">Greenland</option>
+							    <option value="GD">Grenada</option>
+							    <option value="GP">Guadeloupe</option>
+							    <option value="GU">Guam</option>
+							    <option value="GT">Guatemala</option>
+							    <option value="GG">Guernsey</option>
+							    <option value="GN">Guinea</option>
+							    <option value="GW">Guinea-Bissau</option>
+							    <option value="GY">Guyana</option>
+							    <option value="HT">Haiti</option>
+							    <option value="HM">Heard Island and Mcdonald Islands</option>
+							    <option value="VA">Holy See (Vatican City State)</option>
+							    <option value="HN">Honduras</option>
+							    <option value="HK">Hong Kong</option>
+							    <option value="HU">Hungary</option>
+							    <option value="IS">Iceland</option>
+							    <option value="IN">India</option>
+							    <option value="ID">Indonesia</option>
+							    <option value="IR">Iran, Islamic Republic of</option>
+							    <option value="IQ">Iraq</option>
+							    <option value="IE">Ireland</option>
+							    <option value="IM">Isle of Man</option>
+							    <option value="IL">Israel</option>
+							    <option value="IT">Italy</option>
+							    <option value="JM">Jamaica</option>
+							    <option value="JP">Japan</option>
+							    <option value="JE">Jersey</option>
+							    <option value="JO">Jordan</option>
+							    <option value="KZ">Kazakhstan</option>
+							    <option value="KE">Kenya</option>
+							    <option value="KI">Kiribati</option>
+							    <option value="KP">Korea, Democratic People's Republic of</option>
+							    <option value="KR">Korea, Republic of</option>
+							    <option value="XK">Kosovo</option>
+							    <option value="KW">Kuwait</option>
+							    <option value="KG">Kyrgyzstan</option>
+							    <option value="LA">Lao People's Democratic Republic</option>
+							    <option value="LV">Latvia</option>
+							    <option value="LB">Lebanon</option>
+							    <option value="LS">Lesotho</option>
+							    <option value="LR">Liberia</option>
+							    <option value="LY">Libyan Arab Jamahiriya</option>
+							    <option value="LI">Liechtenstein</option>
+							    <option value="LT">Lithuania</option>
+							    <option value="LU">Luxembourg</option>
+							    <option value="MO">Macao</option>
+							    <option value="MK">Macedonia, the Former Yugoslav Republic of</option>
+							    <option value="MG">Madagascar</option>
+							    <option value="MW">Malawi</option>
+							    <option value="MY">Malaysia</option>
+							    <option value="MV">Maldives</option>
+							    <option value="ML">Mali</option>
+							    <option value="MT">Malta</option>
+							    <option value="MH">Marshall Islands</option>
+							    <option value="MQ">Martinique</option>
+							    <option value="MR">Mauritania</option>
+							    <option value="MU">Mauritius</option>
+							    <option value="YT">Mayotte</option>
+							    <option value="FM">Micronesia, Federated States of</option>
+							    <option value="MD">Moldova, Republic of</option>
+							    <option value="MC">Monaco</option>
+							    <option value="MN">Mongolia</option>
+							    <option value="ME">Montenegro</option>
+							    <option value="MS">Montserrat</option>
+							    <option value="MA">Morocco</option>
+							    <option value="MZ">Mozambique</option>
+							    <option value="MM">Myanmar</option>
+							    <option value="NA">Namibia</option>
+							    <option value="NR">Nauru</option>
+							    <option value="NP">Nepal</option>
+							    <option value="NL">Netherlands</option>
+							    <option value="AN">Netherlands Antilles</option>
+							    <option value="NC">New Caledonia</option>
+							    <option value="NZ">New Zealand</option>
+							    <option value="NI">Nicaragua</option>
+							    <option value="NE">Niger</option>
+							    <option value="NG">Nigeria</option>
+							    <option value="NU">Niue</option>
+							    <option value="NF">Norfolk Island</option>
+							    <option value="MP">Northern Mariana Islands</option>
+							    <option value="NO">Norway</option>
+							    <option value="OM">Oman</option>
+							    <option value="PK">Pakistan</option>
+							    <option value="PW">Palau</option>
+							    <option value="PS">Palestinian Territory, Occupied</option>
+							    <option value="PA">Panama</option>
+							    <option value="PG">Papua New Guinea</option>
+							    <option value="PY">Paraguay</option>
+							    <option value="PE">Peru</option>
+							    <option value="PH">Philippines</option>
+							    <option value="PN">Pitcairn</option>
+							    <option value="PL">Poland</option>
+							    <option value="PT">Portugal</option>
+							    <option value="PR">Puerto Rico</option>
+							    <option value="QA">Qatar</option>
+							    <option value="RE">Reunion</option>
+							    <option value="RO">Romania</option>
+							    <option value="RU">Russian Federation</option>
+							    <option value="RW">Rwanda</option>
+							    <option value="BL">Saint Barthelemy</option>
+							    <option value="SH">Saint Helena</option>
+							    <option value="KN">Saint Kitts and Nevis</option>
+							    <option value="LC">Saint Lucia</option>
+							    <option value="MF">Saint Martin</option>
+							    <option value="PM">Saint Pierre and Miquelon</option>
+							    <option value="VC">Saint Vincent and the Grenadines</option>
+							    <option value="WS">Samoa</option>
+							    <option value="SM">San Marino</option>
+							    <option value="ST">Sao Tome and Principe</option>
+							    <option value="SA">Saudi Arabia</option>
+							    <option value="SN">Senegal</option>
+							    <option value="RS">Serbia</option>
+							    <option value="CS">Serbia and Montenegro</option>
+							    <option value="SC">Seychelles</option>
+							    <option value="SL">Sierra Leone</option>
+							    <option value="SG">Singapore</option>
+							    <option value="SX">Sint Maarten</option>
+							    <option value="SK">Slovakia</option>
+							    <option value="SI">Slovenia</option>
+							    <option value="SB">Solomon Islands</option>
+							    <option value="SO">Somalia</option>
+							    <option value="ZA">South Africa</option>
+							    <option value="GS">South Georgia and the South Sandwich Islands</option>
+							    <option value="SS">South Sudan</option>
+							    <option value="ES">Spain</option>
+							    <option value="LK">Sri Lanka</option>
+							    <option value="SD">Sudan</option>
+							    <option value="SR">Suriname</option>
+							    <option value="SJ">Svalbard and Jan Mayen</option>
+							    <option value="SZ">Swaziland</option>
+							    <option value="SE">Sweden</option>
+							    <option value="CH">Switzerland</option>
+							    <option value="SY">Syrian Arab Republic</option>
+							    <option value="TW">Taiwan, Province of China</option>
+							    <option value="TJ">Tajikistan</option>
+							    <option value="TZ">Tanzania, United Republic of</option>
+							    <option value="TH">Thailand</option>
+							    <option value="TL">Timor-Leste</option>
+							    <option value="TG">Togo</option>
+							    <option value="TK">Tokelau</option>
+							    <option value="TO">Tonga</option>
+							    <option value="TT">Trinidad and Tobago</option>
+							    <option value="TN">Tunisia</option>
+							    <option value="TR">Turkey</option>
+							    <option value="TM">Turkmenistan</option>
+							    <option value="TC">Turks and Caicos Islands</option>
+							    <option value="TV">Tuvalu</option>
+							    <option value="UG">Uganda</option>
+							    <option value="UA">Ukraine</option>
+							    <option value="AE">United Arab Emirates</option>
+							    <option value="GB">United Kingdom</option>
+							    <option value="UM">United States Minor Outlying Islands</option>
+							    <option value="UY">Uruguay</option>
+							    <option value="UZ">Uzbekistan</option>
+							    <option value="VU">Vanuatu</option>
+							    <option value="VE">Venezuela</option>
+							    <option value="VN">Viet Nam</option>
+							    <option value="VG">Virgin Islands, British</option>
+							    <option value="VI">Virgin Islands, U.s.</option>
+							    <option value="WF">Wallis and Futuna</option>
+							    <option value="EH">Western Sahara</option>
+							    <option value="YE">Yemen</option>
+							    <option value="ZM">Zambia</option>
+							    <option value="ZW">Zimbabwe</option>
+							</select>
+						<textarea name="message" id="" cols="30" rows="8">Message</textarea>
+						<input type="submit" value="SUBMIT">
+					</form>
+					<p class="output_message-footer pt-2"></p>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer-contacto">
+			<h2 class="form-contacto-title form-contacto-title_contacto ">Contact us</h2>
+			<div class="footer-contacto-div1">
+				<div>
+					<h3 class="form-contacto-graytitle">ADDRESS</h3>
+					<p class="form-contacto-p">Sófocles 115, Polanco II sección <br>Miguel Hidalgo, CDMX, C.P. 11530</p>
+					<hr>
+				</div>
+				<div>
+					<h3 class="form-contacto-graytitle">SUPPORT</h3>
+					<p class="form-contacto-p">contacto@x-data.mx</p>
+					<hr>
+				</div>
+				<div>
+					<h3 class="form-contacto-graytitle">PHONE</h3>
+					<p class="form-contacto-p">+52 56 3402 4480</p>
+				</div>	
+			</div>
+			<hr class="hr-contacto">
+			<div class="footer-contacto-div2">
+				<div class="derechos">
+					<a target="_blank" href="https://x-data.mx/en"><img class="img-footer" src="/img/xdatafooter.svg" alt=""></a>
+					<h3 class="form-contacto-graytitle_mini">ALL RIGHT RESERVED 2022</h3>
+				</div>
+				<a title="Aviso de privacidad" href="https://x-data.mx/en/notice-of-privacy" target="_blank">Notice of privacy</a>
+				<div class="footer-contacto_redes">
+					<a title="Twitter" href="https://twitter.com/xdatamx" target="_blank" ><img loading="lazy"  loading="lazy" src="/img/icons/fr-tw.svg" alt="x-data" class="marder15"  ></a>
+					
+					<a title="Instagram" href="https://www.instagram.com/xdatamx/" target="_blank"><img loading="lazy"  loading="lazy" src="/img/icons/fr-ig.svg" loading="lazy" class="marder15" > </a>
+					
+					<a title="Linkedin" href="https://www.linkedin.com/company/x-data/" target="_blank"> <img loading="lazy"  loading="lazy" src="/img/icons/fr-in.svg" loading="lazy" class="marder15" > </a>
+					
+					<a title="Facebook" href="https://www.facebook.com/XDATAMX/" target="_blank"><img loading="lazy"  loading="lazy" src="/img/icons/fr-fb.svg" loading="lazy" class="marder15" > </a> 
+					
+					<a title="Behance" href="https://www.behance.net/xdata" target="_blank"><img loading="lazy"  loading="lazy" src="/img/icons/fr-be.svg" loading="lazy" class="marder15" > </a> 
+
+					<a title="Medium" href="https://x-data.medium.com/" target="_blank"><img loading="lazy"  loading="lazy" src="/img/icons/fr-p.svg" loading="lazy" class="marder15" > </a> 
+
+					<a title="Youtube" href="https://www.youtube.com/channel/UC_zbhtZEUh9_9utpMWRXU9g" target="_blank" ><img loading="lazy"  loading="lazy" src="/img/icons/fr-yb.svg" class="marder15"></a>
+				</div>
+			</div>
+
+		</footer>
+
+	<script defer src="/js/jquery.js"></script>
+	<script src="/js/bootstrap.bundle.js" defer></script>
+	<script src="/js/app-nav.js" defer></script>
+	<script src="https://x-data.mx/en/js/form-contact.js" defer></script>
+
+
+
+</body>
+</html>
